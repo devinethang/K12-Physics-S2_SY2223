@@ -198,6 +198,9 @@ Velocity Astronaut = Va = ?
 let Mw = 38; // kg
 let Ma = 165; // kg
 let Vw = 13; // m/s
+// total momentum = pt
+// pa = momentum of astronaut
+// pw = momentum of wrench
 // pt = pa + pw
 // 0 = (Ma * Va) + (Mw * Vw)
 let Va = -Mw * Vw / Ma; // m/s
