@@ -139,3 +139,17 @@ console.log('F =', Math.round(F / Math.pow(10, 3)) * Math.pow(10, 3), 'N')
 * "Physics: Problems and Solutions" - Problem Set 38
 
 ### 1.03: Law of Conservation of Momentum
+
+![image_1](/1%20-%20Momentum/1-03%20-%20Law%20of%20Conservation%20of%20Momentum/image_1.png)
+
+---
+
+1. An 8,500 kg train car moves at 12.0 m/s until it bumps into a stationary 8,500 kg car and latches onto it. What is the speed of the two cars linked together?
+
+```
+
+2. An astronaut adrift in space with no velocity throws a 38 kg wrench at13 m/s. The mass of the astronaut with the remaining equipment is165 kg. Find the velocity of the astronaut after she releases the wrench.
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 39
