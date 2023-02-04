@@ -198,6 +198,8 @@ Velocity Astronaut = Va = ?
 let Mw = 38; // kg
 let Ma = 165; // kg
 let Vw = 13; // m/s
+// pt = pa + pw
+// 0 = (Ma * Va) + (Mw * Vw)
 let Va = -Mw * Vw / Ma; // m/s
 console.log('Va =', Va, 'm/s');
 // -2.993939393939394 m/s
