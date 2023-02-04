@@ -143,13 +143,67 @@ console.log('F =', Math.round(F / Math.pow(10, 3)) * Math.pow(10, 3), 'N')
 
 ![image_1](/1%20-%20Momentum/1-03%20-%20Law%20of%20Conservation%20of%20Momentum/image_1.png)
 
+```
+pi == pf
+```
+
 ---
 
 1. An 8,500 kg train car moves at 12.0 m/s until it bumps into a stationary 8,500 kg car and latches onto it. What is the speed of the two cars linked together?
 
+* What information is known?
+
+```
+m1 = 8500 kg
+m2 = 8500 kg
+Vi = 12.0 m/s
+Vf = ? m/s
+```
+* Write what you know in equation form.
+
+```
+total pf = total pi
+(m1 + m2) * Vf = m1 * Vi
+Vf = (m1 / (m1 + m2)) * Vi
+```
+
+* Substitute and solve for final velocity.
+
+```js
+let m1 = 8500; // kg
+let m2 = 8500; // kg
+let Vi = 12.0; // m/s
+let Vf = (m1/(m1+m2)) * Vi; // m/s
+console.log('Vf =', Vf, 'm/s');
+// Vf = 6 m/s
+```
+
 ---
 
 2. An astronaut adrift in space with no velocity throws a 38 kg wrench at13 m/s. The mass of the astronaut with the remaining equipment is165 kg. Find the velocity of the astronaut after she releases the wrench.
+
+* What information is known?
+
+```
+Mass Wrench = Mw = 38 kg
+Mass Astronaut = Ma = 165 kg
+Vi = 0 m/s
+Velocity Wrench = Vw = 13 m/s
+Velocity Astronaut = Va = ?
+```
+
+* Find the astronaut’s final momentum.
+
+```js
+let Mw = 38; // kg
+let Ma = 165; // kg
+let Vw = 13; // m/s
+let Va = -Mw * Vw / Ma; // m/s
+console.log('Va =', Va, 'm/s');
+// -2.993939393939394 m/s
+console.log('Va =', Math.round(Va), 'm/s');
+// Va = -3 m/s
+```
 
 ---
 
