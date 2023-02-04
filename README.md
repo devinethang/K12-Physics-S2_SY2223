@@ -162,7 +162,7 @@ Vf = ? m/s
 * Write what you know in equation form.
 
 ```
-total pf = total pi
+initial momentum = final momentum, or total pf = total pi
 (m1 + m2) * Vf = m1 * Vi
 Vf = (m1 / (m1 + m2)) * Vi
 ```
