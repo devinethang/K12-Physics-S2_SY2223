@@ -68,7 +68,7 @@ let Dt = 4.0; // s
 let F = Dp / Dt; // N
 console.log('F =', F, 'N')
 // F = -6187.5 N
-console.log('F =', Math.round(F / 100) * 100, 'N')
+console.log('F =', Math.round(F / Math.pow(10, 2)) * Math.pow(10, 2), 'N')
 // F = -6200 N
 ```
 
