@@ -215,3 +215,21 @@ console.log('Va =', Math.round(Va), 'm/s');
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 39
+
+### 1.04 Momentum in Collisions
+
+![image_1](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_1.png)
+
+---
+
+1.
+
+---
+
+2.
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 40
