@@ -224,14 +224,165 @@ console.log('Va =', Math.round(Va), 'm/s');
 
 1. Two carts are at rest and a spring is attached to one of the carts. The spring is used to propel the carts away from one another. The carts have masses of 1.2 kg and 2.5 kg. The 2.5 kg cart (Cart B) has a velocity of 1.5 m/s after they spring apart. Find the velocity of the 1.2 kg cart.
 
+* What information is known?
+
+```
+Cart A: mass = 1.2 kg, final velocity = ?
+Cart B: mass = 2.5 kg, final velocity = +1.5 m/s
+No net external force acts, so the total momentum is still zero after the force between the carts pushes them apart.
+```
+
+* Apply the law of conservation of momentum.
+
+```
+Initially, the total momentum is 0 kg•m/s, so the final momentum is also 0 kg•m/s. The carts may be moving, but the momentum vectors will be in opposite directions.
+
+Designate the final velocities vA and vB and write an equation:
+
+total momentum after = total momentum before
+
+(Mass of A) * (Velocity of A) + (Mass of B) * (Velocity of B) = 0
+
+Ma * Va + Mb * Vb = 0
+```
+
+* Solve for Va.
+
+```js
+let Ma = 1.2; // kg
+let Mb = 2.5; // kg
+let Vb = 1.5; // m/s
+let Va = (-Mb * Vb) / Ma;
+console.log('Va =', Va, 'm / s');
+// Va = -3.125 m / s
+
+console.log('Va =', Math.round(Va * Math.pow(10, 1)) / Math.pow(10, 1), 'm / s');
+// Va = -3.1 m / s
+```
+
 ---
 
 2. Object A, a smooth metal disk, has a mass of 1.0 kg. It slides on ice at 1.0 m/s directly into a 0.50 kg smooth metal disk at rest, Object B, which then moves at 1.33 m/s along the same straight line. Find the final velocity of Object A. Assume that no energy is lost as heat or sound during the collision.
+
+* What information is given?
+
+```
+Before collision:
+Object A: mass Ma = 1.00 kg, initial velocity iVa = 1.0 m/s
+Object B: mass Mb = 0.50 kg, initial velocity iVb = 0.0 m/s
+
+After collision:
+Object A: final velocity fVa = ?
+Object B: final velocity fVb = 1.33 m/s
+```
+
+* Use the law of conservation of momentum.
+
+```
+momentum final = momentum initial
+Ma*fVa + Mb*fVb = Ma*iVa + Mb*iVb
+```
+
+* Solve for fVa, insert values into the equation, and calculate.
+
+```js
+let Ma = 1.00; // kg
+let iVa = 1.0; // m/s
+let Mb = 0.50; // kg
+let iVb = 0.0; // kg
+let fVb = 1.33; // m/s
+let fVa = (Ma*iVa + Mb*iVb - Mb*fVb) / Ma; // m/s
+console.log('fVa =', fVa, 'm/s');
+// fVa = 0.33499999999999996 m/s
+// subtract EPSILON to avoid float rounding error
+console.log('fVa =', Math.round((fVa - Number.EPSILON) * Math.pow(10, 2)) / Math.pow(10, 2), 'm/s');
+// fVa = 0.33 m/s
+```
 
 ---
 
 3. A 1,450 kg car is traveling east at 15.0 m/s while a 1,650 kg car is traveling north toward the same intersection at 20.0 m/s. The cars crash and stick together. What is the velocity of the conjoined cars immediately after the collision? What is the angle at which the conjoined cars move?
 
+* What information is given?
+
+```
+Before collision:
+Object A: mass Ma = 1,450 kg, initial velocity iVa = 15.0 m/s
+Object B: mass Mb = 1,650 kg, initial velocity iVb = 20.0 m/s
+
+After collision:
+Object A: final velocity fVa = 0.0 m/s
+Object B: final velocity fVb = 0.0 m/s
+```
+
+* Find the initial momentum for all x components.
+
+```js
+// final momentum of x-component
+// pfx = pAi
+// pfx = Ma * iVa
+let Ma = 1450; // kg
+let iVa = 15.0; // m/s
+let pfx = Ma * iVa
+console.log('pfx =', pfx, 'kg * m/s');
+// pfx = 21750 kg * m/s
+```
+
+* Find the initial momentum for all y components.
+
+```js
+// final momentum of y-component
+// pfy = pBi
+// pfy = Mb * iVb
+let Mb = 1650; // kg
+let iVb = 20.0; // m/s
+let pfy = Mb * iVb
+console.log('pfy =', pfy, 'kg * m/s');
+// pfy = 33000 kg * m/s
+```
+
+* Find the magnitude of the final momentum.
+
+```js
+let Ma = 1450; // kg
+let iVa = 15.0; // m/s
+let pfx = Ma * iVa
+let Mb = 1650; // kg
+let iVb = 20.0; // m/s
+let pfy = Mb * iVb
+// final momentum
+let Pf = Math.sqrt(Math.pow(pfx, 2) + Math.pow(pfy, 2));
+console.log('Pf =', Pf, 'kg * m/s')
+// Pf = 39522.93637876619 kg * m/s
+console.log('Pf =', Math.round(Pf / Math.pow(10, 2)) * Math.pow(10, 2), 'kg * m/s')
+// Pf = 39500 kg * m/s
+```
+
+* Find the magnitude of the final velocity.
+
+```js
+// Pf = Mf * Vf
+// Vf = Pf / Mf
+let Mf = Ma + Mb; // kg
+let Vf = Pf / Mf; // m/s
+console.log('Vf =', Vf, 'm/s');
+// Vf = 12.74933431573103 m/s
+console.log('Vf =', Math.round(Vf * Math.pow(10, 1)) / Math.pow(10, 1), 'm/s');
+// Vf = 12.7 m/s
+```
+
+* Find the direction of the final velocity.
+
+```js
+
+```
+// cos(theta) = pfx / Pf
+let theta = Math.acos(pfx / Pf);
+let degrees = theta * 180 / Math.PI;
+console.log('degrees =', degrees, 'degrees');
+// degrees = 56.611486423888486 degrees
+console.log('degrees =', Math.round(degrees * Math.pow(10, 1)) / Math.pow(10, 1), 'degrees');
+// degrees = 56.6 degrees
 ---
 
 #### Problem Set
