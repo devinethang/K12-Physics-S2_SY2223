@@ -222,14 +222,18 @@ console.log('Va =', Math.round(Va), 'm/s');
 
 ---
 
-1.
+1. Two carts are at rest and a spring is attached to one of the carts. The spring is used to propel the carts away from one another. The carts have masses of 1.2 kg and 2.5 kg. The 2.5 kg cart (Cart B) has a velocity of 1.5 m/s after they spring apart. Find the velocity of the 1.2 kg cart.
 
 ---
 
-2.
+2. Object A, a smooth metal disk, has a mass of 1.0 kg. It slides on ice at 1.0 m/s directly into a 0.50 kg smooth metal disk at rest, Object B, which then moves at 1.33 m/s along the same straight line. Find the final velocity of Object A. Assume that no energy is lost as heat or sound during the collision.
+
+---
+
+3. A 1,450 kg car is traveling east at 15.0 m/s while a 1,650 kg car is traveling north toward the same intersection at 20.0 m/s. The cars crash and stick together. What is the velocity of the conjoined cars immediately after the collision? What is the angle at which the conjoined cars move?
 
 ---
 
 #### Problem Set
 
-* "Physics: Problems and Solutions" - Problem Set 40
+* "Physics: Problems and Solutions" - Problem Set 40 and 41
