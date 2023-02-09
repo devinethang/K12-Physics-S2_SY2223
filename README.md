@@ -374,8 +374,6 @@ console.log('Vf =', Math.round(Vf * Math.pow(10, 1)) / Math.pow(10, 1), 'm/s');
 * Find the direction of the final velocity.
 
 ```js
-
-```
 // cos(theta) = pfx / Pf
 let theta = Math.acos(pfx / Pf);
 let degrees = theta * 180 / Math.PI;
@@ -383,6 +381,8 @@ console.log('degrees =', degrees, 'degrees');
 // degrees = 56.611486423888486 degrees
 console.log('degrees =', Math.round(degrees * Math.pow(10, 1)) / Math.pow(10, 1), 'degrees');
 // degrees = 56.6 degrees
+```
+
 ---
 
 #### Problem Set
