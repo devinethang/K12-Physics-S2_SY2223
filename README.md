@@ -388,3 +388,17 @@ console.log('degrees =', Math.round(degrees * Math.pow(10, 1)) / Math.pow(10, 1)
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 40 and 41
+
+### 1.08: Conservation of Angular Momentum
+
+![image_1](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_1.png)
+
+![image_2](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_2.png)
+
+![image_3](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_3.png)
+
+![image_4](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_4.png)
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 42
