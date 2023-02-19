@@ -402,3 +402,27 @@ console.log('degrees =', Math.round(degrees * Math.pow(10, 1)) / Math.pow(10, 1)
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 42
+
+---
+
+1. Which of the following objects would have a greater angular momentum (L): a 0.15 kg hollowed can attached to a 4.0 m string, spun at an angular velocity of 15 rad/s; or a 0.15 kg hollowed can attached to a 6.0 m string, spun at a rotational velocity of 15 rad/s?
+
+```js
+// L = m * r^2 * w
+
+let m1 = 0.15; // kg
+let r1 = 4.0; // m
+let w1 = 15; // rad/s
+let L1 = m1 * Math.pow(r1, 2) * w1; // kg * m^2/s
+console.log('L1 =', L1, 'kg * m^2/s');
+// L1 = 36 kg * m^2/s
+
+let m2 = 0.15; // kg
+let r2 = 6.0; // m
+let w2 = 15; // rad/s
+let L2 = m2 * Math.pow(r2, 2) * w2; // kg * m^2/s
+console.log('L2 =', L2, 'kg * m^2/s');
+// L2 = 80.99999999999999 kg * m^2/s
+console.log('L2 =', Math.round(L2), 'kg * m^2/s');
+// L2 = 81 kg * m^2/s
+```
