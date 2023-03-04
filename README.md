@@ -426,3 +426,82 @@ console.log('L2 =', L2, 'kg * m^2/s');
 console.log('L2 =', Math.round(L2), 'kg * m^2/s');
 // L2 = 81 kg * m^2/s
 ```
+
+## 2: Work
+
+### 2.01: Work and Power
+
+![image_1](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_1.png)
+
+![image_2](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_2.jpg)
+
+![image_3](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_3.png)
+
+![image_4](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_4.png)
+
+Kinetic Energy = 1/2 * mass * velocity ^ 2
+
+![image_5](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_5.png)
+
+![image_6](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_6.png)
+
+![image_7](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_7.png)
+
+---
+
+1. A weightlifter lifts a 100 kg barbell 2.0 m from the ground in 2.0 s. How much work has he done? What is the power of the lift?
+
+List the given quantities.
+
+```js
+let m = 100; // kg
+let g = 9.8; // m/s^2
+let d = 2.0; // m
+let t = 2.0; // s
+```
+
+Identity what you are looking for.
+
+```
+W = ?
+P = ?
+```
+
+Calculate work.
+
+```js
+let m = 100; // kg
+let g = 9.8; // m/s^2
+let d = 2.0; // m
+// W = Fnet * d
+// Fg = m * g
+let W = m * g * d; // J
+console.log('W =', W, 'J');
+// W = 1960.0000000000002 J
+console.log('W =', Math.round(W), 'J');
+// W = 1960 J
+console.log('W =', W.toPrecision(2), 'J');
+// W = 2.0e+3 J
+```
+
+Calculate power.
+
+```js
+let m = 100; // kg
+let g = 9.8; // m/s^2
+let d = 2.0; // m
+let W = m * g * d; // J
+let t = 2.0; // s
+let P = W.toPrecision(2) / t; // W
+console.log('P =', P, 'W');
+// P = 1000 W
+```
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 43
+
+### 2.02: Direction of Force and Work
+
+### 2.05: Machines and Mechanical Advantage
