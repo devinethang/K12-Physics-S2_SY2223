@@ -714,3 +714,106 @@ console.log('Dv =', Dv.toPrecision(3), 'm/s');
 * "Physics: Problems and Solutions" - Problem Set 44
 
 ### 2.05: Machines and Mechanical Advantage
+
+![image_1](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_1.jpg)
+
+![image_2](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_2.png)
+
+![image_3](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_3.png)
+
+![image_4](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_4.png)
+
+---
+
+1. A Pilgrim raises a 50.0 N crate a distance of 10.0 m with a block and tackle. She exerts 25.0 N of force. What is the mechanical advantage of the block and tackle and how much rope does she have to pull? Assume this is an ideal machine.
+
+What is given?
+
+```js
+let Fr = 50.0; // N
+let Fe = 25.0; // N
+let Dr = 10.0; // m
+```
+
+What are you trying to find?
+
+```
+MA = ? (Mechanical Advantage)
+De = ?
+```
+
+What equations do you need, and are they in the right form?
+
+```
+MA = Fr / Fe
+De = Dr * MA
+```
+
+Substitute values and solve for unknowns.
+
+```js
+let Fr = 50.0; // N
+let Fe = 25.0; // N
+let MA = Fr / Fe;
+console.log('MA =', MA);
+// MA = 2
+console.log('MA =', MA.toPrecision(3));
+// MA = 2.00
+
+let Dr = 10.0; // m
+let De = MA * Dr; // m
+console.log('De =', De, 'm');
+// De = 20 m
+console.log('De =', De.toPrecision(3), 'm');
+// De = 20.0 m
+```
+
+---
+
+2. A Pilgrim farmer uses a lever to lift a 1,500 N rock. He exerts a force of 250 N and lifts the rock 0.15 m. If the efficiency of the lever is 85 percent, how far must he push down on the lever?
+
+What is given?
+
+```js
+let Fr = 1500.0; // N
+let Fe = 250.0; // N
+let Dr = 0.15; // m
+let eff = 0.85; // efficency
+```
+
+What are you trying to find?
+
+```
+De = ?
+```
+
+What equations do you need, and are they in the right form?
+
+```
+Work = Wo = Fr * dr
+efficency = eff = W0 / W
+De = Wo / (Fe * eff)
+```
+
+Substitute values and solve for unknowns.
+
+```js
+let Fr = 1500.0; // N
+let Dr = 0.15; // m
+let Wo = Fr * Dr; // J
+console.log('Wo =', Wo, 'J');
+// Wo = 225 J
+let Fe = 250.0; // N
+let eff = 0.85; // efficency
+let De = Wo / (Fe * eff); // m
+console.log('De =', De, 'm');
+// De = 1.0588235294117647 m
+console.log('De =', De.toPrecision(2), 'm');
+// De = 1.1 m
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 45
