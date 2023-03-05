@@ -180,7 +180,7 @@ console.log('Vf =', Vf, 'm/s');
 
 ---
 
-2. An astronaut adrift in space with no velocity throws a 38 kg wrench at 13 m/s. The mass of the astronaut with the remaining equipment is165 kg. Find the velocity of the astronaut after she releases the wrench.
+2. An astronaut adrift in space with no velocity throws a 38 kg wrench at 13 m/s. The mass of the astronaut with the remaining equipment is 165 kg. Find the velocity of the astronaut after she releases the wrench.
 
 * What information is known?
 
@@ -791,7 +791,7 @@ What equations do you need, and are they in the right form?
 
 ```
 Work = Wo = Fr * dr
-efficency = eff = W0 / W
+efficency = eff = Wo / W
 De = Wo / (Fe * eff)
 ```
 
