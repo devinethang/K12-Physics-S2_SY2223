@@ -504,4 +504,213 @@ console.log('P =', P, 'W');
 
 ### 2.02: Direction of Force and Work
 
+![image_1](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_1.jpg)
+
+---
+
+1. A sailor pulls a boat full of cargo using a rope angled at 60.0 degrees. The sailor applies 1.00 × 10^3 N of force and pulls the boat for 30.0 m to the end of the dock. How much work does the sailor do?
+
+What do you know?
+
+```js
+let Fa = Math.pow(10, 3); // N
+let degrees = 60.0; // degrees
+let radians = degrees * Math.PI / 180; // radians
+let d = 30.0; // m
+```
+
+What are you trying to find?
+
+```
+W = ?
+```
+
+Draw a free-body diagram and identify the forces. Apply Newton’s second law.
+
+![image_2](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_2.png)
+
+```
+Fa is the force the sailor applies to the rope.
+Fa|| is the force that is applied to the boat in the direction of the boat’s motion. Remember, we use Fa|| to mean the force that is parallel to motion.
+```
+
+Calculate work using only the components of forces that are in the direction of motion.
+
+```js
+let Fa = Math.pow(10, 3); // N
+let degrees = 60.0; // degrees
+let radians = degrees * Math.PI / 180; // radians
+let d = 30.0; // m
+// W = Fa * cos(radians) * d
+let W = Fa * Math.cos(radians) * d;
+console.log('W =', W, 'J');
+// W = 15000.000000000004 J
+console.log('W =', W.toPrecision(3), 'J');
+// W = 1.50e+4 J
+```
+
+---
+
+2. A sailor pushes a 50.0 kg barrel along a dock. He then pushes it up a 10.0 m gangplank to the deck of a ship. The sailor applies his force parallel to the dock. The gangplank makes an angle of 30.0 degrees with the dock. Assume that the gangplank is frictionless. How much work does the sailor do?
+
+What do you know?
+
+```js
+let m = 50.0; // kg
+let d = 10.0; // m
+let degrees = 30.0; // degrees
+let radians = degrees * Math.PI / 180; // radians
+let g = 9.80; // m/s^2
+// frictionless plank
+// constant velocity
+```
+
+What are you trying to find?
+```
+W = ?
+```
+
+Draw a free-body diagram and identify the forces. Apply Newton’s second law.
+
+![image_3](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_3.jpg)
+
+```
+Fa|| = Fg||
+Fg|| = m * g * sin(radians)
+Fa|| = m * g * sin(radians)
+```
+
+Calculate work using only the components of forces that are in the direction of motion.
+
+```js
+let m = 50.0; // kg
+let d = 10.0; // m
+let degrees = 30.0; // degrees
+let radians = degrees * Math.PI / 180; // radians
+let g = 9.80; // m/s^2
+// W = F * d
+// W = Fa|| * d
+let W = m * g * Math.sin(radians) * d; // J
+console.log('W =', W, 'J');
+// W = 2450 J
+console.log('W =', W.toPrecision(2), 'J');
+// W = 2.5e+3 J
+```
+
+---
+
+3. A 70.0 kg sailor climbs an 11.5 m rope ladder to a mast above at constant velocity. The rope ladder forms an angle of 30.0 degrees with the mast. Assume that the ladder is frictionless. How much work does the sailor do?
+
+What do you know?
+
+```js
+let m = 70.0; // kg 
+let d = 11.5; // m
+let degrees = 30.0;
+let radians = degrees * Math.PI / 180; // radians
+let G = radians; // radians
+let g = 9.80; // m/s^2
+// frictionless ladder
+// constant velocity
+```
+
+What are you trying to find?
+
+```
+W = ?
+```
+
+Draw a free-body diagram and identify the forces.
+
+![image_4](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_4.jpg)
+
+```
+Remember that work is determined by using only the force that is applied in the direction of motion.
+```
+
+Apply Newton’s second law.
+
+```
+Fa|| = Fg||
+Fg|| = m * g * cos(radians)
+Fa|| = m * g * cos(radians)
+```
+
+Calculate work using only the components of forces that are in the direction of motion.
+
+```js
+// W = F * d
+// W = Fa|| * d
+let m = 70.0; // kg 
+let d = 11.5; // m
+let degrees = 30.0;
+let radians = degrees * Math.PI / 180; // radians
+let G = radians; // radians
+let g = 9.80; // m/s^2
+let W = m * g * Math.cos(radians) * d; // J
+console.log('W =', W, 'J');
+// W = 6832.074410455438 J
+console.log('W =', W.toPrecision(3), 'J');
+// W = 6.83e+3 J
+```
+
+---
+
+4. If wind at angle = 45 degrees exerts a force of 6.33 X 10^4 N on a ship, and the ship travels 1.00 X 10^3 m, then how much work did the wind do on the ship?
+
+```js
+let F = 6.33 * Math.pow(10, 4); // N
+let d = Math.pow(10, 3); // m
+let degrees = 45.0;
+let radians = degrees * Math.PI / 180; // radians
+let W = F * Math.cos(radians) * d; // J
+console.log('W =', W, 'J');
+// W = 44759859.24910846 J
+console.log('W =', W.toPrecision(3), 'J');
+// W = 4.48e+7 J
+```
+
+---
+
+5. If the wind does work of 4.48 X 10^7 J on a sailing ship with a mass of 2.00 X 10^6 kg (like USS Constitution), then how fast will the ship’s speed increase? Assume the ship starts out with a velocity of 0 m/s.
+
+Identify what you know?
+
+```js
+let W = 4.48 * Math.pow(10, 7); // J
+let m = 2.00 * Math.pow(10, 6); // kg
+```
+
+What you are looking for.
+
+```
+Dv = ?
+```
+
+Identify the equation you will use.
+
+```
+W = DKE = 1/2 * m * Dv^2
+```
+
+Solve for the variable you are seeking and insert values into the equation.
+
+```js
+let W = 4.48 * Math.pow(10, 7); // J
+let m = 2.00 * Math.pow(10, 6); // kg
+let Dv = Math.sqrt(2 * W / m); // m/s
+console.log('Dv =', Dv, 'm/s');
+// Dv = 6.6932802122726045 m/s
+console.log('Dv =', Dv.toPrecision(3), 'm/s');
+// Dv = 6.69 m/s
+```
+
+---
+
+![image_5](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_5.png)
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 44
+
 ### 2.05: Machines and Mechanical Advantage
