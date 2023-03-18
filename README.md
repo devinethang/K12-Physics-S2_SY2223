@@ -1109,3 +1109,215 @@ Compare the potential energy of the toy car at launch and the kinetic energy of 
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 47
+
+### 3.03 Conservation of Energy 1
+
+![image_1](3%20-%20Energy/3-03%20-%20Conservation%20of%20Energy%201/image_1.jpg)
+
+---
+
+1. A 1,200 kg car is moving at 20.0 m/s, when the driver applies the brakes and brings the car to a stop.How much thermal energy is produced as a result of the friction from the brakes bringing the car to a stop?
+
+Identify the useful information.
+
+```js
+let m = 1200; // kg
+let v = 20.0; // m/s
+```
+
+Calculate the initial kinetic energy.
+
+```js
+// K = 1/2 * m * v^2
+let m = 1200; // kg
+let v = 20.0; // m/s
+let K = 1/2 * m * Math.pow(v, 2); // J
+console.log('K =', K, 'J');
+// K = 240000 J
+console.log('K =', K.toPrecision(2), 'J');
+// K = 2.4e+5 J
+```
+
+Express your answer.
+
+* At the end, all the initial kinetic energy has been converted into thermal energy. So the amount of thermal energy is 2.4 × 10^5 J.
+
+---
+
+2. A 70.0 kg pole vaulter can sprint at the very impressive speed of 9.1 m/s. Use the law of conservation of energy to estimate the height that the pole vaulter can reach.
+
+Identify the useful information.
+
+```js
+let m = 70.0; // kg
+let v = 9.1; // m/s
+```
+
+Apply the law of conservation of energy.
+
+```js
+// initial energy = final energy
+// 1/2 * m * v^2 = m * g * h^2
+// 1/2 * v^2 = g * h^2
+// v^2 = 2 * g * h
+// h = v^2 / (2 * g)
+let v = 9.1; // m/s
+let g = 9.8; // m/s^2
+let h = Math.pow(v, 2) / 2 / g; // m
+console.log('h =', h, 'm');
+// h = 4.224999999999999 m
+console.log('h =', h.toPrecision(2), 'm');
+// h = 4.2 m
+```
+
+Analyze your answer.
+
+* Additional effects also help the pole vaulter, so this ismerely a rough estimate.
+
+* Note that the answer does not depend on the mass of the pole vaulter.
+
+---
+
+3. If a rock in free fall reaches the ground moving at 24.0 m/s, how fast is it moving when it has fallen through half its initial height? How would air resistance affect that result?
+
+Identify the useful information.
+
+```js
+let v = 24.0; // m/s
+```
+
+Apply the law of conservation of energy.
+
+```js
+// 1/2 * m * v^2 = m * g * h^2
+// 1/2 * v^2 = g * h^2
+// h = v^2 / (2 * g)
+let g = -9.8; // m/s^2
+let v = 24.0; // m/s
+let h = Math.pow(v, 2) / 2 / g; // m
+console.log('h =', h, 'm');
+// h = -29.387755102040813 m
+console.log('h =', h.toPrecision(3), 'm');
+// h = -29.4 m
+```
+
+Find the velocity at half the height.
+
+```js
+// 1/2 * m * v^2 = m * g * h^2
+// 1/2 * v^2 = g * h^2
+// v^2 = 2 * g * h
+let g = -9.8; // m/s^2
+let v = 24.0; // m/s
+let h = Math.pow(v, 2) / 2 / g; // m
+let Hhalf = h/2; // m
+console.log('Hhalf =', Hhalf, 'm');
+// Hhalf = -14.693877551020407 m
+let Vhalf = Math.sqrt(2 * g * Hhalf); // m/s
+console.log('Vhalf =', Vhalf, 'm/s');
+// Vhalf = 16.97056274847714 m/s
+console.log('Vhalf =', Vhalf.toPrecision(3), 'm');
+// Vhalf = 17.0 m
+```
+
+Answer the question completely.
+
+* As might be expected, the final speed does not depend on mass.
+
+* Friction, in the form of air resistance, would transform some ofthe kinetic energy to thermal energy, so that the speed of the fall would be reduced at all heights.
+
+---
+
+4. A pendulum with a mass m = 0.55 kg and length L = 1.2 m is released at an angle of θ=30 degrees. How fast is the pendulum bob moving at θ=15?
+
+Identify the useful information.
+
+```js
+let m = 0.55; // kg
+let L = 1.2; // m
+let degrees = 30; // degrees
+let radians = degrees / 180 * Math.PI; // radians
+// v = ? when theta = 15 degrees
+```
+
+* Note: The height of the bob when the angle is 15 degrees is not half the height when it is at 30 degrees. The challenging part of the problem is to find the height and then the energies.
+
+Determine how far the bob "fell."
+
+* The height of the bob at any given angle will be cosine of theta, so the height at 30 degrees can be found:
+
+```js
+// H30 = L * cos (theta)
+let theta30 = 30 / 180 * Math.PI; // radians
+let L = 1.2; // m
+let H30 = L * Math.cos(theta30);
+console.log('H30 =', H30, 'm');
+// H30 = 1.0392304845413265 m
+console.log('H30 =', H30.toPrecision(3), 'm');
+// H30 = 1.04 m
+let theta15 = 15 / 180 * Math.PI; // radians
+let H15 = L * Math.cos(theta15);
+console.log('H15 =', H15, 'm');
+// H15 = 1.159110991546882 m
+console.log('H15 =', H15.toPrecision(3), 'm');
+// H15 = 1.16 m
+let Dh = H15 - H30; // m
+console.log('Dh =', Dh.toPrecision(2), 'm');
+// Dh = 0.12 m
+```
+
+* The difference beiween the two values is how far the bob "fell": 1.16 m − 1.04 m = 0.12 m
+
+Calculate the loss in potential energy.
+
+* The loss in potential energy will be the same as the gain in kinetic energy.
+
+```js
+//U = m * g * h
+let m = 0.55; // kg
+let L = 1.2; // m
+let g = -9.8; // m/s^2
+let theta30 = 30 / 180 * Math.PI; // radians
+let H30 = L * Math.cos(theta30);
+let theta15 = 15 / 180 * Math.PI; // radians
+let H15 = L * Math.cos(theta15);
+let Dh = H30 - H15; // m
+let U = m * g * Dh; // J
+console.log('U =', U, 'J');
+// U = 0.6461559327599443 J
+console.log('U =', U.toPrecision(2), 'J');
+// U = 0.65 J
+```
+
+* The gain in kinetic energy is 0.65 J.
+
+Calculate the velocity.
+
+```js
+// K = 1/2 * m * v^2
+let m = 0.55; // kg
+let L = 1.2; // m
+let g = -9.8; // m/s^2
+let theta30 = 30 / 180 * Math.PI; // radians
+let H30 = L * Math.cos(theta30);
+let theta15 = 15 / 180 * Math.PI; // radians
+let H15 = L * Math.cos(theta15);
+let Dh = H30 - H15; // m
+let U = m * g * Dh; // J
+// v = Math.sqrt(2 * K / m)
+let v = Math.sqrt(2 * U / m); // m/s
+console.log('v =', v, 'm/s');
+// v = 1.5328593990672754 m/s
+console.log('v =', v.toPrecision(2), 'm/s');
+// v = 1.5 m/s
+```
+
+* As with many solutions, this is one of several different ways to solve this problem. All valid solutions will give the correct result that matches with observation.
+
+---
+
+![image_2](3%20-%20Energy/3-03%20-%20Conservation%20of%20Energy%201/image_2.jpg)
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 48
