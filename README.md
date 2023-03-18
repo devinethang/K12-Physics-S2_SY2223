@@ -817,3 +817,307 @@ console.log('De =', De.toPrecision(2), 'm');
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 45
+
+
+## 3. Energy
+
+### 3.01 Types of Energy and Their Conversions
+
+![image_1](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_1.jpg)
+
+![image_2](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_2.png)
+
+```js
+let c = 2.99792458 * Math.pow(10, 8); // m/s (speed of light can be rounded to 3.00 * Math.pow(10, 8)
+// E = m * c^2
+```
+
+
+---
+
+1. How much energy would be released if a 1.50 g bean could be converted entirely into energy?
+
+Identify important information.
+
+```js
+let m = 1.50; // g;
+m = m / 1000; // kg
+let c = 2.99792458 * Math.pow(10, 8); // m/s
+```
+
+Calculate the energy.
+
+```js
+let m = 1.50; // g
+m = m / 1000; // kg
+let c = 2.99792458 * Math.pow(10, 8); // m/s
+let E = m * Math.pow(c, 2); // J
+console.log('E =', E, 'J');
+// E = 134813276810522.64 J
+console.log('E =', E.toPrecision(3), 'J');
+// E = 1.35e+14 J
+```
+
+Analyze your result.
+
+```
+That’s a lot of energy from such a small amount of matter!
+```
+
+---
+
+![image_3](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_3.jpg)
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 46
+
+### 3.02: Kinetic and Potential Energy
+
+![image_1](3%20-%20Energy/3-02%20-%20Kinetic%20and%20Potential%20Energy/image_1.jpg)
+
+Kinetic Energy
+
+```
+K = KE = 1/2 * m * v^2
+```
+
+Potential Energy
+
+```
+Ug = PE = m * g * h
+```
+
+---
+1. Suppose the spring in this spring-powered rifle has a spring constant of k = 920 N/m. How much elastic potential energy does it have, and how much work can it do in accelerating the projectile,if it is compressed by x = 0.10 m?
+
+Identify the useful information
+
+```js
+let k = 920; // N/m
+let x = 0.10; // m
+```
+
+Choose the appropriate equation.
+
+```
+The potential energy of the compressed spring is also the amount of work it can do by decompressing. The potential energy of the spring compressed or stretched by a distance x is 1/2 * k * x^2 in terms of the spring constant k.
+
+Us = Potential Energy of the spring
+```
+
+Apply the appropriate equation.
+
+```js
+let k = 920; // N/m
+let x = 0.10; // m
+Us = 1/2 * k * Math.pow(x, 2); // J
+console.log('Us =', Us, 'J');
+// Us = 4.6000000000000005 J
+console.log('Us =', Us.toPrecision(2), 'J');
+// Us = 4.6 J
+```
+
+Express the answer.
+
+```
+The potential energy that the compressed spring stores is 4.6 J.
+```
+
+---
+
+2. Use Newton’s laws and the laws of kinematics to find the relation between the work done by a net force (F) on a particle of mass (m) and the expression 1/2 * m * v^2. How is this expression related to the work (W) the object could do?
+
+Identify the useful, given information.
+
+```
+This example is not asking for a numerical answer, but rather an equation for an answer. A force F acts on the object with mass m and linear translational velocity v. No other force acts; F is the net force.
+```
+
+Use a kinematic equation to show the relationship between distance, velocity, and acceleration.
+
+```
+Vi is initial velocity
+Vf is final velocity
+a is acceleration
+d is the distance of motion
+Vf^2 - Vi^2 = 2 * a * d
+Rearrange the equation to solve for ad.
+a * d = (Vf^2 - Vi^2) / 2
+Multiply both sides by the mass (m).
+m * a * d = m / 2 * (Vf^2 - Vi^2)
+```
+
+Apply Newton’s second law.
+
+```
+m * a * d = m / 2 * (Vf^2 - Vi^2)
+
+The force on the object is F = ma,
+so you can substitute F for ma.
+
+F * d = m / 2 * (Vf^2 - Vi^2)
+
+The work (W) that the force does is Fd.
+
+W = 1/2 * m * Vf^2 - 1/2 * m * Vi^2
+
+This is the work-energy theorem.
+
+W = (1/2 * m) * (Vf^2 - Vi^2)
+
+```
+
+---
+
+![image_2](3%20-%20Energy/3-02%20-%20Kinetic%20and%20Potential%20Energy/image_2.jpg)
+
+---
+3. Find the force needed to bring a 1,325 kg car moving at 27 m/s (about 60 miles per hour) to a stop in a distance of 100.0 m.
+
+Identify the useful information.
+
+```js
+let m = 1325; // kg
+lt v = 27; // m/s
+let d = 100.0; // m
+
+// Since the work done is equal to the kinetic energy change. find the change in kinetic energy, then use W = Fd to find the net force.
+```
+
+Find the change in kinetic energy.
+
+```js
+// Find the initial kinetic energy.
+let m = 1325; // kg
+let v = 27; // m/s
+let Ki = 1/2 * m * Math.pow(v, 2); // J
+console.log('Ki =', Ki, 'J');
+// Ki = 482962.5 J
+console.log('Ki =', Ki.toPrecision(2), 'J');
+// Ki = 4.8e+5 J
+let Kf = 0; // J
+DK = Kf - Ki; //J
+console.log('DK =', DK, 'J');
+// DK = -482962.5 J
+console.log('DK =', DK.toPrecision(2), 'J');
+// DK = -4.8e+5 J
+```
+
+Find the work done.
+
+```js
+// Fd=W
+// F = W/d
+let m = 1325; // kg
+let v = 27; // m/s
+let Ki = 1/2 * m * Math.pow(v, 2); // J
+let Kf = 0; // J
+DK = Kf - Ki; //J
+let d = 100.0; // m
+let F = DK.toPrecision(2) / d; // N
+console.log('F =', F, 'N');
+// F = -4800 N
+
+```
+
+Analyze the answer.
+
+```
+The negative sign results from having assumed the velocity to be positive, so the force stopping the car, which acts in the opposite direction, is negative.
+
+Although the signs were kept in this solved problem, you could have solved the problem by merely dealing with the magnitudes alone.
+```
+
+---
+
+4. The compressed spring in the spring-powered rifle was found in an earlier problem to have elastic potential energy 1/2 * k * x^2 J = 4.6 J How fast will a 35.0 g projectile move after being fired from the rifle, neglecting friction?
+
+Identify the useful information.
+
+```js
+let W = 4.6; // J
+let m = 35.0; // g
+m = m / 1000; // kg
+```
+
+Develop a problem-solving strategy.
+
+```
+The spring does an amount of work on the projectile equal to its potential energy, which according to the work-energy theorem is then the change in kinetic energy gained by the projectile.
+
+The initial velocity of the projectile is zero, so the initial K is zero. Knowing that the final K = 1/2 * m * v^2, and that the mass of the projectile is 35.0 g, you can find v^2 and therefore v.
+```
+
+Formulas
+
+```
+Vi = 0 m/s
+DK = 1/2 * k * x^2 - Vi
+v^2 = 2 * K / m
+```
+
+Calculate the velocity of the projectile.
+
+```js
+let W = 4.6; // J
+let m = 35.0; // g
+m = m / 1000; // kg
+let v = Math.sqrt(2 * W / m); // K
+console.log('v =', v, 'm/s');
+// v = 16.21286966755555 m/s
+console.log('v =', v.toPrecision(2), 'm/s');
+// v = 16 m/s
+```
+
+---
+
+![image_3](3%20-%20Energy/3-02%20-%20Kinetic%20and%20Potential%20Energy/image_3.jpg)
+
+---
+
+5. A group of physics students conducted an experiment in which they rolled a 0.50 kg toy car down a ramp and onto a table. Along the table they marked off distance intervals of 0.20 m. They measured the time for the car to pass each mark.
+
+Track Distance = 1 m
+
+Calculate the potential energy of the toy car when it is launched from a height of 0.25 m.
+
+```js
+let m = 0.50; // kg
+let g = 9.8; // m/s^2
+let h = 0.25; // m
+let Ug = m * g * h; // J
+console.log('Ug =', Ug, 'J');
+// Ug = 1.225 J
+console.log('Ug =', Ug.toPrecision(2), 'J');
+// Ug = 1.2 J
+```
+
+After being launched from the 0.25 m height, it takes the car 0.45 seconds to travel the total 1.00 m distance of the flat section of the track. What is the kinetic energy of the car?
+
+```js
+let d = 1.00; // m
+let t = 0.45; // s
+let v = d / t
+console.log('v =', v, 'm/s');
+// v = 2.2222222222222223 m/s
+let K = 1/2 * m * Math.pow(v, 2); // J
+console.log('K =', K, 'J');
+// K = 1.234567901234568 J
+console.log('K =', K.toPrecision(2), 'J');
+// K = 1.2 J
+```
+
+Compare the potential energy of the toy car at launch and the kinetic energy of the toy car on the flat surface of the track.
+
+```
+The potential energy of the car at launch is equal to the kinetic energy of the car on the flat section of the track.
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 47
