@@ -902,11 +902,9 @@ let x = 0.10; // m
 
 Choose the appropriate equation.
 
-```
-The potential energy of the compressed spring is also the amount of work it can do by decompressing. The potential energy of the spring compressed or stretched by a distance x is 1/2 * k * x^2 in terms of the spring constant k.
+* The potential energy of the compressed spring is also the amount of work it can do by decompressing. The potential energy of the spring compressed or stretched by a distance x is 1/2 * k * x^2 in terms of the spring constant k.
 
-Us = Potential Energy of the spring
-```
+* Us = Potential Energy of the spring
 
 Apply the appropriate equation.
 
@@ -932,9 +930,7 @@ The potential energy that the compressed spring stores is 4.6 J.
 
 Identify the useful, given information.
 
-```
-This example is not asking for a numerical answer, but rather an equation for an answer. A force F acts on the object with mass m and linear translational velocity v. No other force acts; F is the net force.
-```
+* This example is not asking for a numerical answer, but rather an equation for an answer. A force F acts on the object with mass m and linear translational velocity v. No other force acts; F is the net force.
 
 Use a kinematic equation to show the relationship between distance, velocity, and acceleration.
 
