@@ -983,9 +983,9 @@ Identify the useful information.
 let m = 1325; // kg
 lt v = 27; // m/s
 let d = 100.0; // m
-
-// Since the work done is equal to the kinetic energy change. find the change in kinetic energy, then use W = Fd to find the net force.
 ```
+
+* Since the work done is equal to the kinetic energy change. find the change in kinetic energy, then use W = F * d to find the net force.
 
 Find the change in kinetic energy.
 
@@ -1009,8 +1009,8 @@ console.log('DK =', DK.toPrecision(2), 'J');
 Find the work done.
 
 ```js
-// Fd=W
-// F = W/d
+// F * d = W
+// F = W / d
 let m = 1325; // kg
 let v = 27; // m/s
 let Ki = 1/2 * m * Math.pow(v, 2); // J
@@ -1025,11 +1025,9 @@ console.log('F =', F, 'N');
 
 Analyze the answer.
 
-```
-The negative sign results from having assumed the velocity to be positive, so the force stopping the car, which acts in the opposite direction, is negative.
+* The negative sign results from having assumed the velocity to be positive, so the force stopping the car, which acts in the opposite direction, is negative.
 
-Although the signs were kept in this solved problem, you could have solved the problem by merely dealing with the magnitudes alone.
-```
+* Although the signs were kept in this solved problem, you could have solved the problem by merely dealing with the magnitudes alone.
 
 ---
 
@@ -1045,11 +1043,9 @@ m = m / 1000; // kg
 
 Develop a problem-solving strategy.
 
-```
-The spring does an amount of work on the projectile equal to its potential energy, which according to the work-energy theorem is then the change in kinetic energy gained by the projectile.
+* The spring does an amount of work on the projectile equal to its potential energy, which according to the work-energy theorem is then the change in kinetic energy gained by the projectile.
 
-The initial velocity of the projectile is zero, so the initial K is zero. Knowing that the final K = 1/2 * m * v^2, and that the mass of the projectile is 35.0 g, you can find v^2 and therefore v.
-```
+* The initial velocity of the projectile is zero, so the initial K is zero. Knowing that the final K = 1/2 * m * v^2, and that the mass of the projectile is 35.0 g, you can find v^2 and therefore v.
 
 Formulas
 
@@ -1078,9 +1074,7 @@ console.log('v =', v.toPrecision(2), 'm/s');
 
 ---
 
-5. A group of physics students conducted an experiment in which they rolled a 0.50 kg toy car down a ramp and onto a table. Along the table they marked off distance intervals of 0.20 m. They measured the time for the car to pass each mark.
-
-Track Distance = 1 m
+5. A group of physics students conducted an experiment in which they rolled a 0.50 kg toy car down a ramp and onto a table. Along the table they marked off distance intervals of 0.20 m. They measured the time for the car to pass each mark. Track Distance = 1 m
 
 Calculate the potential energy of the toy car when it is launched from a height of 0.25 m.
 
@@ -1112,9 +1106,7 @@ console.log('K =', K.toPrecision(2), 'J');
 
 Compare the potential energy of the toy car at launch and the kinetic energy of the toy car on the flat surface of the track.
 
-```
-The potential energy of the car at launch is equal to the kinetic energy of the car on the flat section of the track.
-```
+* The potential energy of the car at launch is equal to the kinetic energy of the car on the flat section of the track.
 
 ---
 
