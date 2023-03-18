@@ -1321,3 +1321,186 @@ console.log('v =', v.toPrecision(2), 'm/s');
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 48
+
+
+### 3.04: Conservation of Energy 2
+
+![image_1](3%20-%20Energy/3-04%20-%20Conservation%20of%20Energy%202/image_1.jpg)
+
+---
+
+1. A 0.145 kg baseball is thrown downward at 15.0 m/s from the Leaning Tower of Pisa, from a height of 56 m. How fast would the ball be moving when it reaches the ground if air resistance can be ignored?
+
+Identify the useful information.
+
+```js
+let Iv = -15.0; // m/s
+let h = -56; // m
+```
+
+* The change in kinetic energy will equal the loss of potential energy.
+
+Apply the law of conservation of energy.
+
+```js
+// 1/2 * m * Vf^2 - 1/2 * m * Iv^2 = m * g * h
+// 1/2 * Vf^2 - 1/2 * Vi = g * h
+// Vf^2 = 2 * g * h + Vi^2
+// Vf = Math.sqrt(2 * g * h + Vi^2)
+let Iv = -15.0; // m/s
+let h = -56; // m
+let g = -9.8; // m/s^2
+let Vf = Math.sqrt(2 * g * h + Math.pow(Iv, 2))
+console.log('Vf =', Vf, 'm/s');
+// Vf = 36.367567969277246 m/s
+console.log('Vf =', Vf.toPrecision(2), 'm/s');
+// Vf = 36 m/s
+```
+
+Analyze the result.
+
+* This is a high rate of speed. Air resistance, which is a form of friction, would transform some of the kinetic energy to thermal energy and reduce how fast the baseball is moving when it strikes the ground.
+
+---
+
+2. A roller-coaster car starts at rest at a height of 90.0 m at Point A and is moving at a speed of 20.0 m/s up a later incline at Point C. Assuming friction does not affect the motion of the car, what is its height at Point C? Vc = 20.0 m/s.
+
+Identify the useful information.
+
+```js
+let v = 20.0; // m/s
+// h = ?
+```
+
+* The gain in kinetic energy will equal the loss of potential energy.
+
+Apply the law of conservation of energy.
+
+```js
+// 1/2 * m * v * c^2 = m * g(Ha - Hc)
+// (Ha - Hc) = Vc^2 / (2 * g)
+let v = 20.0; // m/s
+let g = -9.8; // m/s^2
+let Dh = Math.pow(v, 2) / (2 * g); // m
+console.log('Dh =', Dh, 'm');
+// Dh = -20.408163265306122 m
+console.log('Dh =', Dh.toPrecision(3), 'm');
+// Dh = -20.4 m
+```
+
+Determine the height of Point C.
+
+```js
+// (Ha - Hc) = 20.4
+let v = 20.0; // m/s
+let g = -9.8; // m/s^2
+let Dh = Math.pow(v, 2) / (2 * g); // m
+let Ha = 90.0; // m
+let Hc = Ha - Math.abs(Dh); // m
+console.log('Hc =', Hc, 'm');
+// Hc = 69.59183673469389 m
+console.log('Hc =', Hc.toPrecision(3), 'm');
+// Hc = 69.6 m
+```
+
+---
+
+3. Suppose that a 40.0 kg crate slides down an 8.2 m ramp at an angle of 15 degrees and with a 12 N force of kinetic friction.How fast is it moving when it reaches the bottom?
+
+Identify the useful information.
+
+```js
+let m = 40.0; // kg
+let I = 8.2; // m
+let theta = 15 / 180 * Math.PI; // radians
+let F = -12; // N
+```
+
+Find the initial energy.
+
+```js
+let m = 40.0; // kg
+let I = 8.2; // m
+let theta = 15 / 180 * Math.PI; // radians
+let Hi = I * Math.sin(theta); // m
+console.log('Hi =', Hi, 'm');
+// Hi = 2.12231616984067 m
+console.log('Hi =', Hi.toPrecision(4), 'm');
+// Hi = 2.122 m
+let g = 9.8; // m/s^2
+let Ei = m * g * Hi.toPrecision(4); // J
+console.log('Ei =', Ei, 'J');
+// Ei = 831.824 J
+console.log('Ei =', Ei.toPrecision(4), 'J');
+// Ei = 831.8 J
+```
+
+Find the final energy.
+
+```js
+// Ef = Ei + Wfr
+// Ef = Ei + Ffr * d
+let m = 40.0; // kg
+let I = 8.2; // m
+let theta = 15 / 180 * Math.PI; // radians
+let F = -12; // N
+let Hi = I * Math.sin(theta); // m
+let g = 9.8; // m/s^2
+let Ei = m * g * Hi.toPrecision(4); // J
+let Ef = Ei + F * I; // J
+console.log('Ef =', Ef, 'J');
+// Ef = 733.424 J
+console.log('Ef =', Ef.toPrecision(4), 'J');
+// Ef = 733.4 J
+```
+
+---
+
+4. A ball is dropped from a height of 1.0 m onto a hard concrete floor. It bounces back to a height of 0.75 m. Find what fraction of its mechanical energy was lost in the bounce.
+
+Identify the useful information.
+
+```js
+let Hi = 1.0; // m
+let Hf = 0.75; // ms
+```
+
+Calculate the initial and final energies.
+
+* The energy when released and when at greatest height at the end were all potential energy.
+
+```js
+// Ei = m * g * Hi
+// Ef = m * g * Hf
+// ratio = Ef / Ei
+let Hi = 1.0; // m
+let Hf = 0.75; // ms
+// ratio = (m * g * Hf) / (m * g * Hi)
+let ratio = Hf / Hi;
+console.log('ratio =', ratio);
+// ratio = 0.75
+```
+
+Analyze the result.
+
+* The ball, if it rises to only 75 percent of its original height on the first bounce, keeps only 75 percent of its initial mechanical energy, and therefore loses 25 percent on each bounce.
+
+---
+
+![image_2](3%20-%20Energy/3-04%20-%20Conservation%20of%20Energy%202/image_2.jpg)
+
+---
+
+5. Use the values from your trials to calculate the percent energy lost on the bounce.
+
+![image_3](3%20-%20Energy/3-04%20-%20Conservation%20of%20Energy%202/image_3.png)
+
+![image_4](3%20-%20Energy/3-04%20-%20Conservation%20of%20Energy%202/image_4.png)
+
+![image_5](3%20-%20Energy/3-04%20-%20Conservation%20of%20Energy%202/image_5.png)
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 49
