@@ -977,7 +977,7 @@ Identify the useful information.
 
 ```js
 let m = 1325; // kg
-lt v = 27; // m/s
+let v = 27; // m/s
 let d = 100.0; // m
 ```
 
