@@ -1504,3 +1504,328 @@ Analyze the result.
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 49
+
+### 3.07 Energy During Collisions
+
+![image_1](3%20-%20Energy/3-07%20-%20Energy%20During%20Collisions/image_1.jpg)
+
+---
+
+1. An air-track glider with mass 0.200 kg moving at 1.0 m/s bumps into a stationary glider of mass 0.300 kg, and then moves with a velocity of −0.200 m/s, while the other glider moves with velocity 0.800 m/s. Determine whether this collision conserved momentum and kinetic energy.
+
+Identify the useful information.
+
+* The initial and final velocities and the two masses are given, so the initial and final total momentum and total kinetic energy can be calculated. Label the first glider "A" and the second glider "B".
+
+```js
+let Ma = 0.200; // kg
+let iVa = 1.0; // m/s
+let Mb  = 0.300; // kg
+let iVb = 0; // m/s
+let fVa = -0.200; // m/s
+let fVb = 0.800; // m/s
+```
+
+Calculate the initial and final momentum.
+
+```js
+// given
+let Ma = 0.200; // kg
+let iVa = 1.0; // m/s
+let Mb  = 0.300; // kg
+let iVb = 0; // m/s
+let fVa = -0.200; // m/s
+let fVb = 0.800; // m/s
+
+// Initial momentum
+let Pi = Ma * iVa + Mb * iVb; // kg * m/s
+console.log('Pi =', Pi, 'kg * m/s');
+// Pi = 0.2 kg * m/s
+console.log('Pi =', Pi.toPrecision(3), 'kg * m/s');
+// Pi = 0.200 kg * m/s
+
+// Final momentum
+let Pf = Ma * fVa + Mb * fVb;
+console.log('Pf =', Pf, 'kg * m/s');
+// Pf = 0.19999999999999998 kg * m/s
+console.log('Pf =', Pf.toPrecision(3), 'kg * m/s');
+// Pf = 0.200 kg * m/s
+```
+
+Calculate the initial and final kinetic energy.
+
+```js
+// given
+let Ma = 0.200; // kg
+let iVa = 1.0; // m/s
+let Mb  = 0.300; // kg
+let iVb = 0; // m/s
+let fVa = -0.200; // m/s
+let fVb = 0.800; // m/s
+
+// intial  kinetic  energy
+let Ki = 1/2 * Ma * Math.pow(iVa, 2) + 1/2 * Mb * Math.pow(iVb, 2); // J
+console.log('Ki =', Ki, 'J');
+// Ki = 0.1 J
+console.log('Ki =', Ki.toPrecision(3), 'J');
+// Ki = 0.100 J
+
+
+// final  kinetic  energy
+let Kf = 1/2 * Ma * Math.pow(fVa, 2) + 1/2 * Mb * Math.pow(fVb, 2); // J
+console.log('Kf =', Kf, 'J');
+// Kf = 0.10000000000000002 J
+console.log('Kf =', Kf.toPrecision(3), 'J');
+// Kf = 0.100 J
+```
+
+Analyze the results.
+
+* Comparison of initial and final momentum shows that total momentum was conserved, as it always must be in a closed system.
+
+* Comparison of initial and final total kinetic energy shows that kinetic energy was also conserved so this is a completely elastic collision.
+
+* The results are consistent with the requirement that momentum is always conserved, but kinetic energy is sometimes conserved. The collision is elastic, because kinetic energy is conserved.
+
+---
+
+2. An air-track glider with mass 0.200 kg moving at 1.0 m/s bumps into a stationary glider of mass 0.300 kg. The two stick together after the collision. How much kinetic energy is lost?
+
+Identify the useful information.
+
+* The masses and initial and final velocities are given, so the initial and final total momentum and total kinetic energy can be calculated.
+
+```js
+let Ma = 0.200; // kg
+let iVa = 1.0; // m/s
+let Mb = 0.300; // kg
+let Vb = 0; // m/s
+// fVa = ?
+// fVb = ?
+// Klost = ?
+```
+
+Calculate the initial and final momentum.
+
+```js
+// given
+let Ma = 0.200; // kg
+let iVa = 1.0; // m/s
+let Mb = 0.300; // kg
+let iVb = 0; // m/s
+
+// Initial momentum
+let Pi = Ma * iVa + Mb * iVb; // kg * m/s
+console.log('Pi =', Pi, 'kg * m/s');
+// Pi = 0.2 kg * m/s
+console.log('Pi =', Pi.toPrecision(3), 'kg * m/s');
+// Pi = 0.200 kg * m/s
+
+// Final momentum
+// Pf = (Ma + Mb) * fV
+let Pf = Pi;
+let Vfinal = Pf / (Ma + Mb);
+console.log('Vfinal =', Vfinal, 'kg * m/s');
+// Vfinal = 0.4 kg * m/s
+console.log('Vfinal =', Vfinal.toPrecision(3), 'kg * m/s');
+// Vfinal = 0.400 kg * m/s
+```
+
+Calculate the initial and final kinetic energy.
+
+```js
+// given
+let Ma = 0.200; // kg
+let iVa = 1.0; // m/s
+let Mb = 0.300; // kg
+let iVb = 0; // m/s
+
+// Initial momentum
+let Pi = Ma * iVa + Mb * iVb; // kg * m/s
+
+// Final momentum
+let Pf = Pi;
+let Vfinal = Pf / (Ma + Mb);
+
+// Initial kinetic energy
+let Ki = 1/2 * (Ma * Math.pow(iVa, 2) + Mb * Math.pow(iVb, 2));
+console.log('Ki =', Ki, 'J');
+// Ki = 0.1 J
+console.log('Ki =', Ki.toPrecision(3), 'J');
+// Ki = 0.100 J
+// Final kinetic energy
+let Kf = 1/2 * (Ma + Mb) * Math.pow(Vfinal, 2);
+console.log('Kf =', Kf, 'J');
+// Kf = 0.04000000000000001 J
+console.log('Kf =', Kf.toPrecision(3), 'J');
+// Kf = 0.0400 J
+// So the kinetic energy changed by
+let DK = Math.abs(Kf - Ki);
+console.log('DK =', DK, 'J');
+// DK = 0.06 J
+console.log('DK =', DK.toPrecision(2), 'J');
+// DK = 0.060 J
+```
+
+Analyze the results.
+
+* Momentum was conserved. Comparison of initial and final total kinetic energy, however, shows that kinetic energy was not conserved in the collision.
+
+---
+
+3. An air-track glider with mass 0.200 kg moving at 1.0 m/s bumps into a stationary glider of mass 0.300 kg, and then moves with a velocity of −0.230 m/s, while the other glider moves with velocity 0.820 m/s. Determine whether this collision conserved momentum and kinetic energy.
+
+Identify the useful information.
+
+* The initial and final velocities and the two masses are given, so the initial and final total momentum and total kinetic energy can be calculated. Label the first glider "A" and the second glider "B".
+
+```js
+let Ma = 0.200; // kg
+let iVa = 1.0; // m/s
+let Mb = 0.300; // kg
+let iVb = 0; // m/s
+let fVa = -0.230; // m/s
+let fVb = 0.820; // m/s
+```
+
+Calculate the initial and final momentum.
+
+```js
+// given
+let Ma = 0.200; // kg
+let iVa = 1.0; // m/s
+let Mb = 0.300; // kg
+let iVb = 0; // m/s
+let fVa = -0.230; // m/s
+let fVb = 0.820; // m/s
+
+// Initial momentum
+let Pi = Ma * iVa + Mb * iVb; // kg * m/s
+console.log('Pi =', Pi, 'kg * m/s');
+// Pi = 0.2 kg * m/s
+console.log('Pi =', Pi.toPrecision(3), 'kg * m/s');
+// Pi = 0.200 kg * m/s
+
+// Final momentum
+let Pf = Ma * fVa + Mb * fVb;
+console.log('Pf =', Pf, 'kg * m/s');
+// Pf = 0.19999999999999996 kg * m/s
+console.log('Pf =', Pf.toPrecision(3), 'kg * m/s');
+// Pf = 0.200 kg * m/s
+```
+
+Calculate the initial and final kinetic energy.
+
+```js
+// given
+let Ma = 0.200; // kg
+let iVa = 1.0; // m/s
+let Mb = 0.300; // kg
+let iVb = 0; // m/s
+let fVa = -0.230; // m/s
+let fVb = 0.820; // m/s
+
+// intial  kinetic  energy
+let Ki = 1/2 * Ma * Math.pow(iVa, 2) + 1/2 * Mb * Math.pow(iVb, 2); // J
+console.log('Ki =', Ki, 'J');
+// Ki = 0.1 J
+console.log('Ki =', Ki.toPrecision(3), 'J');
+// Ki = 0.100 J
+
+
+// final  kinetic  energy
+let Kf = 1/2 * Ma * Math.pow(fVa, 2) + 1/2 * Mb * Math.pow(fVb, 2); // J
+console.log('Kf =', Kf, 'J');
+// Kf = 0.10614999999999998 J
+console.log('Kf =', Kf.toPrecision(3), 'J');
+// Kf = 0.106 J
+```
+
+Analyze the results.
+
+* Comparison of initial and final momentum shows that total momentum was conserved, as it always must be in a closed system.
+
+* Comparison of initial and final total kinetic energy shows that kinetic energy increased in the collision. This can occur only if there is a source of energy, such as the energy stored in a spring.
+
+---
+
+4. A billiard ball of mass 0.16 kg moving at 0.52 m/s collides directly into another stationary billiard ball of the same mass. Find the final velocity of each billiard ball.Assume this is an elastic collision occurring in one dimension.
+
+Identify the useful information.
+
+* The masses and the initial velocities are known, allowing the initial kinetic energy and initial momentum to be calculated. Conservation of momentum and conservation of kinetic energy each give an equation.
+
+* Both equations involving the final velocities must be true at the same time, so you can combine and manipulate the equations to find the values of the final velocities.
+
+```js
+let Ma = 0.16; // kg
+let iVa = 0.52; // m/s
+let Mb = 0.16; // kg
+let iVb = 0; // m/s
+// fVa = ?
+// fVb = ?
+```
+
+Solve the momentum and energy equations at the same time.
+
+```js
+// given
+let Ma = 0.16; // kg
+let iVa = 0.52; // m/s
+let Mb = 0.16; // kg
+let iVb = 0; // m/s
+
+// Initial momentum
+// Since B is not moving initially
+let Pi = iVa;
+
+// Initial kinetic energy
+let Ki = 1/2 * Ma * Math.pow(iVa, 2);
+```
+
+* Because of conservation of momentum and kinetic energy, set the initial momentum equal to final momentum and intial kinteric energy to final kinetic energy.
+
+```js
+// iVa = fVa + fVb
+// Iva^2 = fVa^2 + fVb^2
+```
+
+Calculate the velocities.
+
+* The unknown velocities VA,final and VB,final final must
+satisfy both equation (1) and (2).
+
+* Square both sides of equation (1):
+
+```js
+// iVa^2 = fVa^2 + fVb^2 + 2*fVa*fVb 
+```
+
+* Subtract equation (3) from equation (2),  (That is, subtract the right side of (3) from the right side of (2), and similarly for the left sides).
+
+```js
+// Obtain:
+// -2 * fVa * fVb = 0
+// or
+// fVa * fVb = 0
+```
+
+Analyze the results.
+
+* The only way to multiply two numbers and obtain zero is for one of the numbers to be zero. So one of the two final velocities must be zero.
+
+* If fVa is zero, then all of the final kinetic energy is carried by the second ball, so that its final velocity is VA,initial.
+
+* Otherwise, fVb is zero, then all of the final kinetic energy is carried by the first ball, so that its final velocity is iVa. In this latter case, the initial and final velocities are the same as before the collision, and no collision has occurred.
+
+* For an object in one dimension elastically colliding with another of the same mass initially at rest, either the two objects interchange their velocities, or else no change in velocity—and no collision—occurs.
+
+---
+
+![image_2](3%20-%20Energy/3-07%20-%20Energy%20During%20Collisions/image_2.jpg)
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 50
