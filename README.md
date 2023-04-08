@@ -1841,3 +1841,83 @@ Analyze the results.
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 51
+
+### 4.02: Specific Heat
+
+![image_1](4%20-%20Thermal%20Energy/4-02%20-%20Specific%20Heat/image_1.jpg)
+
+![image_2](4%20-%20Thermal%20Energy/4-02%20-%20Specific%20Heat/image_2.png)
+
+![image_3](4%20-%20Thermal%20Energy/4-02%20-%20Specific%20Heat/image_3.png)
+
+![image_4](4%20-%20Thermal%20Energy/4-02%20-%20Specific%20Heat/image_4.png)
+
+---
+
+1. If 100.0 g of a substance absorbs 1.17 kJ when its temperature increases by 30.0°C, then what is the substance?
+
+Given:
+
+```js
+let q = 1170; // J
+let m = 100.0; // g
+let DT = 30.0; // degrees C
+// let C = ?
+```
+
+Write the equation for specific heat.
+
+```js
+let q = 1170; // J
+let m = 100.0; // g
+let DT = 30.0; // degrees C
+let C = q / m / DT; // J / (g * degrees C)
+console.log('C =', C, 'J / (g * degrees C)');
+// C = 0.38999999999999996 J / (g * degrees C)
+console.log('C =', C.toPrecision(2), 'J / (g * degrees C)');
+// C = 0.39 J / (g * degrees C)
+```
+
+Look up the specific heat in a table of specific heat values to identify the substance.
+
+```js
+let q = 1170; // J
+let m = 100.0; // g
+let DT = 30.0; // degrees C
+let C = q / m / DT; // J / (g * degrees C)
+console.log('C =', C.toPrecision(2), 'J / (g * degrees C)');
+// C = 0.39 J / (g * degrees C)
+let lookup = {
+    "2.05": "water (ice)",
+    "0.46": "iron",
+    "0.9": "aluminum",
+    "0.13": "gold",
+    "0.39": "copper",
+    "4.7": "ammonia (liquid)",
+};
+console.log('Lookup Table', JSON.stringify(lookup, null, 2));
+let strC = C.toPrecision(2);
+let substance = lookup[strC];
+console.log('The substance for', strC, 'is', substance);
+// The substance for 0.39 is copper
+```
+
+---
+
+2. Determine how much heat is required to heat a 0.50 kg cast-iron skillet by 200 K, use the specific heat equation.
+
+```js
+let m = 0.50; // kg
+let DT = 200.0; // K
+let C = 450; // J / (kg * K)
+let Cfe = C; // C of Iron
+let q = m * C * DT; // J
+console.log('q =', q, 'J');
+// q = 45000 J 
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 52
