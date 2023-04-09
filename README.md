@@ -8,11 +8,17 @@ A collection of formulas for Physics calculations
 
 * [Mathematics in R Markdown](https://rpruim.github.io/s341/S19/from-class/MathinRmd.html)
 
+---
+
 ## 1: Momentum
+
+---
 
 ### 1.01: Semester Introduction
 
 ![image_1](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_1.png)
+
+---
 
 ### 1.02: Linear Momentum and Impulse
 
@@ -139,6 +145,8 @@ console.log('F =', Math.round(F / Math.pow(10, 3)) * Math.pow(10, 3), 'N')
 
 * "Physics: Problems and Solutions" - Problem Set 38
 
+---
+
 ### 1.03: Law of Conservation of Momentum
 
 ![image_1](/1%20-%20Momentum/1-03%20-%20Law%20of%20Conservation%20of%20Momentum/image_1.png)
@@ -215,6 +223,8 @@ console.log('Va =', Math.round(Va), 'm/s');
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 39
+
+---
 
 ### 1.04 Momentum in Collisions
 
@@ -389,6 +399,8 @@ console.log('degrees =', Math.round(degrees * Math.pow(10, 1)) / Math.pow(10, 1)
 
 * "Physics: Problems and Solutions" - Problem Set 40 and 41
 
+---
+
 ### 1.08: Conservation of Angular Momentum
 
 ![image_1](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_1.png)
@@ -398,6 +410,8 @@ console.log('degrees =', Math.round(degrees * Math.pow(10, 1)) / Math.pow(10, 1)
 ![image_3](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_3.png)
 
 ![image_4](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_4.png)
+
+---
 
 #### Problem Set
 
@@ -427,7 +441,11 @@ console.log('L2 =', Math.round(L2), 'kg * m^2/s');
 // L2 = 81 kg * m^2/s
 ```
 
+---
+
 ## 2: Work
+
+---
 
 ### 2.01: Work and Power
 
@@ -501,6 +519,8 @@ console.log('P =', P, 'W');
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 43
+
+---
 
 ### 2.02: Direction of Force and Work
 
@@ -709,9 +729,13 @@ console.log('Dv =', Dv.toPrecision(3), 'm/s');
 
 ![image_5](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_5.png)
 
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 44
+
+---
 
 ### 2.05: Machines and Mechanical Advantage
 
@@ -818,8 +842,11 @@ console.log('De =', De.toPrecision(2), 'm');
 
 * "Physics: Problems and Solutions" - Problem Set 45
 
+---
 
 ## 3. Energy
+
+---
 
 ### 3.01 Types of Energy and Their Conversions
 
@@ -873,6 +900,8 @@ That’s a lot of energy from such a small amount of matter!
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 46
+
+---
 
 ### 3.02: Kinetic and Potential Energy
 
@@ -1110,6 +1139,8 @@ Compare the potential energy of the toy car at launch and the kinetic energy of 
 
 * "Physics: Problems and Solutions" - Problem Set 47
 
+---
+
 ### 3.03 Conservation of Energy 1
 
 ![image_1](3%20-%20Energy/3-03%20-%20Conservation%20of%20Energy%201/image_1.jpg)
@@ -1318,10 +1349,13 @@ console.log('v =', v.toPrecision(2), 'm/s');
 
 ![image_2](3%20-%20Energy/3-03%20-%20Conservation%20of%20Energy%201/image_2.jpg)
 
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 48
 
+---
 
 ### 3.04: Conservation of Energy 2
 
@@ -1504,6 +1538,8 @@ Analyze the result.
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 49
+
+---
 
 ### 3.07 Energy During Collisions
 
@@ -1830,7 +1866,11 @@ Analyze the results.
 
 * "Physics: Problems and Solutions" - Problem Set 50
 
+---
+
 ## 4: Thermal Energy
+
+---
 
 ### 4.01: Kinetic-Molecular Theory
 
@@ -1838,9 +1878,13 @@ Analyze the results.
 
 ![image_2](4%20-%20Thermal%20Energy/4-01%20-%20Kinetic-Molecular%20Theory/image_2.png)
 
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 51
+
+---
 
 ### 4.02: Specific Heat
 
@@ -1922,6 +1966,8 @@ console.log('q =', q, 'J');
 
 * "Physics: Problems and Solutions" - Problem Set 52
 
+---
+
 ### 4.05: States of Matter
 
 ![image_1](4%20-%20Thermal%20Energy/4-05%20-%20States%20of%20Matter/image_1.jpg)
@@ -1930,9 +1976,13 @@ console.log('q =', q, 'J');
 
 ![image_3](4%20-%20Thermal%20Energy/4-05%20-%20States%20of%20Matter/image_3.jpg)
 
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 53
+
+---
 
 ### 4.06: Heat During Change of State
 
@@ -2090,3 +2140,94 @@ console.log('q', q.toPrecision(2), 'J');
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 54
+
+---
+
+### 4.07: First Law of Thermodynamics
+
+![image_1](4%20-%20Thermal%20Energy/4-07%20-%20First%20Law%20of%20Thermodynamics/image_1.jpg)
+
+![image_2](4%20-%20Thermal%20Energy/4-07%20-%20First%20Law%20of%20Thermodynamics/image_2.png)
+
+![image_3](4%20-%20Thermal%20Energy/4-07%20-%20First%20Law%20of%20Thermodynamics/image_3.png)
+
+![image_4](4%20-%20Thermal%20Energy/4-07%20-%20First%20Law%20of%20Thermodynamics/image_4.png)
+
+![image_5](4%20-%20Thermal%20Energy/4-07%20-%20First%20Law%20of%20Thermodynamics/image_5.png)
+
+---
+
+1. A total of 135 J of work is done by a gas refrigerant as it expands. The total heat transferred to the refrigerant is 21 J. What is the change in energy of the system?
+
+What do you know, and what are you trying to find?
+
+```js
+// Given
+let W = 135; // J (W is done by the system, so W > 0)
+let Q = 21; // J (W is transferred by the system, so W > 0)
+// Unknown
+//let DU = ?
+```
+
+Write the equation (rearrange if necessary).
+
+`DU = Q - W`
+
+Solve for the unknown.
+
+```js
+let W = 135; // J (W is done by the system, so W > 0)
+let Q = 21; // J (W is transferred by the system, so W > 0)
+let DU = Q - W;
+console.log('DU =', DU, 'J');
+// DU = -114 J
+```
+
+---
+
+2. How much work can be extracted from 1.0 × 103 J of heat when the hot and cold reservoirs are 373 K and 273 K, respectively?
+
+What do you know, and what are you trying to find?
+
+```js
+// Given:
+let QH = 1.0 * Math.pow(10, 3); // J
+let TH = 373; // K
+let TL = 273; // K
+// Unknown:
+// let W = ?
+```
+
+What equations will you need to find the unknown? Rearrange them if necessary.
+
+`QL / QH = TL / TH`
+
+`QL = QH * TL / TH`
+
+`QH = W + QL`
+
+`W = QH - QL`
+
+Solve for the unknown.
+
+```js
+let QH = 1.0 * Math.pow(10, 3); // J
+let TH = 373; // K
+let TL = 273; // K
+let QL = QH * TL / TH; // J
+console.log('QL =', QL, 'J');
+// QL = 731.9034852546916 J
+let W = QH - QL;
+console.log('W =', W, 'J');
+// W = 268.09651474530835 J
+console.log('W =', W.toPrecision(2), 'J');
+// W = 2.7e+2 J
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 55
+
+---
