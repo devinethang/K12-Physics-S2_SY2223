@@ -1933,3 +1933,103 @@ console.log('q =', q, 'J');
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 53
+
+### 4.06: Heat During Change of State
+
+![image_1](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_1.jpg)
+
+![image_2](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_2.png)
+
+![image_3](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_3.png)
+
+![image_4](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_4.png)
+
+![image_5](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_5.png)
+
+![image_6](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_6.png)
+
+---
+
+1. What is the total heat required to change ice from –100°C
+negative 100 degree C to steam at 200°C? Mass is 100 g.
+
+![image_7](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_7.png)
+
+Heating ice from –100°C to 0°C
+
+`q = m * C * DT`
+
+```js
+let m = 100; // g
+let QheatIce = 100 * 2.05 / 1000 * 100; // kJ
+console.log('QheatIce =', QheatIce, 'kJ');
+// QheatIce = 20.499999999999996 kJ
+console.log('QheatIce =', QheatIce.toPrecision(3), 'kJ');
+// QheatIce = 20.5 kJ
+```
+
+Ice melting at 0°C
+
+`q = m * DHf`
+
+```js
+let m = 100; // g
+let QiceMelt = 100 * 334 / 1000; // kJ
+console.log('QiceMelt =', QiceMelt, 'kJ');
+// QiceMelt = 33.4 kJ
+```
+
+Heating liquid water from 0°C to 100°C
+
+`q = m * C * DT`
+
+```js
+let m = 100; // g
+let QheatWater = 100 * 4.18 / 10; // kJ
+console.log('QheatWater =', QheatWater, 'kJ');
+// QheatWater = 41.8 kJ
+```
+
+Liquid water boiling at 100°C
+
+`q = m * DHf`
+
+```js
+let m = 100; // g
+let QboilWater = 100 * 2.26; // kJ
+console.log('QboilWater =', QboilWater, 'kJ');
+// QboilWater = 225.99999999999997 kJ
+console.log('QboilWater =', Math.round(QboilWater), 'kJ');
+// QboilWater = 226 kJ
+```
+
+Heating steam from 100°C to 200°C
+
+`q = m * C * DT`
+
+```js
+let m = 100; // g
+let QheatSteam = 100 * 2.08 / 10; // kJ
+console.log('QheatSteam =', QheatSteam, 'kJ');
+// QheatSteam = 20.8 kJ
+```
+
+Total heat required
+
+```js
+let q = QheatIce + QiceMelt + QheatWater + QboilWater + QheatSteam;
+console.log('q =', q, 'kJ');
+// q = 342.49999999999994 kJ
+console.log('q =', q.toPrecision(4), 'kJ');
+// q = 342.5 kJ
+```
+
+---
+
+2. What is the total heat required to change steam at 200°C to ice at –100°C? Mass is 100 g.
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 54
