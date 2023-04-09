@@ -2028,6 +2028,16 @@ console.log('q =', q.toPrecision(4), 'kJ');
 
 2. What is the total heat required to change steam at 200°C to ice at –100°C? Mass is 100 g.
 
+![image_8](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_8.png)
+
+```js
+let q = -QheatIce - QiceMelt - QheatWater - QboilWater - QheatSteam;
+console.log('q =', q, 'kJ');
+// q = -342.49999999999994 kJ
+console.log('q =', q.toPrecision(4), 'kJ');
+// q = -342.5 kJ
+```
+
 ---
 
 #### Problem Set
