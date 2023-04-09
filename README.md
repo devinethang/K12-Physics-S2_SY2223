@@ -2040,6 +2040,49 @@ console.log('q =', q.toPrecision(4), 'kJ');
 
 ---
 
+3. You have a 0.10 kg block of lead. Lead melts at 327.5°C. C = 130 J/(kg⋅°C), and ΔHf for lead = 2.04 × 10^4 J/kg. Let's say you start at room temperature (25°C). How much heat must you transfer to melt all the lead?
+
+Heat lead to its melting point:
+
+`q = m * C * DT`
+
+```js
+let m = 0.10; // kg
+let C = 130; // J/(kg⋅°C)
+let DT = 327.5 - 25; // °C
+let QheatSolidLead = m * C * DT;
+console.log('QheatSolidLead', QheatSolidLead, 'J');
+// QheatSolidLead 3932.5 J
+console.log('QheatSolidLead', QheatSolidLead.toPrecision(3), 'J');
+// QheatSolidLead 3.93e+3 J
+```
+
+Convert solid lead to liquid lead at its melting point:
+
+`q = m * DHf`
+
+```js
+let m = 0.10; // kg
+let DHf = 2.04 * Math.pow(10, 4); // J/kg
+let QconvertLead = m * DHf;
+console.log('QconvertLead', QconvertLead, 'J');
+// QconvertLead 2040 J
+console.log('QconvertLead', QconvertLead.toPrecision(3), 'J');
+// QconvertLead 2.04e+3 J
+```
+
+Total
+
+```js
+let q = Number(QheatSolidLead.toPrecision(3)) + Number(QconvertLead.toPrecision(3));
+console.log('q =', q, 'J');
+// q = 5972.5 J
+console.log('q', q.toPrecision(2), 'J');
+// q 6.0e+3 J
+```
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 54
