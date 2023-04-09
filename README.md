@@ -1955,6 +1955,8 @@ negative 100 degree C to steam at 200°C? Mass is 100 g.
 
 ![image_7](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_7.png)
 
+![image_9](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_9.png)
+
 Heating ice from –100°C to 0°C
 
 `q = m * C * DT`
@@ -2029,6 +2031,8 @@ console.log('q =', q.toPrecision(4), 'kJ');
 2. What is the total heat required to change steam at 200°C to ice at –100°C? Mass is 100 g.
 
 ![image_8](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_8.png)
+
+![image_10](4%20-%20Thermal%20Energy/4-06%20-%20Heat%20During%20Change%20of%20State/image_10.png)
 
 ```js
 let q = -QheatIce - QiceMelt - QheatWater - QboilWater - QheatSteam;
