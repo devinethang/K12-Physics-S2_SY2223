@@ -2075,7 +2075,7 @@ console.log('QconvertLead', QconvertLead.toPrecision(3), 'J');
 // QconvertLead 2.04e+3 J
 ```
 
-Total
+Total heat required
 
 ```js
 let q = Number(QheatSolidLead.toPrecision(3)) + Number(QconvertLead.toPrecision(3));
