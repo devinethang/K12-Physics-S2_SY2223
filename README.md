@@ -2013,7 +2013,7 @@ Heating ice from –100°C to 0°C
 
 ```js
 let m = 100; // g
-let QheatIce = 100 * 2.05 / 1000 * 100; // kJ
+let QheatIce = m * 2.05 / 1000 * 100; // kJ
 console.log('QheatIce =', QheatIce, 'kJ');
 // QheatIce = 20.499999999999996 kJ
 console.log('QheatIce =', QheatIce.toPrecision(3), 'kJ');
@@ -2026,7 +2026,7 @@ Ice melting at 0°C
 
 ```js
 let m = 100; // g
-let QiceMelt = 100 * 334 / 1000; // kJ
+let QiceMelt = m * 334 / 1000; // kJ
 console.log('QiceMelt =', QiceMelt, 'kJ');
 // QiceMelt = 33.4 kJ
 ```
@@ -2037,7 +2037,7 @@ Heating liquid water from 0°C to 100°C
 
 ```js
 let m = 100; // g
-let QheatWater = 100 * 4.18 / 10; // kJ
+let QheatWater = m * 4.18 / 10; // kJ
 console.log('QheatWater =', QheatWater, 'kJ');
 // QheatWater = 41.8 kJ
 ```
@@ -2048,7 +2048,7 @@ Liquid water boiling at 100°C
 
 ```js
 let m = 100; // g
-let QboilWater = 100 * 2.26; // kJ
+let QboilWater = m * 2.26; // kJ
 console.log('QboilWater =', QboilWater, 'kJ');
 // QboilWater = 225.99999999999997 kJ
 console.log('QboilWater =', Math.round(QboilWater), 'kJ');
@@ -2061,7 +2061,7 @@ Heating steam from 100°C to 200°C
 
 ```js
 let m = 100; // g
-let QheatSteam = 100 * 2.08 / 10; // kJ
+let QheatSteam = m * 2.08 / 10; // kJ
 console.log('QheatSteam =', QheatSteam, 'kJ');
 // QheatSteam = 20.8 kJ
 ```
