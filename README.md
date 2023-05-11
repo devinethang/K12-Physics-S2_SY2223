@@ -2231,3 +2231,301 @@ console.log('W =', W.toPrecision(2), 'J');
 * "Physics: Problems and Solutions" - Problem Set 55
 
 ---
+
+### 4.08: Second Law of Thermodynamics and Entropy
+
+---
+
+![image_1](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_1.jpg)
+
+![image_2](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_2.png)
+
+![image_3](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_3.png)
+
+![image_4](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_4.png)
+
+![image_5](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_5.png)
+
+![image_6](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_6.png)
+
+![image_7](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_7.png)
+
+![image_8](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_8.png)
+
+![image_9](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_9.png)
+
+![image_10](4%20-%20Thermal%20Energy/4-08%20-%20Second%20Law%20of%20Thermodynamics%20and%20Entropy/image_10.png)
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 56
+
+---
+
+## 5 - Waves
+
+---
+
+### 5.01: Characteristics of Waves 1
+
+---
+
+![image_1](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_1.jpg)
+
+![image_2](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_2.png)
+
+![image_3](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_3.png)
+
+![image_4](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_4.png)
+
+![image_5](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_5.png)
+
+![image_6](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_6.png)
+
+* In a longitudinal wave, particles move back and forth in a path that is parallel to the direction of the wave's motion.
+
+* In a transverse wave, particles move in a path that is perpendicular to the direction of the wave's motion.
+
+* In a surface wave, particles move in a circular path that is both parallel and perpendicular to the direction of the wave's motion.
+
+![image_7](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_7.png)
+
+![image_8](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_8.png)
+
+![image_9](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_9.png)
+
+![image_10](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_10.png)
+
+![image_11](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_11.png)
+
+![image_12](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_12.png)
+
+![image_13](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_13.png)
+
+![image_14](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_14.png)
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 57
+
+---
+
+### 5.02: Characteristics of Waves 2
+
+---
+
+![image_1](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_1.jpg)
+
+![image_2](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_2.png)
+
+![image_3](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_3.png)
+
+![image_4](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_4.png)
+
+![image_5](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_5.png)
+
+![image_6](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_6.png)
+
+![image_7](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_7.png)
+
+![image_8](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_8.png)
+
+![image_9](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_9.png)
+
+![image_10](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_10.png)
+
+![image_11](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_11.png)
+
+![image_12](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_12.png)
+
+![image_13](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_13.png)
+
+![image_14](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_14.png)
+
+![image_15](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_15.png)
+
+---
+
+1. A wave with a period of 0.5 s has a frequency of 2 Hz:
+
+```js
+let T = 0.5; // s
+let f = 1 / T; // Hz
+console.log('f =', f, 'Hz');
+// f = 2 Hz
+```
+
+---
+
+2. What is the frequency of a wave with a period of 0.1 s?
+
+```js
+let T = 0.1; // s
+let f = 1 / T; // Hz
+console.log('f =', f, 'Hz');
+// f = 10 Hz
+```
+
+---
+
+3. How fast does a wave with a λ = 3.0 m and a period of T = 0.3 s travel?
+
+```js
+let wavelength = 3.0; // m
+let T = 0.3; // s
+let v = wavelength / T; // m/s
+console.log('v =', v, 'm/s');
+// v = 10 m/s
+```
+
+---
+
+4. How fast does a wave with a λ = 3.0 m if the frequency is 3.33 Hz?
+
+```js
+let wavelength = 3.0; // m
+let f = 3.3; // Hz
+let v = wavelength * f; // m/s
+console.log('v =', v, 'm/s');
+// v = 9.899999999999999 m/s
+console.log('v =', v.toPrecision(2), 'm/s');
+// v = 9.9 m/s
+console.log('v =', Math.round(v), 'm/s');
+// v = 10 m/s
+```
+
+---
+
+5. Five waves pass a dock in 10.0 s. If the waves are traveling at 10.0 m/s
+10.0 m per s, then what is their wavelength?
+
+```js
+let v = 10.0; // m/s
+let number_of_waves = 5;
+let T = 10.0; // s
+let f =  number_of_waves / T; // Hz
+console.log('f =', f, 'Hz');
+// f = 0.5 Hz
+let wavelength = v / f; // m
+console.log('wavelength =', wavelength, 'm');
+// wavelength = 20 m
+```
+
+---
+
+6. What is the wavelength of waves with a period of 0.5 s traveling at 20 m/s?
+
+```js
+let T = 0.5; // s
+let v = 20; // m/s
+let wavelength = v * T; // m
+console.log('wavelength =', wavelength, 'm');
+// wavelength = 10 m
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 58
+
+---
+
+### 5.03: Sound: Vibration and Waves
+
+---
+
+![image_1](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_1.png)
+
+![image_2](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_2.png)
+
+![image_3](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_3.png)
+
+![image_4](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_4.png)
+
+![image_5](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_5.png)
+
+![image_6](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_6.png)
+
+![image_7](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_7.png)
+
+* Sound and Sound Waves: Use the terms sound waves and sound with care. A sound wave is the way in which the energy of a mechanically vibrating object is transmitted through a medium. People talk of the "speed of sound" but what they mean is the "speed of a sound wave." Sound is what we hear. The ringing of a bell is a sound; the motion of the bell comes to our ears via a sound wave.
+
+![image_8](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_8.jpg)
+
+![image_9](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_9.png)
+
+![image_10](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_10.png)
+
+![image_11](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_11.png)
+
+![image_12](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_12.png)
+
+![image_13](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_13.png)
+
+![image_14](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_14.png)
+
+![image_15](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_15.png)
+
+![image_16](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_16.png)
+
+![image_17](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_17.png)
+
+---
+
+1. How fast is the speed of sound waves in air at 15°C?
+
+```js
+let medium_air_0C = 331; // m/s
+let T = 15; // °C
+let v = (medium_air_0C + 0.60 * T); // m/s
+console.log('v =', v, 'm/s');
+// v = 340 m/s
+```
+
+---
+
+2. How far does a sound wave travel through air at 20°C in 5.00 s?
+
+```js
+let medium_air_20C = 343; // m/s
+let v = medium_air_20C; // m/s
+let t = 5.00; // s
+let d = v * t; // m
+console.log('d =', d, 'm');
+// d = 1715 m
+console.log('d =', d / 1000, 'km');
+// d = 1.715 km
+console.log('d =', (d / 1000).toPrecision(3), 'km');
+// d = 1.72 km
+```
+
+---
+
+3. You shout across a canyon through air at 20°C and hear an echo 5.00 s later. How wide is the canyon?
+
+```js
+let t = 2.50; // s
+let T = 20; // °C
+let medium_air_20C = 343; // m/s
+let v = medium_air_20C; // m/s
+let d = v * t; // m
+console.log('d =', d, 'm');
+// d = 857.5 m
+console.log('d =', d / 1000, 'km');
+// d = 0.8575 km
+console.log('d =', (d / 1000).toPrecision(3), 'km');
+// d = 0.858 km
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 59
+
+---
