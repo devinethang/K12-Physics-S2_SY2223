@@ -2744,3 +2744,91 @@ console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
 * "Physics: Problems and Solutions" - Problem Set 60
 
 ---
+
+## 6: Light
+
+---
+
+### 6.01: The Electromagnetic Spectrum
+
+---
+
+![image_1](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_1.png)
+
+![image_2](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_2.png)
+
+![image_3](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_3.png)
+
+![image_4](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_4.png)
+
+![image_5](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_5.png)
+
+![image_6](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_6.png)
+
+![image_7](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_7.png)
+
+![image_8](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_8.png)
+
+![image_9](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_9.png)
+
+![image_10](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_10.png)
+
+![image_11](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_11.png)
+
+![image_12](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_12.png)
+
+![image_13](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_13.png)
+
+![image_14](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_14.png)
+
+![image_15](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_15.png)
+
+![image_16](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_16.png)
+
+![image_17](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_17.png)
+
+![image_18](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_18.png)
+
+![image_19](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_19.png)
+
+![image_20](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_20.png)
+
+![image_21](6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_21.png)
+
+---
+
+1. Light from a particular source has a wavelength of 480 nm.
+Find the frequency f of the light.
+
+```js
+const c = 3.0 * Math.pow(10, 8); // m/s
+let wavelength = 480 * Math.pow(10, -9); // m
+let f = c / wavelength; // Hz
+console.log('f =', f.toExponential(), 'Hz');
+// f = 6.249999999999999e+14 Hz
+console.log('f =', Number(f.toPrecision(2)).toExponential(), 'Hz');
+// f = 6.2e+14 Hz
+```
+
+---
+
+2. Light from a particular source has a wavelength of 500 nm.
+Find the frequency f of the light.
+
+```js
+const c = 3.0 * Math.pow(10, 8); // m/s
+let wavelength = 500 * Math.pow(10, -9); // m
+let f = c / wavelength; // Hz
+console.log('f =', f.toExponential(), 'Hz');
+// f = 5.999999999999999e+14 Hz
+console.log('f =', Number(f.toPrecision(2)).toExponential(), 'Hz');
+// f = 6e+14 Hz
+```
+
+----
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 61
+
+---
