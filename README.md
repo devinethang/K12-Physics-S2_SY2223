@@ -2529,3 +2529,218 @@ console.log('d =', (d / 1000).toPrecision(3), 'km');
 * "Physics: Problems and Solutions" - Problem Set 59
 
 ---
+
+### 5.04: Qualities of Sound
+
+---
+
+![image_1](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_1.png)
+
+![image_2](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_2.jpg)
+
+![image_3](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_3.png)
+
+![image_4](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_4.png)
+
+![image_5](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_5.png)
+
+![image_6](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_6.jpg)
+
+![image_7](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_7.jpg)
+
+![image_8](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_8.png)
+
+![image_9](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_9.png)
+
+![image_10](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_10.png)
+
+![image_11](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_11.jpg)
+
+![image_12](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_12.png)
+
+![image_13](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_13.jpg)
+
+![image_14](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_14.png)
+
+![image_15](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_15.png)
+
+![image_16](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_16.png)
+
+![image_17](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_17.png)
+
+![image_18](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_18.png)
+
+![image_19](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_19.png)
+
+![image_20](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_20.png)
+
+![image_21](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_21.png)
+
+![image_22](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_22.png)
+
+![image_23](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_23.png)
+
+![image_24](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_24.png)
+
+* Doppler effect - the change in the observed frequency of a wave because of the motion of the source or the observer toward or away from the other; the frequency increases when the source and observer approach each other and decreases when they move apart
+
+![image_25](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_25.png)
+
+![image_26](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_26.png)
+
+---
+
+1. What is the dB loudness for a pressure of 2 × 10^-5 N/m^2?
+
+```js
+function calculateDb(pressure) {
+  // Reference pressure for dB calculation (20 micropascals)
+  let referencePressure = 2 * Math.pow(10, -5); // dB
+
+  // Calculate the ratio of the two pressures
+  let pressureRatio = pressure / referencePressure;
+
+  // Calculate the decibel value using the logarithmic formula
+  let loudness = 20 * Math.log10(pressureRatio);
+
+  return loudness;
+}
+let pressure = 2 * Math.pow(10, -5); // N/m^2
+let loudness = calculateDb(pressure); // dB
+console.log('loudness =', loudness, 'dB');
+// loudness = 0 dB
+```
+
+---
+
+2. What is the dB loudness for a pressure of 2 × 10^-4 N/m^2?
+
+```js
+function calculateDb(pressure) {
+  // Reference pressure for dB calculation (20 micropascals)
+  let referencePressure = 2 * Math.pow(10, -5); // dB
+
+  // Calculate the ratio of the two pressures
+  let pressureRatio = pressure / referencePressure;
+
+  // Calculate the decibel value using the logarithmic formula
+  let loudness = 20 * Math.log10(pressureRatio);
+
+  return loudness;
+}
+let pressure = 2 * Math.pow(10, -4); // N/m^2
+let loudness = calculateDb(pressure); // dB
+console.log('loudness =', loudness, 'dB');
+// loudness = 20 dB
+```
+
+---
+
+3. What is the dB loudness for a pressure of 2 × 10^-3 N/m^2?
+
+```js
+function calculateDb(pressure) {
+  // Reference pressure for dB calculation (20 micropascals)
+  let referencePressure = 2 * Math.pow(10, -5); // dB
+
+  // Calculate the ratio of the two pressures
+  let pressureRatio = pressure / referencePressure;
+
+  // Calculate the decibel value using the logarithmic formula
+  let loudness = 20 * Math.log10(pressureRatio);
+
+  return loudness;
+}
+let pressure = 2 * Math.pow(10, -3); // N/m^2
+let loudness = calculateDb(pressure); // dB
+console.log('loudness =', loudness, 'dB');
+// loudness = 40 dB
+```
+
+---
+
+4. What is the pressure (N/m^2) for a loudness of 120 dB loudness?
+
+```js
+function calculatePressure(loudness) {
+  // Reference pressure for dB calculation (20 micropascals)
+  let referencePressure = 2 * Math.pow(10, -5);
+
+  // Calculate the pressure ratio using the decibel value
+  let pressureRatio = Math.pow(10, loudness / 20);
+
+  // Calculate the pressure by multiplying with the reference pressure
+  let pressure = pressureRatio * referencePressure;
+
+  return pressure;
+}
+
+let loudness = 120; // dB
+let pressure = calculatePressure(loudness);
+console.log('pressure =', pressure, 'N/m^2');
+// pressure = 20 N/m^2
+```
+
+---
+
+5. What is the intensity of the sound at 1.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?
+
+```js
+let P = 2.0 * Math.pow(10, -5); // W
+let r = 1.0; // m
+let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
+console.log('I =', I.toExponential(), 'W / m^2');
+// I = 1.5915494309189533e-6 W / m^2
+console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
+// I = 1.6e-6 W / m^2
+```
+
+---
+
+6. What is the intensity of the sound at 2.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?
+
+```js
+let P = 2.0 * Math.pow(10, -5); // W
+let r = 2.0; // m
+let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
+console.log('I =', I.toExponential(), 'W / m^2');
+// I = 3.9788735772973833e-7 W / m^2
+console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
+// I = 4e-7 W / m^2
+```
+
+---
+
+7. What is the intensity of the sound at 3.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?
+
+```js
+let P = 2.0 * Math.pow(10, -5); // W
+let r = 3.0; // m
+let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
+console.log('I =', I.toExponential(), 'W / m^2');
+// I = 1.768388256576615e-7 W / m^2
+console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
+// I = 1.8e-7 W / m^2
+```
+
+---
+
+8. What is the intensity of the sound at 4.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?
+
+```js
+let P = 2.0 * Math.pow(10, -5); // W
+let r = 4.0; // m
+let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
+console.log('I =', I.toExponential(), 'W / m^2');
+// I = 9.947183943243458e-8 W / m^2
+console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
+// I = 9.9e-8 W / m^2
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 60
+
+---
