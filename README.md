@@ -2825,10 +2825,84 @@ console.log('f =', Number(f.toPrecision(2)).toExponential(), 'Hz');
 // f = 6e+14 Hz
 ```
 
-----
+---
+
+3. Light from a particular source has a frequency of 6.0 x 10^14 Hz. Find the wavelength of the light.
+
+```js
+const c = 3.0 * Math.pow(10, 8); // m/s
+let f = 6.0 * Math.pow(10, 14); // Hz
+let wavelength = c / f; // m
+console.log('wavelength =', wavelength.toExponential(), 'm');
+// wavelength = 5e-7 m
+```
+
+---
 
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 61
+
+---
+
+### 6.02: Diffraction and Interference
+
+---
+
+![image_1](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_1.png)
+
+![image_2](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_2.png)
+
+![image_3](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_3.png)
+
+![image_4](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_4.png)
+
+![image_5](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_5.png)
+
+![image_6](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_6.png)
+
+![image_7](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_7.png)
+
+![image_8](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_8.png)
+
+![image_9](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_9.png)
+
+![image_10](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_10.png)
+
+![image_11](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_11.png)
+
+![image_12](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_12.png)
+
+![image_13](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_13.png)
+
+![image_14](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_14.png)
+
+![image_15](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_15.png)
+
+![image_16](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_16.png)
+
+![image_17](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_17.png)
+
+![image_18](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_18.png)
+
+![image_19](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_19.png)
+
+![image_20](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_20.png)
+
+![image_21](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_21.png)
+
+![image_22](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_22.png)
+
+![image_23](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_23.png)
+
+![image_24](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_24.png)
+
+![image_25](6%20-%20Light/6-02%20-%20Diffraction%20and%20Interference/image_25.png)
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 62
 
 ---
