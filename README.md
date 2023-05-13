@@ -2994,3 +2994,173 @@ console.log('index =', index.toPrecision(3), 'refraction index');
 * "Physics: Problems and Solutions" - Problem Set 63
 
 ---
+
+### 6.04: Refraction
+
+---
+
+![image_1](6%20-%20Light/6-04%20-%20Refraction/image_1.png)
+
+![image_2](6%20-%20Light/6-04%20-%20Refraction/image_2.png)
+
+![image_3](6%20-%20Light/6-04%20-%20Refraction/image_3.png)
+
+![image_4](6%20-%20Light/6-04%20-%20Refraction/image_4.png)
+
+![image_5](6%20-%20Light/6-04%20-%20Refraction/image_5.png)
+
+![image_6](6%20-%20Light/6-04%20-%20Refraction/image_6.png)
+
+![image_7](6%20-%20Light/6-04%20-%20Refraction/image_7.png)
+
+![image_8](6%20-%20Light/6-04%20-%20Refraction/image_8.png)
+
+![image_9](6%20-%20Light/6-04%20-%20Refraction/image_9.png)
+
+![image_10](6%20-%20Light/6-04%20-%20Refraction/image_10.png)
+
+![image_11](6%20-%20Light/6-04%20-%20Refraction/image_11.jpg)
+
+![image_12](6%20-%20Light/6-04%20-%20Refraction/image_12.png)
+
+![image_13](6%20-%20Light/6-04%20-%20Refraction/image_13.png)
+
+![image_14](6%20-%20Light/6-04%20-%20Refraction/image_14.png)
+
+![image_15](6%20-%20Light/6-04%20-%20Refraction/image_15.png)
+
+![image_16](6%20-%20Light/6-04%20-%20Refraction/image_16.png)
+
+![image_17](6%20-%20Light/6-04%20-%20Refraction/image_17.png)
+
+![image_18](6%20-%20Light/6-04%20-%20Refraction/image_18.png)
+
+---
+
+1. Light with a wavelength of 580 nm enters water, which has an index of refraction of 1.33. Find the wavelength of the light in water.
+
+```js
+const wavelengthAir = 580 * Math.pow(10, -9); // m
+const indexWater = 1.33;
+let wavelengthWater = wavelengthAir / indexWater; // m
+console.log('wavelengthWater =', wavelengthWater.toExponential(), 'm');
+// wavelengthWater = 4.360902255639098e-7 m
+console.log('wavelengthWater =', Number(wavelengthWater.toPrecision(3)).toExponential(), 'm');
+// wavelengthWater = 4.36e-7 m
+```
+
+---
+
+2. Show that it follows from Snell’s law that light bends toward the normal when it enters a medium with a higher refractive index and away from the normal when it enters a medium with a lower refractive index.
+
+```js
+// Light bends toward the normal surface when it enters a medium with a higher refractive index.
+// Light bends away from the normal when it enters a medium with a lower refractive index.
+//
+// n1 * sin(A) = n2 * sin(B)
+//
+function calculateCriticalAngle(n1, n2) {
+  const min = Math.min(n1, n2);
+  const max = Math.max(n1, n2);
+  let ratio = n1 / n2;
+  let angle = Math.asin(min/max) * 180 / Math.PI; // degrees
+  if (n1 > n2) {
+    angle = -angle;
+  }
+  console.log('n1=', n1, 'n2=', n2, 'ratio =', ratio.toPrecision(3), 'angle=', Math.round(angle));
+}
+
+const index_air = 1.003;
+const index_acrylic_glass = 1.5;
+const index_flint_glass = 1.62;
+
+console.log('n1 == n2:');
+calculateCriticalAngle(index_air, index_air);
+// n1= 1.003 n2= 1.003 ratio = 1.00 angle= 90
+calculateCriticalAngle(index_acrylic_glass, index_acrylic_glass);
+// n1= 1.5 n2= 1.5 ratio = 1.00 angle= 90
+calculateCriticalAngle(index_flint_glass, index_flint_glass);
+// n1= 1.62 n2= 1.62 ratio = 1.00 angle= 90
+
+console.log('n1 < n2:');
+calculateCriticalAngle(index_air, index_acrylic_glass);
+// n1= 1.003 n2= 1.5 ratio = 0.669 angle= 42
+calculateCriticalAngle(index_air, index_flint_glass);
+// n1= 1.003 n2= 1.62 ratio = 0.619 angle= 38
+calculateCriticalAngle(index_acrylic_glass, index_flint_glass);
+// n1= 1.5 n2= 1.62 ratio = 0.926 angle= 68
+
+console.log('n1 > n2:');
+calculateCriticalAngle(index_acrylic_glass, index_air);
+// n1= 1.5 n2= 1.003 ratio = 1.50 angle= -42
+calculateCriticalAngle(index_flint_glass, index_air);
+// n1= 1.62 n2= 1.003 ratio = 1.62 angle= -38
+calculateCriticalAngle(index_flint_glass, index_acrylic_glass);
+// n1= 1.62 n2= 1.5 ratio = 1.08 angle= -68
+```
+
+---
+
+3. Suppose a beam of light enters a plate of crown glass at an angle of incidence of 30°. Find its angle of refraction.
+
+```js
+// n1 * sin(A) = n2 * sin(B)
+function calculateDomain(n1, n2, deg1) {
+  const min = Math.min(n1, n2);
+  const max = Math.max(n1, n2);
+  const rad1 = deg1 / 180 * Math.PI; // radians
+  let ratio = min / max * Math.sin(rad1);
+  let rad2 = Math.asin(ratio); // radians
+  if (n1 > n2) {
+    rad2 = -rad2;
+  }
+  let deg2 = rad2 * 180 / Math.PI; // degrees
+  console.log('n1=', n1, 'n2=', n2, 'ratio =', ratio.toPrecision(3), 'deg1=', Math.round(deg1), 'deg2=', deg2.toPrecision(3));
+}
+
+const index_air = 1.003;
+const index_crown_glass = 1.52;
+const angle = 30; // degrees
+
+calculateDomain(index_air, index_crown_glass, angle);
+// n1= 1.003 n2= 1.52 ratio = 0.330 deg1= 30 deg2= 19.3
+
+// The angle of refraction, as expected, is smaller than the incident angle of 30°, and the light bends toward the normal in entering the denser (higher n) medium.
+```
+
+---
+
+4. A flat transparent piece of acrylic is at the bottom of a beaker of water, A beam of light passes through the water to strike the acrylic at an angle of incidence of 35°. What angle does the beam make with the normal to the acrylic surface as it travels inside the acrylic?
+
+```js
+// n1 * sin(A) = n2 * sin(B)
+function calculateDomain(n1, n2, deg1) {
+  const min = Math.min(n1, n2);
+  const max = Math.max(n1, n2);
+  const rad1 = deg1 / 180 * Math.PI; // radians
+  let ratio = min / max * Math.sin(rad1);
+  let rad2 = Math.asin(ratio); // radians
+  if (n1 > n2) {
+    rad2 = -rad2;
+  }
+  let deg2 = rad2 * 180 / Math.PI; // degrees
+  console.log('n1=', n1, 'n2=', n2, 'ratio =', ratio.toPrecision(3), 'deg1=', Math.round(deg1), 'deg2=', deg2.toPrecision(3));
+}
+
+const index_water = 1.33;
+const index_acrylic_glass = 1.5;
+const angle = 35; // degrees
+
+calculateDomain(index_water, index_acrylic_glass, angle);
+// n1= 1.33 n2= 1.5 ratio = 0.509 deg1= 35 deg2= 30.6
+
+// The beam of light is bent closer to the normal because it goes from a region of lower index of refraction to a region with a higher index of refraction.
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 64
+
+---
