@@ -2935,14 +2935,46 @@ console.log('wavelength =', wavelength.toExponential(), 'm');
 
 ![image_12](6%20-%20Light/6-03%20-%20Reflection/image_12.png)
 
+![image_13](6%20-%20Light/6-03%20-%20Reflection/image_13.png)
+
+![image_14](6%20-%20Light/6-03%20-%20Reflection/image_14.png)
+
+![image_15](6%20-%20Light/6-03%20-%20Reflection/image_15.png)
+
+![image_16](6%20-%20Light/6-03%20-%20Reflection/image_16.png)
+
+![image_17](6%20-%20Light/6-03%20-%20Reflection/image_17.png)
+
+![image_18](6%20-%20Light/6-03%20-%20Reflection/image_18.png)
+
+![image_19](6%20-%20Light/6-03%20-%20Reflection/image_19.png)
+
+![image_20](6%20-%20Light/6-03%20-%20Reflection/image_20.png)
+
 ---
 
-1.
+1. Flint glass has an index of refraction n = 1.66. What is the critical angle for light in the glass?
+
+```js
+const refraction_air = 1;
+const refraction_glass = 1.66;
+// sin(theta) = 1/1.66
+let ratio = refraction_air / refraction_glass;
+console.log('ratio =', ratio);
+// ratio = 0.6024096385542169
+console.log('ratio =', ratio.toPrecision(3));
+// ratio = 0.602
+let angle = Math.asin(0.603) * 180 / Math.PI; // degrees
+console.log('angle =', angle, 'degrees');
+// angle = 37.08506032429864 degrees
+console.log('angle =', Math.round(angle), 'degrees');
+// angle = 37 degrees
+```
 
 ---
 
 #### Problem Set
 
-* "Physics: Problems and Solutions" - Problem Set 62
+* "Physics: Problems and Solutions" - Problem Set 63
 
 ---
