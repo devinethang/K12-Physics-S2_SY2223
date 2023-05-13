@@ -3164,3 +3164,94 @@ calculateDomain(index_water, index_acrylic_glass, angle);
 * "Physics: Problems and Solutions" - Problem Set 64
 
 ---
+
+### 6.05 Mirrors
+
+---
+
+![image_1](6%20-%20Light/6-05%20-%20Mirrors/image_1.png)
+
+![image_2](6%20-%20Light/6-05%20-%20Mirrors/image_2.png)
+
+![image_3](6%20-%20Light/6-05%20-%20Mirrors/image_3.png)
+
+![image_4](6%20-%20Light/6-05%20-%20Mirrors/image_4.png)
+
+![image_5](6%20-%20Light/6-05%20-%20Mirrors/image_5.png)
+
+![image_6](6%20-%20Light/6-05%20-%20Mirrors/image_6.png)
+
+![image_7](6%20-%20Light/6-05%20-%20Mirrors/image_7.png)
+
+![image_8](6%20-%20Light/6-05%20-%20Mirrors/image_8.png)
+
+![image_9](6%20-%20Light/6-05%20-%20Mirrors/image_9.png)
+
+![image_10](6%20-%20Light/6-05%20-%20Mirrors/image_10.png)
+
+![image_11](6%20-%20Light/6-05%20-%20Mirrors/image_11.png)
+
+![image_12](6%20-%20Light/6-05%20-%20Mirrors/image_12.png)
+
+![image_13](6%20-%20Light/6-05%20-%20Mirrors/image_13.png)
+
+![image_14](6%20-%20Light/6-05%20-%20Mirrors/image_14.png)
+
+![image_15](6%20-%20Light/6-05%20-%20Mirrors/image_15.png)
+
+![image_16](6%20-%20Light/6-05%20-%20Mirrors/image_16.png)
+
+![image_17](6%20-%20Light/6-05%20-%20Mirrors/image_17.png)
+
+![image_18](6%20-%20Light/6-05%20-%20Mirrors/image_18.png)
+
+![image_19](6%20-%20Light/6-05%20-%20Mirrors/image_19.png)
+
+![image_20](6%20-%20Light/6-05%20-%20Mirrors/image_20.png)
+
+![image_21](6%20-%20Light/6-05%20-%20Mirrors/image_21.png)
+
+![image_22](6%20-%20Light/6-05%20-%20Mirrors/image_22.png)
+
+![image_23](6%20-%20Light/6-05%20-%20Mirrors/image_23.png)
+
+![image_24](6%20-%20Light/6-05%20-%20Mirrors/image_24.png)
+
+![image_25](6%20-%20Light/6-05%20-%20Mirrors/image_25.png)
+
+![image_26](6%20-%20Light/6-05%20-%20Mirrors/image_26.png)
+
+![image_27](6%20-%20Light/6-05%20-%20Mirrors/image_27.png)
+
+![image_28](6%20-%20Light/6-05%20-%20Mirrors/image_28.png)
+
+![image_29](6%20-%20Light/6-05%20-%20Mirrors/image_29.png)
+
+![image_30](6%20-%20Light/6-05%20-%20Mirrors/image_30.png)
+
+![image_31](6%20-%20Light/6-05%20-%20Mirrors/image_31.png)
+
+![image_32](6%20-%20Light/6-05%20-%20Mirrors/image_32.png)
+
+![image_33](6%20-%20Light/6-05%20-%20Mirrors/image_33.png)
+
+![image_34](6%20-%20Light/6-05%20-%20Mirrors/image_34.png)
+
+---
+
+1. What is the radius given the focal length of 25 mm?
+
+```js
+let focalLength = 0.025; // m
+let radius = 2 * focalLength; // m
+console.log('radius', radius, 'm');
+// radius 0.05 m
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 65
+
+---
