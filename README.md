@@ -2964,11 +2964,27 @@ console.log('ratio =', ratio);
 // ratio = 0.6024096385542169
 console.log('ratio =', ratio.toPrecision(3));
 // ratio = 0.602
-let angle = Math.asin(0.603) * 180 / Math.PI; // degrees
+let angle = Math.asin(ratio) * 180 / Math.PI; // degrees
 console.log('angle =', angle, 'degrees');
 // angle = 37.08506032429864 degrees
 console.log('angle =', Math.round(angle), 'degrees');
 // angle = 37 degrees
+```
+
+---
+
+2. What is the index of refraction when the critical angle for light is 37 degrees?
+
+```js
+const refraction_air = 1;
+const angle = 37; // degrees
+let ratio = Math.sin(angle / 180 * Math.PI); // refraction index
+console.log('ratio =', ratio);
+let index = refraction_air / ratio;
+console.log('index =', index, 'refraction index');
+// index = 1.6616401411224833 refraction index
+console.log('index =', index.toPrecision(3), 'refraction index');
+// index = 1.66 refraction index
 ```
 
 ---
