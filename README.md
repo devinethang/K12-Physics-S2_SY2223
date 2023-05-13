@@ -2933,6 +2933,8 @@ console.log('wavelength =', wavelength.toExponential(), 'm');
 
 ![image_11](6%20-%20Light/6-03%20-%20Reflection/image_11.png)
 
+![image_12](6%20-%20Light/6-03%20-%20Reflection/image_12.png)
+
 ---
 
 1.
