@@ -2400,8 +2400,7 @@ console.log('v =', Math.round(v), 'm/s');
 
 ---
 
-5. Five waves pass a dock in 10.0 s. If the waves are traveling at 10.0 m/s
-10.0 m per s, then what is their wavelength?
+5. Five waves pass a dock in 10.0 s. If the waves are traveling at 10.0 m/s, then what is their wavelength?
 
 ```js
 let v = 10.0; // m/s
