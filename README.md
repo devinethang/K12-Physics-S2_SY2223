@@ -3340,6 +3340,14 @@ console.log('radius', radius, 'm');
 
 ![image_40](6%20-%20Light/6-06%20-%20Lenses/image_40.png)
 
+![image_41](6%20-%20Light/6-06%20-%20Lenses/image_41.png)
+
+![image_42](6%20-%20Light/6-06%20-%20Lenses/image_42.png)
+
+![image_43](6%20-%20Light/6-06%20-%20Lenses/image_43.png)
+
+![image_44](6%20-%20Light/6-06%20-%20Lenses/image_44.png)
+
 ---
 
 #### Problem Set
