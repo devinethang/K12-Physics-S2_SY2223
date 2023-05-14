@@ -3104,7 +3104,7 @@ calculateCriticalAngle(index_flint_glass, index_acrylic_glass);
 
 ```js
 // n1 * sin(A) = n2 * sin(B)
-function calculateDomain(n1, n2, deg1) {
+function calculateRefractionAngle(n1, n2, deg1) {
   const min = Math.min(n1, n2);
   const max = Math.max(n1, n2);
   const rad1 = deg1 / 180 * Math.PI; // radians
@@ -3121,7 +3121,7 @@ const index_air = 1.003;
 const index_crown_glass = 1.52;
 const angle = 30; // degrees
 
-calculateDomain(index_air, index_crown_glass, angle);
+calculateRefractionAngle(index_air, index_crown_glass, angle);
 // n1= 1.003 n2= 1.52 ratio = 0.330 deg1= 30 deg2= 19.3
 
 // The angle of refraction, as expected, is smaller than the incident angle of 30°, and the light bends toward the normal in entering the denser (higher n) medium.
@@ -3133,7 +3133,7 @@ calculateDomain(index_air, index_crown_glass, angle);
 
 ```js
 // n1 * sin(A) = n2 * sin(B)
-function calculateDomain(n1, n2, deg1) {
+function calculateRefractionAngle(n1, n2, deg1) {
   const min = Math.min(n1, n2);
   const max = Math.max(n1, n2);
   const rad1 = deg1 / 180 * Math.PI; // radians
@@ -3150,7 +3150,7 @@ const index_water = 1.33;
 const index_acrylic_glass = 1.5;
 const angle = 35; // degrees
 
-calculateDomain(index_water, index_acrylic_glass, angle);
+calculateRefractionAngle(index_water, index_acrylic_glass, angle);
 // n1= 1.33 n2= 1.5 ratio = 0.509 deg1= 35 deg2= 30.6
 
 // The beam of light is bent closer to the normal because it goes from a region of lower index of refraction to a region with a higher index of refraction.
