@@ -3354,3 +3354,93 @@ console.log('radius', radius, 'm');
 * "Physics: Problems and Solutions" - Problem Set 66
 
 ---
+
+## 7: Electric Forces
+
+---
+
+### 7.01: Static Electricity
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 67
+
+---
+
+### 7.02: Electric Force
+
+---
+
+### 7.03: Electric Fields
+
+---
+
+### 7.07: Electric Potential Difference
+
+---
+
+## 8: Currents and Circuits
+
+---
+
+### 8.01: Currents and Circuits
+
+---
+
+### 8.02: Current Electric Forces
+
+---
+
+### 8.03: Series Circuits
+
+---
+
+### 8.04: Parallel Circuits
+
+---
+
+### 8.05: Combined Circuits
+
+---
+
+## 9: Magnetism
+
+---
+
+### 9.01: Magnets and Magnetic Fields
+
+---
+
+### 9.02: Forces in Magnetic Fields
+
+---
+
+### 9.03: Electromagnetic Induction
+
+---
+
+## 10: Modern Physics
+
+---
+
+### 10.01: Atomic Spectra and Quantum Theory
+
+---
+
+### 10.02: The Nature of Light and the Photoelectric Effect
+
+---
+
+### 10.03: Relativity
+
+---
+
+### 10.04: Structure of the Nucleus
+
+---
+
+### 10.05: Radioactivity
+
+---
