@@ -3609,6 +3609,95 @@ console.log('r =', r.toExponential(), 'm');
 
 ---
 
+![image_1](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_1.png)
+
+![image_2](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_2.png)
+
+![image_3](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_3.png)
+
+![image_4](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_4.png)
+
+![image_5](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_5.png)
+
+![image_6](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_6.png)
+
+![image_7](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_7.png)
+
+![image_8](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_8.png)
+
+![image_9](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_9.png)
+
+![image_10](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_10.png)
+
+![image_11](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_11.png)
+
+![image_12](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_12.png)
+
+![image_13](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_13.png)
+
+![image_14](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_14.png)
+
+![image_15](7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_15.png)
+
+---
+
+```js
+// For a test charge q_prime
+F = K * q_prime * Q / Math.pow(r, 2); // N
+
+// strength of the field
+E = F / q_prime; // N/C
+
+// substition
+E = K * Q / Math.pow(r, 2);
+```
+
+---
+
+1. A positive test charge of 4.0 x 10^–6 C experiences a force of –0.060 N at an angle of 20° from a source charge. What is the strength and direction of the electric field?
+
+```js
+let q_prime = 4.0 * Math.pow(10, -6); // C
+let F = -0.060; // N
+let E = F / q_prime; // N/C
+console.log('E =', E, 'N/C');
+// E = -15000 N/C
+console.log('E =', E.toPrecision(2), 'N/C');
+// E = -1.5e+4 N/C
+let originalAngle = 20; // degrees
+let minAngle = 180; // degrees
+let maxAngle = (180 + originalAngle) % 360; // degrees
+console.log('minAngle =', minAngle, 'degrees');
+// minAngle = 180 degrees
+console.log('maxAngle =', maxAngle, 'degrees');
+// maxAngle = 200 degrees
+```
+
+* When the force is negative, E is negative, which indicates that the direction of the field is inward and that the source charge is negative. The angle of the force would be 180° from the original angle, or 200°.
+
+---
+
+2. The strength of an electric field at 1.00 m from a source charge is –1.00 × 10^4 N/C. What is the magnitude of the source charge?
+
+```js
+let E = -1.00 * Math.pow(10, 4); // N/C
+let r = 1.00; // m
+let k = 9.00 * Math.pow(10, 9); // N*m^2/C^2
+let Q = E * Math.pow(r, 2) / k; // C
+console.log('Q =', Q.toExponential(), 'C');
+// Q = -1.111111111111111e-6
+console.log('Q =', Number(Q.toPrecision(3)).toExponential(), 'C');
+// Q = -1.11e-6 C
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 69
+
+---
+
 ### 7.07: Electric Potential Difference
 
 ---
