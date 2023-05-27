@@ -3493,7 +3493,7 @@ const k = 9.0 * Math.pow(10, 9); // N * m^2 / C^2
 F = k * q1 * q2 / Math.pow(r, 2);
 
 // Newton’s Law of Universal Gravitation
-F = G * m1 * m2 / Math.pow(2, 2);
+F = G * m1 * m2 / Math.pow(r, 2);
 ```
 
 * A charge of −1C negative 1 C is the equivalent of the electric force exerted by 6.24 x 10^18 electrons.
