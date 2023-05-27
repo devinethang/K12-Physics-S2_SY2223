@@ -3702,6 +3702,94 @@ console.log('Q =', Number(Q.toPrecision(3)).toExponential(), 'C');
 
 ---
 
+![image_1](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_1.png)
+
+![image_2](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_2.png)
+
+![image_3](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_3.png)
+
+![image_4](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_4.png)
+
+![image_5](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_5.png)
+
+![image_6](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_6.png)
+
+![image_7](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_7.png)
+
+![image_8](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_8.png)
+
+![image_9](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_9.png)
+
+![image_10](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_10.png)
+
+![image_11](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_11.png)
+
+![image_12](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_12.png)
+
+![image_13](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_13.png)
+
+![image_14](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_14.png)
+
+![image_15](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_15.png)
+
+![image_16](7%20-%20Electric%20Forces/7-07%20-%20Electric%20Potential%20Difference/image_16.png)
+
+---
+
+1. If an electric potential difference of 200.0 V occurs when a point charge of 1.0 μC is moved within an electric field, then what is the change in potential energy?
+
+```js
+let DV = 200.0; // V
+let q = 1.0 * Math.pow(10, -6); // C
+let DUe = q * DV; // J
+console.log('DUe =', DUe.toExponential(), 'J');
+// DUe = 1.9999999999999998e-4 J
+console.log('DUe =', Number(DUe.toPrecision(2)).toExponential(), 'J');
+// DUe = 2e-4 J
+```
+
+---
+
+2. If 200.0 J of work is done to a point charge of 1.0 μC that is moved within an electric field, then what is the change in electric potential difference?
+
+```js
+let W = 200.0; // J
+let q = 1.0 * Math.pow(10, -6); // C
+let DV = W / q; // V
+console.log('DV =', DV.toPrecision(2), 'V');
+// DV = 2.0e+8 V
+```
+
+---
+
+3. Two large parallel plates are 10.0 cm apart. The strength of the electric field between them is 500.0 N/C. What is the electric potential difference (ΔV) between them? How does this compare with the electric potential difference when the plates were 5.0 cm apart?
+
+```js
+let d = 0.10; // m
+let E = 500.0; // N/C
+let DV = E * d; // V
+console.log('DV =', DV.toPrecision(2), 'V');
+// DV = 50 V
+```
+
+```js
+let d = 0.05; // m
+let E = 500.0; // N/C
+let DV = E * d; // V
+console.log('DV =', DV.toPrecision(2), 'V');
+// DV = 25 V
+```
+
+* ΔV doubled compared to when the plates were 5.0 cm apart.
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 70
+
+---
+
 ## 8: Currents and Circuits
 
 ---
