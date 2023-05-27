@@ -4453,11 +4453,11 @@ console.log('A =', A, 'm^2');
 // A = 0.152053084433746 m^2
 console.log('A =', A.toFixed(3), 'm^2');
 // A = 0.152 m^2
-let theta = B * A; // T * m^2
-console.log('theta =', theta, 'T * m^2');
-// theta = 0.0152053084433746 T * m^2
-console.log('theta =', theta.toFixed(3), 'T * m^2');
-// theta = 0.015 T * m^2
+let phi = B * A; // T * m^2
+console.log('phi =', phi, 'T * m^2');
+// phi = 0.0152053084433746 T * m^2
+console.log('phi =', phi.toFixed(3), 'T * m^2');
+// phi = 0.015 T * m^2
 ```
 
 ---
