@@ -3798,7 +3798,103 @@ console.log('DV =', DV.toPrecision(2), 'V');
 
 ---
 
+![image_1](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_1.png)
+
+![image_2](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_2.png)
+
+![image_3](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_3.png)
+
+![image_4](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_4.png)
+
+![image_5](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_5.png)
+
+![image_6](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_6.png)
+
+![image_7](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_7.png)
+
+![image_8](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_8.png)
+
+![image_9](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_9.png)
+
+![image_10](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_10.png)
+
+![image_11](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_11.png)
+
+![image_12](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_12.png)
+
+![image_13](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_13.png)
+
+![image_14](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_14.png)
+
+![image_15](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_15.png)
+
+![image_16](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_16.png)
+
+![image_17](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_17.png)
+
+![image_18](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_18.png)
+
+![image_19](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_19.png)
+
+![image_20](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_20.png)
+
+![image_21](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_21.png)
+
+---
+
+1. If 20 C of charge passes a point in 5 s, what is the magnitude of the electric current?
+
+```js
+let q = 20; // C
+let t = 5; // s
+let I = q / t; // A
+console.log('I =', I, 'A');
+// I = 4 A
+```
+
+---
+
+2. A light bulb in a lamp uses 0.55 A of current when a voltage of 110 V is applied to it. How much power does the electric light bulb use?
+
+```js
+let I = 0.55; // A
+let DV = 110; // V
+let P = I * DV; // W
+console.log('P =', P, 'W');
+// P = 60.50000000000001 W
+console.log('P =', Number(P.toPrecision(1)), 'W');
+// P = 60 W
+```
+
+---
+
+3. An electric oven has a power supply of 220 V and a power rating of 7.3 kW. How much electric current does it draw?
+
+```js
+let DV = 220; // V
+let P = 7300; // W
+let I = P / DV; // A
+console.log('I =', I, 'A');
+// I = 33.18181818181818 A
+console.log('I =', I.toPrecision(2), 'A');
+// I = 33 A
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 71
+
+---
+
 ### 8.02: Current Electric Forces
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 72
 
 ---
 
