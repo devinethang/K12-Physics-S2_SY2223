@@ -3840,6 +3840,22 @@ console.log('DV =', DV.toPrecision(2), 'V');
 
 ![image_21](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_21.png)
 
+![image_22](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_22.png)
+
+![image_23](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_23.png)
+
+![image_24](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_24.png)
+
+![image_25](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_25.png)
+
+![image_26](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_26.png)
+
+![image_27](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_27.png)
+
+![image_28](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_28.png)
+
+![image_29](8%20-%20Currents%20and%20Circuits/8-01%20-%20Currents%20and%20Circuits/image_29.png)
+
 ---
 
 1. If 20 C of charge passes a point in 5 s, what is the magnitude of the electric current?
