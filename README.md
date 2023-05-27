@@ -3447,6 +3447,158 @@ console.log('radius', radius, 'm');
 
 ---
 
+![image_1](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_1.png)
+
+![image_2](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_2.png)
+
+![image_3](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_3.png)
+
+![image_4](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_4.png)
+
+![image_5](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_5.png)
+
+![image_6](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_6.png)
+
+![image_7](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_7.png)
+
+![image_8](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_8.png)
+
+![image_9](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_9.png)
+
+![image_10](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_10.png)
+
+![image_11](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_11.png)
+
+![image_12](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_12.png)
+
+![image_13](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_13.png)
+
+![image_14](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_14.png)
+
+![image_15](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_15.png)
+
+![image_16](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_16.png)
+
+![image_17](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_17.png)
+
+![image_18](7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_18.png)
+
+---
+
+```js
+// Coulomb's constant
+const k = 9.0 * Math.pow(10, 9); // N * m^2 / C^2
+
+//  Coulomb's law
+F = k * q1 * q2 / Math.pow(r, 2);
+
+// Newton’s Law of Universal Gravitation
+F = G * m1 * m2 / Math.pow(2, 2);
+```
+
+* A charge of −1C negative 1 C is the equivalent of the electric force exerted by 6.24 x 10^18 electrons.
+
+* A charge of +1C is the equivalent of 6.24 x 10^18 protons.
+
+* One electron has a force of −1.6 × 10^-19 C
+
+* One proton has a force of 1.6 × 10^-19 C
+
+*  If two objects are 1 meter apart and each has a charge of +1 coulomb, the repelling force between them is an astounding 9 × 10^9 N, which is about 900,000 tons of force.
+
+* A single lightning bolt has an electric charge ranging from 5 C to 10 C.
+
+---
+
+1. A negative charge of −2.0 x 10^−4 C
+and a positive charge of +4.0 × 10^−4 C are separated by 0.20 m. What is the magnitude and direction of the force between them?
+
+```js
+
+let q1 = -2.0 * Math.pow(10, -4); // C
+let q2 = 4.0 * Math.pow(10, -4); // C
+let r = 0.2; // m
+
+// Coulomb's constant
+const k = 9.0 * Math.pow(10, 9); // N * m^2 / C^2
+
+//  Coulomb's law
+let F = k * q1 * q2 / Math.pow(r, 2);
+console.log('F =', F, 'N');
+// F = -17999.999999999993 N
+console.log('F =', F.toPrecision(2), 'N');
+// F = -1.8e+4 N
+```
+
+* This is an attractive force as indicated by the fact that the value is negative.
+
+---
+
+2. What would happen if the distance was doubled?
+
+```js
+let q1 = -2.0 * Math.pow(10, -4); // C
+let q2 = 4.0 * Math.pow(10, -4); // C
+let r = 0.4; // m
+
+// Coulomb's constant
+const k = 9.0 * Math.pow(10, 9); // N * m^2 / C^2
+
+//  Coulomb's law
+let F = k * q1 * q2 / Math.pow(r, 2);
+console.log('F =', F, 'N');
+// F = -4499.999999999998 N
+console.log('F =', F.toPrecision(2), 'N');
+// F = -4.5e+3 N
+```
+
+* This is an attractive force as indicated by the fact that the value is negative.
+
+---
+
+3. A charge of –2.0 × 10^–4 C and a charge of +4.0 × 10^–4 C are separated by 0.40 m. What is the magnitude and direction of the force between them?
+
+```js
+let q1 = -2.0 * Math.pow(10, -4); // C
+let q2 = 4.0 * Math.pow(10, -4); // C
+let r = 0.4; // m
+
+// Coulomb's constant
+const k = 9.0 * Math.pow(10, 9); // N * m^2 / C^2
+
+//  Coulomb's law
+let F = k * q1 * q2 / Math.pow(r, 2);
+console.log('F =', F, 'N');
+// F = -4499.999999999998 N
+console.log('F =', F.toPrecision(2), 'N');
+// F = -4.5e+3 N
+```
+
+* Because the force is negative, the direction of the force is toward the other charge. You can confirm this by looking at the signs of the original charges. Because the two charges have opposite signs, they will attract each other.
+
+---
+
+4. Object A has a charge of +6.0 x 10^-6 C, while Object B has a charge of +3.0 x 10^-6 C. If the force between them is 1.8 x 10^2 N, then how far apart are they?
+
+```js
+let q1 = 6.0 * Math.pow(10, -6); // C
+let q2 = 3.0 * Math.pow(10, -6); // C
+let F = 1.8 * Math.pow(10, 2); // N
+
+// Coulomb's constant
+const k = 9.0 * Math.pow(10, 9); // N * m^2 / C^2
+
+let r = Math.sqrt(k * q1 * q2 / F); // m
+console.log('r =', r, 'm');
+// r = 0.03 m
+console.log('r =', r.toPrecision(2), 'm');
+// r = 0.03 m
+console.log('r =', r.toExponential(), 'm');
+// r = 3e-2 m
+```
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 68
