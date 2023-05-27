@@ -3363,6 +3363,80 @@ console.log('radius', radius, 'm');
 
 ---
 
+![image_1](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_1.png)
+
+![image_2](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_2.png)
+
+![image_3](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_3.png)
+
+![image_4](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_4.jpg)
+
+![image_5](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_5.jpg)
+
+![image_6](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_6.jpg)
+
+![image_7](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_7.jpg)
+
+![image_8](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_8.jpg)
+
+![image_9](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_9.png)
+
+![image_10](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_10.png)
+
+![image_11](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_11.png)
+
+![image_12](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_12.png)
+
+![image_13](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_13.png)
+
+![image_14](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_14.png)
+
+![image_15](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_15.png)
+
+![image_16](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_16.png)
+
+![image_17](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_17.png)
+
+![image_18](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_18.png)
+
+![image_19](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_19.png)
+
+![image_20](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_20.png)
+
+![image_21](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_21.png)
+
+![image_22](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_22.png)
+
+![image_23](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_23.png)
+
+![image_24](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_24.png)
+
+![image_25](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_25.png)
+
+![image_26](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_26.png)
+
+![image_27](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_27.png)
+
+![image_28](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_28.png)
+
+![image_29](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_29.png)
+
+![image_30](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_30.png)
+
+![image_31](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_31.png)
+
+![image_32](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_32.png)
+
+![image_33](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_33.png)
+
+![image_34](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_34.png)
+
+![image_35](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_35.png)
+
+![image_36](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_36.png)
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 67
@@ -3370,6 +3444,12 @@ console.log('radius', radius, 'm');
 ---
 
 ### 7.02: Electric Force
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 68
 
 ---
 
