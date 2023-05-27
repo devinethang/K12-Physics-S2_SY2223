@@ -3908,6 +3908,92 @@ console.log('I =', I.toPrecision(2), 'A');
 
 ---
 
+![image_1](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_1.png)
+
+![image_2](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_2.png)
+
+![image_3](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_3.png)
+
+![image_4](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_4.png)
+
+![image_5](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_5.png)
+
+![image_6](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_6.png)
+
+![image_7](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_7.png)
+
+![image_8](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_8.png)
+
+![image_9](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_9.png)
+
+![image_10](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_10.png)
+
+![image_11](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_11.png)
+
+![image_12](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_12.png)
+
+![image_13](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_13.png)
+
+![image_14](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_14.png)
+
+![image_15](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_15.png)
+
+![image_16](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_16.png)
+
+![image_17](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_17.png)
+
+![image_18](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_18.png)
+
+![image_19](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_19.png)
+
+![image_20](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_20.png)
+
+![image_21](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_21.png)
+
+![image_22](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_22.png)
+
+![image_23](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_23.png)
+
+![image_24](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_24.png)
+
+![image_25](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_25.png)
+
+![image_26](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_26.png)
+
+![image_27](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_27.png)
+
+![image_28](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_28.png)
+
+![image_29](8%20-%20Currents%20and%20Circuits/8-02%20-%20Current%20Electric%20Forces/image_29.png)
+
+---
+
+1. A 30.0 V battery maintains a current of 3.0 A through a resistor. What is value of the electric resistance?
+
+```js
+let DV = 30.0; // V
+let I = 3.0; // A
+let R = DV / I; // ohmms
+console.log('R =', R, 'ohm');
+// R = 10 ohm
+console.log('R =', R.toFixed(1), 'ohm');
+// R = 10.0 ohm
+```
+
+---
+
+2. If a heater has a resistance of 5.0 Ω and draws 12.0 A, then what power does it consume?
+
+```js
+let I = 12.0; // A
+let R = 5.0; // ohm
+let P = Math.pow(I, 2) * R; // W
+console.log('P =', P, 'W');
+// P = 720 W
+```
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 72
@@ -3915,6 +4001,12 @@ console.log('I =', I.toPrecision(2), 'A');
 ---
 
 ### 8.03: Series Circuits
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 73
 
 ---
 
