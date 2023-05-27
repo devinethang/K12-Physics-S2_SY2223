@@ -4285,9 +4285,89 @@ console.log('ltotal =', Number(ltotal.toPrecision(2)), 'A');
 
 ---
 
+![image_1](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_1.png)
+
+![image_2](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_2.png)
+
+![image_3](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_3.png)
+
+![image_6](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_6.png)
+
+![image_7](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_7.png)
+
+![image_8](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_8.png)
+
+![image_9](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_9.png)
+
+![image_10](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_10.png)
+
+---
+
+1. What is the equivalent resistance of a combined circuit with the arrangement of resistors shown? Calculate the total current moving through the circuit.
+
+![image_4](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_4.png)
+
+```js
+let R1 = 10.0; // ohm
+let R2 = 13.0; // ohm
+let R3 = 15.0; // ohm
+let R4 = 35.0; // ohm
+let DVtotal = 60.0; // V
+let R_2_3 = 1 / (1 / R2 + 1 / R3); // ohm
+console.log('R_2_3 =', R_2_3, 'ohm');
+// R_2_3 = 6.964285714285714 ohm
+console.log('R_2_3 =', R_2_3.toFixed(1), 'ohm');
+// R_2_3 = 7.0 ohm
+let Req = R1 + R_2_3 + R4; // ohm
+console.log('Req =', Req, 'ohm');
+// Req = 51.964285714285715 ohm
+console.log('Req =', Req.toFixed(1), 'ohm');
+// Req = 52.0 ohm
+let ltotal = DVtotal / Req; // A
+console.log('ltotal =', ltotal, 'A')
+// ltotal = 1.1546391752577319 A
+console.log('ltotal =', ltotal.toFixed(2), 'A');
+// ltotal = 1.15 A
+```
+
+---
+
+2. What is the equivalent resistance of a combined circuit with the arrangement of resistors shown? Calculate the total current moving through the circuit.
+
+![image_5](8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_5.png)
+
+```js
+let R1 = 10.0; // ohm
+let R_2_3 = 7.0; // ohm
+let R4 = 35.0; // ohm
+let ltotal = 1.15; // A
+let DV1 = ltotal * R1; // V
+console.log('DV1 =', DV1, 'V');
+// DV1 = 11.5 V
+console.log('DV1 =', DV1.toPrecision(3), 'V');
+// DV1 = 11.5 V
+let DV_2_3 = ltotal * R_2_3; // V
+console.log('DV_2_3 =', DV_2_3, 'V');
+// DV_2_3 = 8.049999999999999 V
+console.log('DV_2_3 =', DV_2_3.toPrecision(3), 'V');
+// DV_2_3 = 8.05 V
+let DV4 = ltotal * R4; // V
+console.log('DV4 =', DV4, 'V');
+// DV4 = 40.25 V
+console.log('DV4 =', DV4.toPrecision(3), 'V');
+// DV4 = 40.3 V
+DVtotal = DV1 + DV_2_3 + DV4; // V
+console.log('DVtotal =', DVtotal, 'V');
+// DVtotal = 59.8 V
+console.log('DVtotal =', DVtotal.toPrecision(2), 'V');
+// DVtotal = 60 V
+```
+
+---
+
 #### Problem Set
 
-* "Physics: Problems and Solutions" - Problem Set 74
+* "Physics: Problems and Solutions" - Problem Set 75
 
 ---
 
@@ -4296,6 +4376,12 @@ console.log('ltotal =', Number(ltotal.toPrecision(2)), 'A');
 ---
 
 ### 9.01: Magnets and Magnetic Fields
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 76
 
 ---
 
