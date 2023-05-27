@@ -4144,6 +4144,137 @@ console.log('DVtotal123 =', DVtotal123, 'V');
 
 ---
 
+![image_1](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_1.png)
+
+![image_2](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_2.png)
+
+![image_3](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_3.png)
+
+![image_4](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_4.png)
+
+![image_5](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_5.png)
+
+![image_6](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_6.png)
+
+![image_7](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_7.png)
+
+![image_8](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_8.png)
+
+![image_9](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_9.png)
+
+![image_10](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_10.png)
+
+![image_11](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_11.png)
+
+![image_12](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_12.png)
+
+![image_13](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_13.png)
+
+![image_14](8%20-%20Currents%20and%20Circuits/8-04%20-%20Parallel%20Circuits/image_14.png)
+
+---
+
+1. A 12.0 volt battery maintains a current through a light bulb that has a resistance of 2.0 Ω. What is the current and power in the circuit?
+
+```js
+let DV = 12.0; // V
+let R = 2.0; // ohm
+let I = DV / R; // A
+console.log('I =', I, 'A');
+// I = 6 A
+console.log('I =', I.toFixed(1), 'A');
+// I = 6.0 A
+let P = I * DV; // W
+console.log('P =', P, 'W');
+// P = 72 W
+```
+
+---
+
+2. A 12.0 volt battery maintains a current through two light bulbs arranged in parallel, each of which has a resistance of 2.0 Ω. What is the current and power in the circuit?
+
+```js
+let DV = 12.0; // V
+let R = 2.0; // ohm
+let Req = 1 / (1 / R + 1 / R); // ohm
+console.log('Req =', Req, 'ohm');
+let I = DV / Req; // A
+console.log('I =', I, 'A');
+// I = 12 A
+console.log('I =', I.toFixed(1), 'A');
+// I = 12.0 A
+let P = I * DV; // W
+console.log('P =', P, 'W');
+// P = 144 W
+```
+
+---
+
+3. A 12.0 volt battery maintains a current through three light bulbs arranged in parallel, each of which has a resistance of 2.0 Ω. What is the current and power in the circuit?
+
+```js
+let DV = 12.0; // V
+let R = 2.0; // ohm
+let Req = 1 / (1 / R + 1 / R + 1 / R); // ohm
+console.log('Req =', Req, 'ohm');
+// Req = 0.6666666666666666 ohm
+console.log('Req =', Req.toFixed(2), 'ohm');
+// Req = 0.67 ohm
+let I = DV / Req; // A
+console.log('I =', I, 'A');
+// I = 18 A
+console.log('I =', I.toFixed(1), 'A');
+// I = 18.0 A
+let P = I * DV; // W
+console.log('P =', P, 'W');
+// P = 216 W
+```
+
+---
+
+4. A 12.0 V battery is hooked up to three resistors in parallel. The first resistor is 2.0 Ω, the second is 3.0 Ω, and the third is 5.0 Ω. What is the current in the circuit? What is the total power? How much current goes through each resistor?
+
+```js
+let DVtotal = 12.0; // V
+let R1 = 2.0; // ohm
+let R2 = 3.0; // ohm
+let R3 = 5.0; // ohm
+let Req = 1 / (1 / R1 + 1 / R2 + 1 / R3); // ohm
+console.log('Req =', Req, 'ohm');
+// Req = 10 ohm
+console.log('Req =', Req.toFixed(2), 'ohm');
+// Req = 0.97 ohm
+let Itotal = DVtotal / Req; // A
+console.log('Itotal =', Itotal, 'A');
+// Itotal = 12.399999999999999 A
+console.log('Itotal =', Itotal.toPrecision(2), 'A');
+// Itotal = 12 A
+Itotal = Number(Itotal.toPrecision(2));
+let Ptotal = Itotal * DVtotal; // W
+console.log('Ptotal =', Ptotal, 'W');
+// Ptotal = 144 W
+let l1 = DVtotal / R1; // A
+console.log('l1 =', l1, 'A');
+// l1 = 6 A
+console.log('l1 =', l1.toFixed(1), 'A');
+// l1 = 6.0 A
+let l2 = DVtotal / R2; // A
+console.log('l2 =', l2, 'A');
+// l2 = 4 A
+console.log('l2 =', l2.toFixed(1), 'A');
+// l2 = 4.0 A
+let l3 = DVtotal / R3; // A
+console.log('l3 =', l3, 'A');
+// l3 = 2.4 A
+let ltotal = l1 + l2 + l3; // A
+console.log('ltotal =', ltotal, 'A');
+// ltotal = 12.4 A
+console.log('ltotal =', Number(ltotal.toPrecision(2)), 'A');
+// ltotal = 12 A
+```
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 74
@@ -4151,6 +4282,12 @@ console.log('DVtotal123 =', DVtotal123, 'V');
 ---
 
 ### 8.05: Combined Circuits
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 74
 
 ---
 
