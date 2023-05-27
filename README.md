@@ -4379,6 +4379,89 @@ console.log('DVtotal =', DVtotal.toPrecision(2), 'V');
 
 ---
 
+![image_1](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_1.png)
+
+![image_2](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_2.png)
+
+![image_3](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_3.png)
+
+![image_4](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_4.png)
+
+![image_5](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_5.png)
+
+![image_6](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_6.png)
+
+![image_7](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_7.png)
+
+![image_8](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_8.png)
+
+![image_9](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_9.png)
+
+![image_10](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_10.png)
+
+![image_11](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_11.png)
+
+![image_12](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_12.png)
+
+![image_13](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_13.png)
+
+![image_14](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_14.png)
+
+![image_15](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_15.png)
+
+![image_16](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_16.png)
+
+![image_17](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_17.png)
+
+![image_18](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_18.png)
+
+![image_19](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_19.png)
+
+![image_20](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_20.png)
+
+![image_21](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_21.png)
+
+![image_22](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_22.png)
+
+![image_23](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_23.png)
+
+![image_24](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_24.png)
+
+![image_25](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_25.png)
+
+![image_26](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_26.png)
+
+![image_27](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_27.png)
+
+![image_28](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_28.png)
+
+![image_29](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_29.png)
+
+![image_30](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_30.png)
+
+![image_31](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_31.png)
+
+---
+
+1. A magnetic field of magnitude B = 0.10 T is directed perpendicular to a circular loop of wire of radius 0.22 m. Find the magnetic flux through the wire.
+
+```js
+let r = 0.22; // m
+let B = 0.10; // T
+let A = Math.PI * Math.pow(r, 2); // m^2
+console.log('A =', A, 'm^2');
+// A = 0.152053084433746 m^2
+console.log('A =', A.toFixed(3), 'm^2');
+// A = 0.152 m^2
+let theta = B * A; // T * m^2
+console.log('theta =', theta, 'T * m^2');
+// theta = 0.0152053084433746 T * m^2
+console.log('theta =', theta.toFixed(3), 'T * m^2');
+// theta = 0.015 T * m^2
+```
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 76
@@ -4386,6 +4469,12 @@ console.log('DVtotal =', DVtotal.toPrecision(2), 'V');
 ---
 
 ### 9.02: Forces in Magnetic Fields
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 77
 
 ---
 
