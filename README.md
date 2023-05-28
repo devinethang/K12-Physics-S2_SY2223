@@ -4551,25 +4551,6 @@ console.log('FB =', FB.toPrecision(2), 'N');
 
 ---
 
-2. A 6.0 m section of wire carries a current of 4.0 A from north to south. It is in a uniform magnetic field of 0.30 T pointing upward. What is the magnitude and direction of the magnetic force on the wire?
-
-* You know the current I, the length L of the section of wire, and the magnetic field B, which enables you to calculate the magnitude of the magnetic force. You also know the direction of the current and the magnetic field and can use the right-hand rule to find the direction of the force.
-
-```js
-let I = 4.0; // A
-let L = 6.0; // m
-let B = 0.30; // T
-FB = I * L * B; // N
-console.log('FB =', FB, 'N');
-// FB = 7.199999999999999 N
-console.log('FB =', FB.toPrecision(2), 'N');
-// FB = 7.2 N
-```
-
-* Picture your right hand's fingers pointing in the direction of the magnetic field B upward and your thumb toward the current I to the south. The palm of your hand would then point west, so the force is toward the west.
-
----
-
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 77
