@@ -6,9 +6,491 @@ A collection of formulas for Physics calculations
 
 ## Chapters
 
-* [Chapters 1 - 5](Chapters_1_5.md)
+* [Chapters 1 - 4](Chapters_1_4.md)
 
-* [Chapters 6 - 10](Chapters_6_10.md)
+* [Chapters 5 - 8](Chapters_5_8.md)
+
+* [Chapters 9 - 10](Chapters_9_10.md)
+
+---
+
+## 5 - Waves
+
+---
+
+### 5.01: Characteristics of Waves 1
+
+---
+
+![image_1](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_1.jpg)
+
+![image_2](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_2.png)
+
+![image_3](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_3.png)
+
+![image_4](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_4.png)
+
+![image_5](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_5.png)
+
+![image_6](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_6.png)
+
+* In a longitudinal wave, particles move back and forth in a path that is parallel to the direction of the wave's motion.
+
+* In a transverse wave, particles move in a path that is perpendicular to the direction of the wave's motion.
+
+* In a surface wave, particles move in a circular path that is both parallel and perpendicular to the direction of the wave's motion.
+
+![image_7](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_7.png)
+
+![image_8](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_8.png)
+
+![image_9](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_9.png)
+
+![image_10](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_10.png)
+
+![image_11](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_11.png)
+
+![image_12](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_12.png)
+
+![image_13](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_13.png)
+
+![image_14](5%20-%20Waves/5-01%20-%20Characteristics%20of%20Waves%201/image_14.png)
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 57
+
+---
+
+### 5.02: Characteristics of Waves 2
+
+---
+
+![image_1](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_1.jpg)
+
+![image_2](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_2.png)
+
+![image_3](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_3.png)
+
+![image_4](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_4.png)
+
+![image_5](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_5.png)
+
+![image_6](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_6.png)
+
+![image_7](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_7.png)
+
+![image_8](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_8.png)
+
+![image_9](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_9.png)
+
+![image_10](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_10.png)
+
+![image_11](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_11.png)
+
+![image_12](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_12.png)
+
+![image_13](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_13.png)
+
+![image_14](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_14.png)
+
+![image_15](5%20-%20Waves/5-02%20-%20Characteristics%20of%20Waves%202/image_15.png)
+
+---
+
+1. A wave with a period of 0.5 s has a frequency of 2 Hz:
+
+```js
+let T = 0.5; // s
+let f = 1 / T; // Hz
+console.log('f =', f, 'Hz');
+// f = 2 Hz
+```
+
+---
+
+2. What is the frequency of a wave with a period of 0.1 s?
+
+```js
+let T = 0.1; // s
+let f = 1 / T; // Hz
+console.log('f =', f, 'Hz');
+// f = 10 Hz
+```
+
+---
+
+3. How fast does a wave with a λ = 3.0 m and a period of T = 0.3 s travel?
+
+```js
+let wavelength = 3.0; // m
+let T = 0.3; // s
+let v = wavelength / T; // m/s
+console.log('v =', v, 'm/s');
+// v = 10 m/s
+```
+
+---
+
+4. How fast does a wave with a λ = 3.0 m if the frequency is 3.33 Hz?
+
+```js
+let wavelength = 3.0; // m
+let f = 3.3; // Hz
+let v = wavelength * f; // m/s
+console.log('v =', v, 'm/s');
+// v = 9.899999999999999 m/s
+console.log('v =', v.toPrecision(2), 'm/s');
+// v = 9.9 m/s
+console.log('v =', Math.round(v), 'm/s');
+// v = 10 m/s
+```
+
+---
+
+5. Five waves pass a dock in 10.0 s. If the waves are traveling at 10.0 m/s, then what is their wavelength?
+
+```js
+let v = 10.0; // m/s
+let number_of_waves = 5;
+let T = 10.0; // s
+let f =  number_of_waves / T; // Hz
+console.log('f =', f, 'Hz');
+// f = 0.5 Hz
+let wavelength = v / f; // m
+console.log('wavelength =', wavelength, 'm');
+// wavelength = 20 m
+```
+
+---
+
+6. What is the wavelength of waves with a period of 0.5 s traveling at 20 m/s?
+
+```js
+let T = 0.5; // s
+let v = 20; // m/s
+let wavelength = v * T; // m
+console.log('wavelength =', wavelength, 'm');
+// wavelength = 10 m
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 58
+
+---
+
+### 5.03: Sound: Vibration and Waves
+
+---
+
+![image_1](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_1.png)
+
+![image_2](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_2.png)
+
+![image_3](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_3.png)
+
+![image_4](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_4.png)
+
+![image_5](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_5.png)
+
+![image_6](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_6.png)
+
+![image_7](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_7.png)
+
+* Sound and Sound Waves: Use the terms sound waves and sound with care. A sound wave is the way in which the energy of a mechanically vibrating object is transmitted through a medium. People talk of the "speed of sound" but what they mean is the "speed of a sound wave." Sound is what we hear. The ringing of a bell is a sound; the motion of the bell comes to our ears via a sound wave.
+
+![image_8](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_8.jpg)
+
+![image_9](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_9.png)
+
+![image_10](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_10.png)
+
+![image_11](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_11.png)
+
+![image_12](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_12.png)
+
+![image_13](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_13.png)
+
+![image_14](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_14.png)
+
+![image_15](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_15.png)
+
+![image_16](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_16.png)
+
+![image_17](5%20-%20Waves/5-03%20-%20Sound%20Vibration%20and%20Waves/image_17.png)
+
+---
+
+1. How fast is the speed of sound waves in air at 15°C?
+
+```js
+let medium_air_0C = 331; // m/s
+let T = 15; // °C
+let v = (medium_air_0C + 0.60 * T); // m/s
+console.log('v =', v, 'm/s');
+// v = 340 m/s
+```
+
+---
+
+2. How far does a sound wave travel through air at 20°C in 5.00 s?
+
+```js
+let medium_air_20C = 343; // m/s
+let v = medium_air_20C; // m/s
+let t = 5.00; // s
+let d = v * t; // m
+console.log('d =', d, 'm');
+// d = 1715 m
+console.log('d =', d / 1000, 'km');
+// d = 1.715 km
+console.log('d =', (d / 1000).toPrecision(3), 'km');
+// d = 1.72 km
+```
+
+---
+
+3. You shout across a canyon through air at 20°C and hear an echo 5.00 s later. How wide is the canyon?
+
+```js
+let t = 2.50; // s
+let T = 20; // °C
+let medium_air_20C = 343; // m/s
+let v = medium_air_20C; // m/s
+let d = v * t; // m
+console.log('d =', d, 'm');
+// d = 857.5 m
+console.log('d =', d / 1000, 'km');
+// d = 0.8575 km
+console.log('d =', (d / 1000).toPrecision(3), 'km');
+// d = 0.858 km
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 59
+
+---
+
+### 5.04: Qualities of Sound
+
+---
+
+![image_1](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_1.png)
+
+![image_2](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_2.jpg)
+
+![image_3](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_3.png)
+
+![image_4](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_4.png)
+
+![image_5](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_5.png)
+
+![image_6](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_6.jpg)
+
+![image_7](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_7.jpg)
+
+![image_8](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_8.png)
+
+![image_9](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_9.png)
+
+![image_10](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_10.png)
+
+![image_11](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_11.jpg)
+
+![image_12](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_12.png)
+
+![image_13](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_13.jpg)
+
+![image_14](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_14.png)
+
+![image_15](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_15.png)
+
+![image_16](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_16.png)
+
+![image_17](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_17.png)
+
+![image_18](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_18.png)
+
+![image_19](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_19.png)
+
+![image_20](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_20.png)
+
+![image_21](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_21.png)
+
+![image_22](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_22.png)
+
+![image_23](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_23.png)
+
+![image_24](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_24.png)
+
+* Doppler effect - the change in the observed frequency of a wave because of the motion of the source or the observer toward or away from the other; the frequency increases when the source and observer approach each other and decreases when they move apart
+
+![image_25](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_25.png)
+
+![image_26](5%20-%20Waves/5-04%20-%20Qualities%20of%20Sound/image_26.png)
+
+---
+
+1. What is the dB loudness for a pressure of 2 × 10^-5 N/m^2?
+
+```js
+function calculateDb(pressure) {
+  // Reference pressure for dB calculation (20 micropascals)
+  let referencePressure = 2 * Math.pow(10, -5); // dB
+
+  // Calculate the ratio of the two pressures
+  let pressureRatio = pressure / referencePressure;
+
+  // Calculate the decibel value using the logarithmic formula
+  let loudness = 20 * Math.log10(pressureRatio);
+
+  return loudness;
+}
+let pressure = 2 * Math.pow(10, -5); // N/m^2
+let loudness = calculateDb(pressure); // dB
+console.log('loudness =', loudness, 'dB');
+// loudness = 0 dB
+```
+
+---
+
+2. What is the dB loudness for a pressure of 2 × 10^-4 N/m^2?
+
+```js
+function calculateDb(pressure) {
+  // Reference pressure for dB calculation (20 micropascals)
+  let referencePressure = 2 * Math.pow(10, -5); // dB
+
+  // Calculate the ratio of the two pressures
+  let pressureRatio = pressure / referencePressure;
+
+  // Calculate the decibel value using the logarithmic formula
+  let loudness = 20 * Math.log10(pressureRatio);
+
+  return loudness;
+}
+let pressure = 2 * Math.pow(10, -4); // N/m^2
+let loudness = calculateDb(pressure); // dB
+console.log('loudness =', loudness, 'dB');
+// loudness = 20 dB
+```
+
+---
+
+3. What is the dB loudness for a pressure of 2 × 10^-3 N/m^2?
+
+```js
+function calculateDb(pressure) {
+  // Reference pressure for dB calculation (20 micropascals)
+  let referencePressure = 2 * Math.pow(10, -5); // dB
+
+  // Calculate the ratio of the two pressures
+  let pressureRatio = pressure / referencePressure;
+
+  // Calculate the decibel value using the logarithmic formula
+  let loudness = 20 * Math.log10(pressureRatio);
+
+  return loudness;
+}
+let pressure = 2 * Math.pow(10, -3); // N/m^2
+let loudness = calculateDb(pressure); // dB
+console.log('loudness =', loudness, 'dB');
+// loudness = 40 dB
+```
+
+---
+
+4. What is the pressure (N/m^2) for a loudness of 120 dB loudness?
+
+```js
+function calculatePressure(loudness) {
+  // Reference pressure for dB calculation (20 micropascals)
+  let referencePressure = 2 * Math.pow(10, -5);
+
+  // Calculate the pressure ratio using the decibel value
+  let pressureRatio = Math.pow(10, loudness / 20);
+
+  // Calculate the pressure by multiplying with the reference pressure
+  let pressure = pressureRatio * referencePressure;
+
+  return pressure;
+}
+
+let loudness = 120; // dB
+let pressure = calculatePressure(loudness);
+console.log('pressure =', pressure, 'N/m^2');
+// pressure = 20 N/m^2
+```
+
+---
+
+5. What is the intensity of the sound at 1.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?
+
+```js
+let P = 2.0 * Math.pow(10, -5); // W
+let r = 1.0; // m
+let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
+console.log('I =', I.toExponential(), 'W / m^2');
+// I = 1.5915494309189533e-6 W / m^2
+console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
+// I = 1.6e-6 W / m^2
+```
+
+---
+
+6. What is the intensity of the sound at 2.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?
+
+```js
+let P = 2.0 * Math.pow(10, -5); // W
+let r = 2.0; // m
+let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
+console.log('I =', I.toExponential(), 'W / m^2');
+// I = 3.9788735772973833e-7 W / m^2
+console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
+// I = 4e-7 W / m^2
+```
+
+---
+
+7. What is the intensity of the sound at 3.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?
+
+```js
+let P = 2.0 * Math.pow(10, -5); // W
+let r = 3.0; // m
+let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
+console.log('I =', I.toExponential(), 'W / m^2');
+// I = 1.768388256576615e-7 W / m^2
+console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
+// I = 1.8e-7 W / m^2
+```
+
+---
+
+8. What is the intensity of the sound at 4.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?
+
+```js
+let P = 2.0 * Math.pow(10, -5); // W
+let r = 4.0; // m
+let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
+console.log('I =', I.toExponential(), 'W / m^2');
+// I = 9.947183943243458e-8 W / m^2
+console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
+// I = 9.9e-8 W / m^2
+```
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 60
 
 ---
 
@@ -1636,704 +2118,5 @@ console.log('DVtotal =', DVtotal.toPrecision(2), 'V');
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 75
-
----
-
-## 9: Magnetism
-
----
-
-### 9.01: Magnets and Magnetic Fields
-
----
-
-![image_1](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_1.png)
-
-![image_2](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_2.png)
-
-![image_3](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_3.png)
-
-![image_4](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_4.png)
-
-![image_5](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_5.png)
-
-![image_6](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_6.png)
-
-![image_7](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_7.png)
-
-![image_8](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_8.png)
-
-![image_9](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_9.png)
-
-![image_10](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_10.png)
-
-![image_11](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_11.png)
-
-![image_12](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_12.png)
-
-![image_13](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_13.png)
-
-![image_14](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_14.png)
-
-![image_15](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_15.png)
-
-![image_16](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_16.png)
-
-![image_17](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_17.png)
-
-![image_18](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_18.png)
-
-![image_19](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_19.png)
-
-![image_20](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_20.png)
-
-![image_21](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_21.png)
-
-![image_22](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_22.png)
-
-![image_23](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_23.png)
-
-![image_24](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_24.png)
-
-![image_25](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_25.png)
-
-![image_26](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_26.png)
-
-![image_27](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_27.png)
-
-![image_28](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_28.png)
-
-![image_29](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_29.png)
-
-![image_30](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_30.png)
-
-![image_31](9%20-%20Magnetism/9-01%20-%20Magnets%20and%20Magnetic%20Fields/image_31.png)
-
----
-
-1. A magnetic field of magnitude B = 0.10 T is directed perpendicular to a circular loop of wire of radius 0.22 m. Find the magnetic flux through the wire.
-
-```js
-let r = 0.22; // m
-let B = 0.10; // T
-let A = Math.PI * Math.pow(r, 2); // m^2
-console.log('A =', A, 'm^2');
-// A = 0.152053084433746 m^2
-console.log('A =', A.toFixed(3), 'm^2');
-// A = 0.152 m^2
-let phi = B * A; // T * m^2
-console.log('phi =', phi, 'T * m^2');
-// phi = 0.0152053084433746 T * m^2
-console.log('phi =', phi.toFixed(3), 'T * m^2');
-// phi = 0.015 T * m^2
-```
-
----
-
-#### Problem Set
-
-* "Physics: Problems and Solutions" - Problem Set 76
-
----
-
-### 9.02: Forces in Magnetic Fields
-
----
-
-![image_1](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_1.png)
-
-![image_2](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_2.png)
-
-![image_3](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_3.png)
-
-![image_4](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_4.png)
-
-![image_5](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_5.png)
-
-![image_6](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_6.png)
-
-![image_7](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_7.png)
-
-![image_8](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_8.png)
-
-![image_9](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_9.png)
-
-![image_10](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_10.png)
-
-![image_11](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_11.png)
-
-![image_12](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_12.png)
-
-![image_13](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_13.png)
-
-![image_14](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_14.png)
-
-![image_15](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_15.png)
-
-![image_16](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_16.png)
-
-![image_17](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_17.png)
-
-![image_18](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_18.png)
-
-![image_19](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_19.png)
-
-![image_20](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_20.png)
-
-![image_21](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_21.png)
-
-![image_22](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_22.png)
-
-![image_23](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_23.png)
-
-![image_24](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_24.png)
-
-![image_25](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_25.png)
-
-![image_26](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_26.png)
-
-![image_27](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_27.png)
-
-![image_28](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_28.png)
-
-![image_29](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_29.png)
-
----
-
-1. A 6.0 m section of wire carries a current of 4.0 A from north to south. It is in a uniform magnetic field of 0.30 T pointing upward. What is the magnitude and direction of the magnetic force on the wire?
-
-* You know the current I, the length L of the section of wire, and the magnetic field B, which enables you to calculate the magnitude of the magnetic force. You also know the direction of the current and the magnetic field and can use the right-hand rule to find the direction of the force.
-
-```js
-let I = 4.0; // A
-let L = 6.0; // m
-let B = 0.30; // T
-FB = I * L * B; // N
-console.log('FB =', FB, 'N');
-// FB = 7.199999999999999 N
-console.log('FB =', FB.toPrecision(2), 'N');
-// FB = 7.2 N
-```
-
-* Find the direction of the force. Picture your right hand's fingers pointing in the direction of the magnetic field B upward and your thumb toward the current I to the south. The palm of your hand would then point west, so the force is toward the west.
-
----
-
-#### Problem Set
-
-* "Physics: Problems and Solutions" - Problem Set 77
-
----
-
-### 9.03: Electromagnetic Induction
-
----
-
-![image_1](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_1.png)
-
-![image_2](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_2.png)
-
-![image_3](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_3.png)
-
-![image_4](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_4.png)
-
-![image_5](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_5.png)
-
-![image_6](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_6.png)
-
-![image_7](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_7.png)
-
-![image_8](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_8.png)
-
-![image_9](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_9.png)
-
-![image_10](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_10.png)
-
-![image_11](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_11.png)
-
-![image_12](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_12.png)
-
-![image_13](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_13.png)
-
-![image_14](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_14.png)
-
-![image_15](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_15.png)
-
-![image_19](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_19.png)
-
-![image_20](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_20.png)
-
-![image_23](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_23.png)
-
-![image_24](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_24.png)
-
-![image_25](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_25.png)
-
-![image_26](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_26.png)
-
-![image_27](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_27.png)
-
-![image_28](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_28.png)
-
-![image_29](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_29.png)
-
-![image_30](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_30.png)
-
----
-
-1. A circular loop of wire is cut at one point to connect it to the leads of a galvanometer. The loop has a radius of 1.2 cm. If a magnetic field perpendicular to the area of the coil changes from 0.50 T to 0.10 T in 0.10 s, what is the emf across the galvanometer during that time?
-
-* You know the area of the loop perpendicular to the field, the initial and final magnetic field B, and the time of the change. Therefore you can find the change in flux divided by the time of the change.
-
-```js
-let theta = 0; // radians
-let cosTheta = Math.cos(theta); // 1
-let r = 0.012; // m
-let A = Math.PI * Math.pow(r, 2); // m^2
-let B1 = 0.50; // T
-let B2 = 0.10; // T
-let DB = B1 - B2; // T
-let DphiB = A * cosTheta * DB; // T * m^2
-console.log('DphiB =', DphiB.toExponential(), 'T*m^2');
-// DphiB = 1.8095573684677208e-4 T*m^2
-console.log('DphiB =', Number(DphiB.toPrecision(3)).toExponential(), 'T*m^2');
-// DphiB = 1.81e-4 T*m^2
-let DT = 0.10; // s
-let e = -DphiB / DT; // V
-console.log('e =', e.toExponential(), 'V');
-// e = -1.8095573684677208e-3 V
-console.log('e =', Number(e.toPrecision(2)).toExponential(), 'V');
-// e = -1.8e-3 V
-```
-
-* The induced emf would have been much larger with more turns of wire.
-
----
-
-2. A circular loop of wire is connected to the leads of a galvanometer. The loop has a radius of 1.2 cm. The uniform magnetic field is perpendicular to the area of the coil, and it changes from 0.50 T to 0.10 T in 0.10 s. The emf across the galvanometer during that time is ε = 1.8 × 10^-3 V. Find the direction of the induced emf, where the magnetic field B is downward and decreasing.
-
-* The magnetic field points downward. The field is decreasing to produce a decreasing flux. According to Lenz's law, the current from the emf produced by this change must oppose the decrease in flux.
-
-![image_16](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_16.jpg)
-
-* To oppose the decrease in flux inducing the emf, the emf must be in a direction to produce an upward magnetic field. Apply the right-hand rule to find which current direction has this effect.
-
-![image_17](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_17.jpg)
-
-* The direction of the induced current and induced emf must be as shown.
-
----
-
-3. A magnet is moved into a coil connected to a galvanometer as shown. Find the direction of the induced emf in the coil.
-
-![image_18](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_18.jpg)
-
-* You know that the magnetic field points from the north pole of the magnet so that the magnetic flux through the coil, as drawn, is increasing. You know Lenz’s law, that the emf which results is in the direction that would induce a current to oppose the original change in flux.
-
-* Since the magnetic flux is increasing and moving downward, the emf that would oppose the change in magnetic flux would create an upward magnetic field.
-
-* Use the right-hand rule to see that a current in the direction marked on the diagram would cause an upward magnetic field.
-
----
-
-4. A straight wire of length 1.2 m moves through a magnetic field at velocity v = 1.0 m/s, cutting directly across magnetic field lines. Find the emf that results.
-
-![image_21](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_21.jpg)
-
-* What is known?
-
-![image_22](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_22.png)
-
-* Calculate the emf.
-
-```js
-let B = 0.10; // T
-let L = 1.2; // m
-let v = 1.0; // m/s
-let e = B * L * v; // V
-console.log('e =', e, 'V');
-// e = 0.12 V
-```
-
----
-
-5. A transformer has 2,000 windings in its primary coil and uses 120 V AC input. How many windings should it have in its secondary coil to produce an output voltage of 1.5 V?
-
-* The number of turns of wire in the primary coil and the input and output voltages are known. The ratio of the primary and secondary turns of wire is equal to the ratio of the primary and secondary voltages.
-
-```js
-let Vs = 1.5; // V
-let Np = 2000; // windings
-let Vp = 110; // V
-let Ns = Vs * Np / Vp; // turns
-console.log('Ns =', Ns, 'turns');
-// Ns = 27.272727272727273 turns
-console.log('Ns =', Math.round(Ns), 'turns');
-// Ns = 27 turns
-```
-
-* The number of secondary windings needed is much smaller than the number of primary windings, as expected.
-
----
-
-#### Problem Set
-
-* "Physics: Problems and Solutions" - Problem Set 78
-
----
-
-## 10: Modern Physics
-
----
-
-### 10.01: Atomic Spectra and Quantum Theory
-
----
-
-![image_1](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_1.png)
-
-![image_2](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_2.png)
-
-![image_3](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_3.png)
-
-![image_4](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_4.png)
-
-![image_5](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_5.png)
-
-![image_6](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_6.png)
-
-![image_7](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_7.png)
-
-![image_8](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_8.png)
-
-![image_9](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_9.png)
-
-![image_10](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_10.png)
-
-![image_11](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_11.png)
-
-![image_12](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_12.png)
-
-![image_13](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_13.png)
-
-![image_14](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_14.png)
-
-![image_15](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_15.png)
-
-![image_16](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_16.png)
-
-![image_17](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_17.png)
-
-![image_18](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_18.png)
-
-![image_19](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_19.png)
-
-![image_20](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_20.png)
-
-![image_21](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_21.png)
-
-![image_22](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_22.png)
-
-![image_23](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_23.png)
-
-![image_24](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_24.png)
-
-![image_25](10%20-%20Modern%20Physics/10-01%20-%20Atomic%20Spectra%20and%20Quantum%20Theory/image_25.png)
-
----
-
-#### Problem Set
-
-* "Physics: Problems and Solutions" - Problem Set 79
-
----
-
-### 10.02: The Nature of Light and the Photoelectric Effect
-
----
-
-![image_1](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_1.png)
-
-
-![image_2](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_2.png)
-
-
-![image_3](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_3.png)
-
-
-![image_4](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_4.png)
-
-
-![image_5](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_5.png)
-
-
-![image_6](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_6.png)
-
-
-![image_7](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_7.png)
-
-
-![image_8](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_8.png)
-
-
-![image_9](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_9.png)
-
-
-![image_10](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_10.png)
-
-
-![image_11](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_11.png)
-
-
-![image_12](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_12.png)
-
-
-![image_13](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_13.png)
-
-
-![image_14](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_14.png)
-
-
-![image_15](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_15.png)
-
-
-![image_16](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_16.png)
-
-
-![image_17](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_17.png)
-
-
-![image_18](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_18.png)
-
----
-
-1. What is the energy of a photon of green light (λ=532 nm) in joules? Remember, Planck's constant h = 6.63 × 10^-34 J * s.
-
-```js
-const h = 6.63 * Math.pow(10, -34); // J * s
-const c = 3.00 * Math.pow(10, 8); // m/s
-let wavelength = 5.32 * Math.pow(10, -7); // m
-let f = c / wavelength; // Hz
-console.log('f =', f.toExponential(), 'Hz');
-// f = 5.639097744360901e+14 Hz
-console.log('f =', Number(f.toPrecision(3)).toExponential(), 'Hz');
-// f = 5.64e+14 Hz
-let E = h * f; // J
-console.log('E =', E.toExponential(), 'J');
-// E = 3.738721804511277e-19 J
-console.log('E =', Number(E.toPrecision(3)).toExponential(), 'J');
-// E = 3.74e-19 J
-```
-
----
-
-#### Problem Set
-
-* "Physics: Problems and Solutions" - Problem Set 80
-
----
-
-### 10.03: Relativity
-
----
-
-![image_1](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_1.png)
-
-![image_2](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_2.png)
-
-![image_3](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_3.png)
-
-![image_4](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_4.png)
-
-![image_5](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_5.png)
-
-![image_6](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_6.png)
-
-![image_7](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_7.png)
-
-![image_8](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_8.png)
-
-![image_9](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_9.png)
-
-![image_10](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_10.png)
-
-![image_11](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_11.png)
-
-![image_12](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_12.png)
-
-![image_13](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_13.png)
-
-![image_14](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_14.png)
-
-![image_15](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_15.png)
-
-![image_16](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_16.png)
-
-![image_17](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_17.png)
-
-![image_18](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_18.png)
-
-![image_19](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_19.png)
-
-![image_20](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_20.png)
-
-![image_21](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_21.png)
-
-![image_22](10%20-%20Modern%20Physics/10-03%20-%20Relativity/image_22.png)
-
----
-
-#### Problem Set
-
-* "Physics: Problems and Solutions" - Problem Set 81
-
----
-
-### 10.04: Structure of the Nucleus
-
----
-
-![image_1](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_1.png)
-
-![image_2](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_2.png)
-
-![image_3](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_3.png)
-
-![image_4](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_4.png)
-
-![image_5](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_5.png)
-
-![image_6](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_6.png)
-
-![image_7](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_7.png)
-
-![image_8](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_8.png)
-
-![image_9](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_9.png)
-
-![image_10](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_10.png)
-
-![image_11](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_11.png)
-
-![image_12](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_12.png)
-
-![image_13](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_13.png)
-
-![image_14](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_14.png)
-
-![image_15](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_15.png)
-
-![image_16](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_16.png)
-
-![image_17](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_17.png)
-
-![image_18](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_18.png)
-
-![image_19](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_19.png)
-
-![image_20](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_20.png)
-
-![image_21](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_21.png)
-
-![image_22](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_22.png)
-
-![image_23](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_23.png)
-
-![image_24](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_24.png)
-
----
-
-#### Problem Set
-
-* "Physics: Problems and Solutions" - Problem Set 82
-
----
-
-### 10.05: Radioactivity
-
----
-
-![image_1](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_1.png)
-
-![image_2](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_2.png)
-
-![image_3](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_3.png)
-
-![image_4](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_4.png)
-
-![image_5](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_5.png)
-
-![image_6](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_6.png)
-
-![image_7](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_7.png)
-
-![image_8](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_8.png)
-
-![image_9](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_9.png)
-
-![image_10](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_10.png)
-
-![image_11](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_11.png)
-
-![image_12](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_12.png)
-
-![image_13](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_13.png)
-
-![image_14](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_14.png)
-
-![image_15](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_15.png)
-
-![image_16](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_16.png)
-
-![image_17](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_17.png)
-
-![image_18](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_18.png)
-
-![image_19](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_19.png)
-
-![image_20](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_20.png)
-
-![image_21](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_21.png)
-
-![image_22](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_22.png)
-
-![image_23](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_23.png)
-
-![image_24](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_24.png)
-
-![image_25](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_25.png)
-
-![image_26](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_26.png)
-
-![image_27](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_27.png)
-
-![image_28](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_28.png)
-
----
-
-1. Carbon-14 or C14 has a half life 5,730 years. If you start with 8.00 × 10^-6 g of C14, how much will you have after 17,190 years?
-
-```js
-let iT = 5730; // years
-let fT = 17190; // years
-let iM = 8.00 * Math.pow(10, -6); // g
-let number_of_halflives = fT / iT;
-console.log('number_of_halflives =', number_of_halflives);
-// number_of_halflives = 3
-let fraction_remaining = Math.pow(0.5, number_of_halflives);
-console.log('fraction_remaining =', fraction_remaining);
-// fraction_remaining = 0.125
-let fM = fraction_remaining * iM; // g
-console.log('fM =', fM.toExponential(), 'g');
-// fM = 1e-6 g
-console.log('fM =', fM.toExponential(2), 'g');
-// fM = 1.00e-6 g
-```
-
----
-
-#### Problem Set
-
-* "Physics: Problems and Solutions" - Problem Set 83
 
 ---

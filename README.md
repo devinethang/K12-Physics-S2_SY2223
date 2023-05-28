@@ -10,6 +10,8 @@ A collection of formulas for Physics calculations
 
 ## Chapters
 
-* [Chapters 1 - 5](Chapters_1_5.md)
+* [Chapters 1 - 4](Chapters_1_4.md)
 
-* [Chapters 6 - 10](Chapters_6_10.md)
+* [Chapters 5 - 8](Chapters_5_8.md)
+
+* [Chapters 9 - 10](Chapters_9_10.md)
