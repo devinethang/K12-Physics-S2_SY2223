@@ -4925,6 +4925,56 @@ console.log('E =', Number(E.toPrecision(3)).toExponential(), 'J');
 
 ---
 
+![image_1](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_1.png)
+
+![image_2](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_2.png)
+
+![image_3](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_3.png)
+
+![image_4](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_4.png)
+
+![image_5](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_5.png)
+
+![image_6](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_6.png)
+
+![image_7](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_7.png)
+
+![image_8](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_8.png)
+
+![image_9](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_9.png)
+
+![image_10](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_10.png)
+
+![image_11](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_11.png)
+
+![image_12](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_12.png)
+
+![image_13](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_13.png)
+
+![image_14](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_14.png)
+
+![image_15](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_15.png)
+
+![image_16](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_16.png)
+
+![image_17](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_17.png)
+
+![image_18](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_18.png)
+
+![image_19](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_19.png)
+
+![image_20](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_20.png)
+
+![image_21](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_21.png)
+
+![image_22](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_22.png)
+
+![image_23](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_23.png)
+
+![image_24](10%20-%20Modern%20Physics/10-04%20-%20Structure%20of%20the%20Nucleus/image_24.png)
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 82
@@ -4932,5 +4982,11 @@ console.log('E =', Number(E.toPrecision(3)).toExponential(), 'J');
 ---
 
 ### 10.05: Radioactivity
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 83
 
 ---
