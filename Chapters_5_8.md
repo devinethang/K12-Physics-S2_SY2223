@@ -14,7 +14,7 @@ A collection of formulas for Physics calculations
 
 ---
 
-## 5 - Waves
+## 5: Waves
 
 ---
 
