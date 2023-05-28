@@ -1158,6 +1158,8 @@ console.log('radius', radius, 'm');
 
 ![image_13](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_13.png)
 
+![image_37](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_37.png)
+
 ![image_14](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_14.png)
 
 ![image_15](7%20-%20Electric%20Forces/7-01%20-%20Static%20Electricity/image_15.png)
