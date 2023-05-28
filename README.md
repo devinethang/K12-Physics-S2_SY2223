@@ -4784,6 +4784,81 @@ console.log('Ns =', Math.round(Ns), 'turns');
 
 ---
 
+![image_1](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_1.png)
+
+
+![image_2](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_2.png)
+
+
+![image_3](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_3.png)
+
+
+![image_4](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_4.png)
+
+
+![image_5](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_5.png)
+
+
+![image_6](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_6.png)
+
+
+![image_7](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_7.png)
+
+
+![image_8](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_8.png)
+
+
+![image_9](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_9.png)
+
+
+![image_10](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_10.png)
+
+
+![image_11](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_11.png)
+
+
+![image_12](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_12.png)
+
+
+![image_13](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_13.png)
+
+
+![image_14](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_14.png)
+
+
+![image_15](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_15.png)
+
+
+![image_16](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_16.png)
+
+
+![image_17](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_17.png)
+
+
+![image_18](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_18.png)
+
+---
+
+1. What is the energy of a photon of green light (λ=532 nm) in joules? Remember, Planck's constant h = 6.63 × 10^-34 J * s.
+
+```js
+const h = 6.63 * Math.pow(10, -34); // J * s
+const c = 3.00 * Math.pow(10, 8); // m/s
+let wavelength = 5.32 * Math.pow(10, -7); // m
+let f = c / wavelength; // Hz
+console.log('f =', f.toExponential(), 'Hz');
+// f = 5.639097744360901e+14 Hz
+console.log('f =', Number(f.toPrecision(3)).toExponential(), 'Hz');
+// f = 5.64e+14 Hz
+let E = h * f; // J
+console.log('E =', E.toExponential(), 'J');
+// E = 3.738721804511277e-19 J
+console.log('E =', Number(E.toPrecision(3)).toExponential(), 'J');
+// E = 3.74e-19 J
+```
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 80
@@ -4791,6 +4866,12 @@ console.log('Ns =', Math.round(Ns), 'turns');
 ---
 
 ### 10.03: Relativity
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 81
 
 ---
 
