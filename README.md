@@ -4472,6 +4472,104 @@ console.log('phi =', phi.toFixed(3), 'T * m^2');
 
 ---
 
+![image_1](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_1.png)
+
+![image_2](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_2.png)
+
+![image_3](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_3.png)
+
+![image_4](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_4.png)
+
+![image_5](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_5.png)
+
+![image_6](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_6.png)
+
+![image_7](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_7.png)
+
+![image_8](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_8.png)
+
+![image_9](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_9.png)
+
+![image_10](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_10.png)
+
+![image_11](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_11.png)
+
+![image_12](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_12.png)
+
+![image_13](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_13.png)
+
+![image_14](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_14.png)
+
+![image_15](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_15.png)
+
+![image_16](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_16.png)
+
+![image_17](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_17.png)
+
+![image_18](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_18.png)
+
+![image_19](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_19.png)
+
+![image_20](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_20.png)
+
+![image_21](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_21.png)
+
+![image_22](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_22.png)
+
+![image_23](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_23.png)
+
+![image_24](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_24.png)
+
+![image_25](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_25.png)
+
+![image_26](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_26.png)
+
+![image_27](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_27.png)
+
+![image_28](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_28.png)
+
+![image_29](9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_29.png)
+
+---
+
+1. A 6.0 m section of wire carries a current of 4.0 A from north to south. It is in a uniform magnetic field of 0.30 T pointing upward. What is the magnitude and direction of the magnetic force on the wire?
+
+* You know the current I, the length L of the section of wire, and the magnetic field B, which enables you to calculate the magnitude of the magnetic force. You also know the direction of the current and the magnetic field and can use the right-hand rule to find the direction of the force.
+
+```js
+let I = 4.0; // A
+let L = 6.0; // m
+let B = 0.30; // T
+FB = I * L * B; // N
+console.log('FB =', FB, 'N');
+// FB = 7.199999999999999 N
+console.log('FB =', FB.toPrecision(2), 'N');
+// FB = 7.2 N
+```
+
+* Find the direction of the force. Picture your right hand's fingers pointing in the direction of the magnetic field B upward and your thumb toward the current I to the south. The palm of your hand would then point west, so the force is toward the west.
+
+---
+
+2. A 6.0 m section of wire carries a current of 4.0 A from north to south. It is in a uniform magnetic field of 0.30 T pointing upward. What is the magnitude and direction of the magnetic force on the wire?
+
+* You know the current I, the length L of the section of wire, and the magnetic field B, which enables you to calculate the magnitude of the magnetic force. You also know the direction of the current and the magnetic field and can use the right-hand rule to find the direction of the force.
+
+```js
+let I = 4.0; // A
+let L = 6.0; // m
+let B = 0.30; // T
+FB = I * L * B; // N
+console.log('FB =', FB, 'N');
+// FB = 7.199999999999999 N
+console.log('FB =', FB.toPrecision(2), 'N');
+// FB = 7.2 N
+```
+
+* Picture your right hand's fingers pointing in the direction of the magnetic field B upward and your thumb toward the current I to the south. The palm of your hand would then point west, so the force is toward the west.
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 77
@@ -4479,6 +4577,12 @@ console.log('phi =', phi.toFixed(3), 'T * m^2');
 ---
 
 ### 9.03: Electromagnetic Induction
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 78
 
 ---
 
