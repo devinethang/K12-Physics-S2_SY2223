@@ -4561,6 +4561,153 @@ console.log('FB =', FB.toPrecision(2), 'N');
 
 ---
 
+![image_1](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_1.png)
+
+![image_2](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_2.png)
+
+![image_3](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_3.png)
+
+![image_4](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_4.png)
+
+![image_5](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_5.png)
+
+![image_6](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_6.png)
+
+![image_7](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_7.png)
+
+![image_8](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_8.png)
+
+![image_9](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_9.png)
+
+![image_10](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_10.png)
+
+![image_11](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_11.png)
+
+![image_12](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_12.png)
+
+![image_13](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_13.png)
+
+![image_14](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_14.png)
+
+![image_15](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_15.png)
+
+![image_19](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_19.png)
+
+![image_20](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_20.png)
+
+![image_23](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_23.png)
+
+![image_24](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_24.png)
+
+![image_25](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_25.png)
+
+![image_26](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_26.png)
+
+![image_27](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_27.png)
+
+![image_28](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_28.png)
+
+![image_29](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_29.png)
+
+![image_30](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_30.png)
+
+---
+
+1. A circular loop of wire is cut at one point to connect it to the leads of a galvanometer. The loop has a radius of 1.2 cm. If a magnetic field perpendicular to the area of the coil changes from 0.50 T to 0.10 T in 0.10 s, what is the emf across the galvanometer during that time?
+
+* You know the area of the loop perpendicular to the field, the initial and final magnetic field B, and the time of the change. Therefore you can find the change in flux divided by the time of the change.
+
+```js
+let theta = 0; // radians
+let cosTheta = Math.cos(theta); // 1
+let r = 0.012; // m
+let A = Math.PI * Math.pow(r, 2); // m^2
+let B1 = 0.50; // T
+let B2 = 0.10; // T
+let DB = B1 - B2; // T
+let DphiB = A * cosTheta * DB; // T * m^2
+console.log('DphiB =', DphiB.toExponential(), 'T*m^2');
+// DphiB = 1.8095573684677208e-4 T*m^2
+console.log('DphiB =', Number(DphiB.toPrecision(3)).toExponential(), 'T*m^2');
+// DphiB = 1.81e-4 T*m^2
+let DT = 0.10; // s
+let e = -DphiB / DT; // V
+console.log('e =', e.toExponential(), 'V');
+// e = -1.8095573684677208e-3 V
+console.log('e =', Number(e.toPrecision(2)).toExponential(), 'V');
+// e = -1.8e-3 V
+```
+
+* The induced emf would have been much larger with more turns of wire.
+
+---
+
+2. A circular loop of wire is connected to the leads of a galvanometer. The loop has a radius of 1.2 cm. The uniform magnetic field is perpendicular to the area of the coil, and it changes from 0.50 T to 0.10 T in 0.10 s. The emf across the galvanometer during that time is ε = 1.8 × 10^-3 V. Find the direction of the induced emf, where the magnetic field B is downward and decreasing.
+
+* The magnetic field points downward. The field is decreasing to produce a decreasing flux. According to Lenz's law, the current from the emf produced by this change must oppose the decrease in flux.
+
+![image_16](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_16.jpg)
+
+* To oppose the decrease in flux inducing the emf, the emf must be in a direction to produce an upward magnetic field. Apply the right-hand rule to find which current direction has this effect.
+
+![image_17](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_17.jpg)
+
+* The direction of the induced current and induced emf must be as shown.
+
+---
+
+3. A magnet is moved into a coil connected to a galvanometer as shown. Find the direction of the induced emf in the coil.
+
+![image_18](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_18.jpg)
+
+* You know that the magnetic field points from the north pole of the magnet so that the magnetic flux through the coil, as drawn, is increasing. You know Lenz’s law, that the emf which results is in the direction that would induce a current to oppose the original change in flux.
+
+* Since the magnetic flux is increasing and moving downward, the emf that would oppose the change in magnetic flux would create an upward magnetic field.
+
+* Use the right-hand rule to see that a current in the direction marked on the diagram would cause an upward magnetic field.
+
+---
+
+4. A straight wire of length 1.2 m moves through a magnetic field at velocity v = 1.0 m/s, cutting directly across magnetic field lines. Find the emf that results.
+
+![image_21](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_21.jpg)
+
+* What is known?
+
+![image_22](9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_22.png)
+
+* Calculate the emf.
+
+```js
+let B = 0.10; // T
+let L = 1.2; // m
+let v = 1.0; // m/s
+let e = B * L * v; // V
+console.log('e =', e, 'V');
+// e = 0.12 V
+```
+
+---
+
+5. A transformer has 2,000 windings in its primary coil and uses 120 V AC input. How many windings should it have in its secondary coil to produce an output voltage of 1.5 V?
+
+* The number of turns of wire in the primary coil and the input and output voltages are known. The ratio of the primary and secondary turns of wire is equal to the ratio of the primary and secondary voltages.
+
+```js
+let Vs = 1.5; // V
+let Np = 2000; // windings
+let Vp = 110; // V
+let Ns = Vs * Np / Vp; // turns
+console.log('Ns =', Ns, 'turns');
+// Ns = 27.272727272727273 turns
+console.log('Ns =', Math.round(Ns), 'turns');
+// Ns = 27 turns
+```
+
+* The number of secondary windings needed is much smaller than the number of primary windings, as expected.
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 78
@@ -4572,6 +4719,12 @@ console.log('FB =', FB.toPrecision(2), 'N');
 ---
 
 ### 10.01: Atomic Spectra and Quantum Theory
+
+---
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 79
 
 ---
 
