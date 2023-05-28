@@ -4985,6 +4985,85 @@ console.log('E =', Number(E.toPrecision(3)).toExponential(), 'J');
 
 ---
 
+![image_1](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_1.png)
+
+![image_2](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_2.png)
+
+![image_3](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_3.png)
+
+![image_4](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_4.png)
+
+![image_5](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_5.png)
+
+![image_6](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_6.png)
+
+![image_7](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_7.png)
+
+![image_8](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_8.png)
+
+![image_9](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_9.png)
+
+![image_10](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_10.png)
+
+![image_11](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_11.png)
+
+![image_12](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_12.png)
+
+![image_13](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_13.png)
+
+![image_14](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_14.png)
+
+![image_15](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_15.png)
+
+![image_16](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_16.png)
+
+![image_17](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_17.png)
+
+![image_18](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_18.png)
+
+![image_19](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_19.png)
+
+![image_20](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_20.png)
+
+![image_21](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_21.png)
+
+![image_22](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_22.png)
+
+![image_23](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_23.png)
+
+![image_24](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_24.png)
+
+![image_25](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_25.png)
+
+![image_26](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_26.png)
+
+![image_27](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_27.png)
+
+![image_28](10%20-%20Modern%20Physics/10-05%20-%20Radioactivity/image_28.png)
+
+---
+
+1. Carbon-14 or C14 has a half life 5,730 years. If you start with 8.00 × 10^-6 g of C14, how much will you have after 17,190 years?
+
+```js
+let iT = 5730; // years
+let fT = 17190; // years
+let iM = 8.00 * Math.pow(10, -6); // g
+let number_of_halflives = fT / iT;
+console.log('number_of_halflives =', number_of_halflives);
+// number_of_halflives = 3
+let fraction_remaining = Math.pow(0.5, number_of_halflives);
+console.log('fraction_remaining =', fraction_remaining);
+// fraction_remaining = 0.125
+let fM = fraction_remaining * iM; // g
+console.log('fM =', fM.toExponential(), 'g');
+// fM = 1e-6 g
+console.log('fM =', fM.toExponential(2), 'g');
+// fM = 1.00e-6 g
+```
+
+---
+
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 83
