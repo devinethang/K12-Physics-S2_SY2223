@@ -10,7 +10,7 @@ A collection of formulas for Physics calculations
 
 ## Chapters
 
-* [Chapters 1 - 5](Chapters_6_10.md)
+* [Chapters 1 - 5](Chapters_1_5.md)
 
 * [Chapters 6 - 10](Chapters_6_10.md)
 
