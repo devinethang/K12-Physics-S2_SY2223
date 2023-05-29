@@ -1285,7 +1285,6 @@ F = G * m1 * m2 / Math.pow(r, 2);
 and a positive charge of +4.0 × 10^−4 C are separated by 0.20 m. What is the magnitude and direction of the force between them?
 
 ```js
-
 let q1 = -2.0 * Math.pow(10, -4); // C
 let q2 = 4.0 * Math.pow(10, -4); // C
 let r = 0.2; // m
