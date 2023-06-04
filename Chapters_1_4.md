@@ -558,6 +558,42 @@ console.log('degrees =', Math.round(degrees * Math.pow(10, 1)) / Math.pow(10, 1)
 
 ![image_4](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_4.png)
 
+![image_5](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_5.png)
+
+![image_6](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_6.png)
+
+![image_7](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_7.png)
+
+![image_8](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_8.png)
+
+![image_9](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_9.png)
+
+![image_10](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_10.png)
+
+![image_11](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_11.png)
+
+![image_12](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_12.png)
+
+![image_13](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_13.png)
+
+![image_14](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_14.png)
+
+![image_15](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_15.png)
+
+![image_16](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_16.png)
+
+![image_17](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_17.png)
+
+![image_18](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_18.png)
+
+![image_19](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_19.png)
+
+![image_20](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_20.png)
+
+![image_21](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_21.png)
+
+![image_22](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_22.png)
+
 ---
 
 #### Problem Set
