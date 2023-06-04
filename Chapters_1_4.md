@@ -39,11 +39,41 @@ A collection of formulas for Physics calculations
 
 ### 1.01: Semester Introduction
 
+---
+
 ![image_1](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_1.png)
+
+![image_2](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_2.png)
+
+![image_3](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_3.png)
+
+![image_4](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_4.png)
+
+![image_5](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_5.png)
+
+![image_6](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_6.png)
+
+![image_7](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_7.png)
+
+![image_8](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_8.png)
+
+![image_9](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_9.png)
+
+![image_10](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_10.png)
+
+![image_11](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_11.png)
+
+![image_12](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_12.png)
+
+![image_13](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_13.png)
+
+![image_14](1%20-%20Momentum/1-01%20-%20Semester%20Introduction/image_14.png)
 
 ---
 
 ### 1.02: Linear Momentum and Impulse
+
+---
 
 ![image_1](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_1.png)
 
