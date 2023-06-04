@@ -782,7 +782,7 @@ W = ?
 
 Draw a free-body diagram and identify the forces. Apply Newton’s second law.
 
-![image_2](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_2.png)
+![image_16](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_16.png)
 
 ```
 Fa is the force the sailor applies to the rope.
@@ -827,7 +827,7 @@ W = ?
 
 Draw a free-body diagram and identify the forces. Apply Newton’s second law.
 
-![image_3](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_3.jpg)
+![image_17](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_17.jpg)
 
 ```
 Fa|| = Fg||
@@ -877,7 +877,7 @@ W = ?
 
 Draw a free-body diagram and identify the forces.
 
-![image_4](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_4.jpg)
+![image_18](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_18.jpg)
 
 ```
 Remember that work is determined by using only the force that is applied in the direction of motion.
@@ -959,10 +959,6 @@ console.log('Dv =', Dv, 'm/s');
 console.log('Dv =', Dv.toPrecision(3), 'm/s');
 // Dv = 6.69 m/s
 ```
-
----
-
-![image_5](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_5.png)
 
 ---
 
