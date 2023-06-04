@@ -81,6 +81,34 @@ A collection of formulas for Physics calculations
 
 ![image_3](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_3.png)
 
+![image_4](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_4.png)
+
+![image_5](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_5.png)
+
+![image_6](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_6.png)
+
+![image_7](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_7.png)
+
+![image_8](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_8.png)
+
+![image_9](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_9.png)
+
+![image_10](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_10.png)
+
+![image_11](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_11.png)
+
+![image_12](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_12.png)
+
+![image_13](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_13.png)
+
+![image_14](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_14.png)
+
+![image_15](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_15.png)
+
+![image_16](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_16.png)
+
+![image_17](1%20-%20Momentum/1-02%20-%20Linear%20Momentum%20and%20Impulse/image_17.png)
+
 ---
 
 1. Suppose a 1,650 kg car is traveling at 15.0 m/s. Find the average force that is needed to stop the car in 4.0 s.
