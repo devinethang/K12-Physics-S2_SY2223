@@ -632,21 +632,43 @@ console.log('L2 =', Math.round(L2), 'kg * m^2/s');
 
 ### 2.01: Work and Power
 
+---
+
 ![image_1](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_1.png)
 
-![image_2](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_2.jpg)
+![image_2](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_2.png)
 
 ![image_3](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_3.png)
 
 ![image_4](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_4.png)
-
-Kinetic Energy = 1/2 * mass * velocity ^ 2
 
 ![image_5](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_5.png)
 
 ![image_6](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_6.png)
 
 ![image_7](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_7.png)
+
+![image_8](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_8.png)
+
+![image_9](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_9.png)
+
+![image_10](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_10.png)
+
+![image_11](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_11.png)
+
+![image_12](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_12.png)
+
+![image_13](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_13.png)
+
+![image_14](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_14.png)
+
+![image_15](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_15.png)
+
+![image_16](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_16.png)
+
+![image_17](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_17.png)
+
+![image_18](2%20-%20Work/2-01%20-%20Work%20and%20Power/image_18.png)
 
 ---
 
