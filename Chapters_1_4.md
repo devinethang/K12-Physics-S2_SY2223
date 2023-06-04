@@ -970,13 +970,57 @@ console.log('Dv =', Dv.toPrecision(3), 'm/s');
 
 ### 2.05: Machines and Mechanical Advantage
 
-![image_1](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_1.jpg)
+---
+
+![image_1](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_1.png)
 
 ![image_2](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_2.png)
 
 ![image_3](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_3.png)
 
 ![image_4](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_4.png)
+
+![image_5](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_5.png)
+
+![image_6](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_6.png)
+
+![image_7](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_7.png)
+
+![image_8](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_8.jpg)
+
+![image_9](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_9.png)
+
+![image_10](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_10.png)
+
+![image_11](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_11.png)
+
+![image_12](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_12.png)
+
+![image_13](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_13.png)
+
+![image_14](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_14.png)
+
+![image_15](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_15.png)
+
+![image_16](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_16.png)
+
+![image_17](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_17.png)
+
+![image_18](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_18.png)
+
+![image_19](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_19.png)
+
+![image_20](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_20.png)
+
+![image_21](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_21.png)
+
+![image_22](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_22.png)
+
+![image_23](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_23.png)
+
+![image_24](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_24.png)
+
+![image_25](2%20-%20Work/2-05%20-%20Machines%20and%20Mechanical%20Advantage/image_25.png)
 
 ---
 
