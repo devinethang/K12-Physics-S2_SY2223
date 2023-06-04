@@ -729,7 +729,37 @@ console.log('P =', P, 'W');
 
 ### 2.02: Direction of Force and Work
 
-![image_1](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_1.jpg)
+---
+
+![image_1](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_1.png)
+
+![image_2](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_2.png)
+
+![image_3](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_3.png)
+
+![image_4](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_4.png)
+
+![image_5](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_5.png)
+
+![image_6](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_6.png)
+
+![image_7](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_7.png)
+
+![image_8](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_8.png)
+
+![image_9](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_9.png)
+
+![image_10](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_10.png)
+
+![image_11](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_11.png)
+
+![image_12](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_12.png)
+
+![image_13](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_13.png)
+
+![image_14](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_14.png)
+
+![image_15](2%20-%20Work/2-02%20-%20Direction%20of%20Force%20and%20Work/image_15.png)
 
 ---
 
