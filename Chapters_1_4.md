@@ -349,7 +349,31 @@ console.log('Va =', Math.round(Va), 'm/s');
 
 ### 1.04 Momentum in Collisions
 
+---
+
 ![image_1](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_1.png)
+
+![image_2](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_2.png)
+
+![image_3](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_3.png)
+
+![image_4](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_4.png)
+
+![image_5](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_5.png)
+
+![image_6](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_6.png)
+
+![image_7](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_7.png)
+
+![image_8](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_8.png)
+
+![image_9](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_9.png)
+
+![image_10](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_10.png)
+
+![image_11](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_11.png)
+
+![image_12](1%20-%20Momentum/1-04%20-%20Momentum%20in%20Collisions/image_12.png)
 
 ---
 
@@ -523,6 +547,8 @@ console.log('degrees =', Math.round(degrees * Math.pow(10, 1)) / Math.pow(10, 1)
 ---
 
 ### 1.08: Conservation of Angular Momentum
+
+---
 
 ![image_1](1%20-%20Momentum/1-08%20-%20Conservation%20of%20Angular%20Momentum/image_1.png)
 
