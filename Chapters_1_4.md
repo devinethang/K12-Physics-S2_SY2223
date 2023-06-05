@@ -1125,9 +1125,77 @@ console.log('De =', De.toPrecision(2), 'm');
 
 ### 3.01 Types of Energy and Their Conversions
 
-![image_1](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_1.jpg)
+---
+
+![image_1](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_1.png)
 
 ![image_2](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_2.png)
+
+![image_3](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_3.png)
+
+![image_4](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_4.png)
+
+![image_5](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_5.png)
+
+![image_6](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_6.png)
+
+![image_7](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_7.png)
+
+![image_8](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_8.png)
+
+![image_9](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_9.png)
+
+![image_10](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_10.png)
+
+![image_11](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_11.png)
+
+![image_12](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_12.png)
+
+![image_13](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_13.png)
+
+![image_14](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_14.png)
+
+![image_15](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_15.png)
+
+![image_16](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_16.png)
+
+![image_17](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_17.png)
+
+![image_18](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_18.png)
+
+![image_19](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_19.png)
+
+![image_20](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_20.jpg)
+
+![image_21](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_21.png)
+
+![image_22](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_22.png)
+
+![image_23](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_23.png)
+
+![image_24](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_24.png)
+
+![image_25](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_25.png)
+
+![image_26](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_26.png)
+
+![image_27](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_27.png)
+
+![image_28](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_28.png)
+
+![image_29](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_29.png)
+
+![image_30](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_30.png)
+
+![image_31](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_31.png)
+
+![image_32](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_32.png)
+
+![image_33](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_33.png)
+
+![image_34](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_34.png)
+
+![image_35](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_35.png)
 
 ```js
 let c = 2.99792458 * Math.pow(10, 8); // m/s (speed of light can be rounded to 3.00 * Math.pow(10, 8)
@@ -1165,10 +1233,6 @@ Analyze your result.
 ```
 That’s a lot of energy from such a small amount of matter!
 ```
-
----
-
-![image_3](3%20-%20Energy/3-01%20-%20Types%20of%20Energy%20and%20Their%20Conversions/image_3.jpg)
 
 ---
 
