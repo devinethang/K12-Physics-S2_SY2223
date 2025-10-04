@@ -34,16 +34,48 @@
         }
         code {
             background-color: #f8f8f8;
-            padding: 2px 4px;
-            border-radius: 3px;
-            font-family: 'Courier New', monospace;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #c7254e;
+            border: 1px solid #e1e1e8;
         }
         pre {
             background-color: #f8f8f8;
-            padding: 15px;
-            border-radius: 5px;
+            padding: 20px;
+            border-radius: 8px;
             overflow-x: auto;
             border-left: 4px solid #3498db;
+            margin: 20px 0;
+            line-height: 1.4;
+        }
+        pre code {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            color: #333;
+            border: none;
+            font-size: 0.95em;
+            display: block;
+        }
+        .codehilite {
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        .codehilite pre {
+            margin: 0;
+            border-left: none;
+            background-color: transparent;
+        }
+        .highlight {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
         }
         blockquote {
             border-left: 4px solid #3498db;
@@ -85,6 +117,14 @@
             border-radius: 5px;
             margin: 20px 0;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
@@ -98,22 +138,22 @@
 <ul>
 <li><a href="Chapters_1_4.html">Chapters 1 - 4</a></li>
 </ul>
-<p><code>1: Momentum
-  2: Work
-  3: Energy
-  4: Thermal Energy</code></p>
+<pre class="highlight"><code>1: Momentum
+2: Work
+3: Energy
+4: Thermal Energy</code></pre>
 <ul>
 <li><a href="Chapters_5_8.html">Chapters 5 - 8</a></li>
 </ul>
-<p><code>5: Waves
-  6: Light
-  7: Electric Forces
-  8: Currents and Circuits</code></p>
+<pre class="highlight"><code>5: Waves
+6: Light
+7: Electric Forces
+8: Currents and Circuits</code></pre>
 <ul>
 <li><a href="Chapters_9_10.html">Chapters 9 - 10</a></li>
 </ul>
-<p><code>9: Magnetism
-  10: Modern Physics</code></p>
+<pre class="highlight"><code>9: Magnetism
+10: Modern Physics</code></pre>
 <hr />
 <h2 id="9-magnetism">9: Magnetism</h2>
 <hr />
@@ -154,7 +194,7 @@
 <ol>
 <li>A magnetic field of magnitude B = 0.10 T is directed perpendicular to a circular loop of wire of radius 0.22 m. Find the magnetic flux through the wire.</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let r = 0.22; // m
+<pre class="highlight"><code class="language-js">let r = 0.22; // m
 let B = 0.10; // T
 let A = Math.PI * Math.pow(r, 2); // m^2
 console.log('A =', A, 'm^2');
@@ -165,9 +205,7 @@ let phi = B * A; // T * m^2
 console.log('phi =', phi, 'T * m^2');
 // phi = 0.0152053084433746 T * m^2
 console.log('phi =', phi.toFixed(3), 'T * m^2');
-// phi = 0.015 T * m^2
-</code></pre>
-
+// phi = 0.015 T * m^2</code></pre>
 <hr />
 <h4 id="problem-set">Problem Set</h4>
 <ul>
@@ -207,23 +245,19 @@ console.log('phi =', phi.toFixed(3), 'T * m^2');
 <p><img alt="image_29" src="9%20-%20Magnetism/9-02%20-%20Forces%20in%20Magnetic%20Fields/image_29.png" /></p>
 <hr />
 <ol>
-<li>
-<p>A 6.0 m section of wire carries a current of 4.0 A from north to south. It is in a uniform magnetic field of 0.30 T pointing upward. What is the magnitude and direction of the magnetic force on the wire?</p>
-</li>
-<li>
-<p>You know the current I, the length L of the section of wire, and the magnetic field B, which enables you to calculate the magnitude of the magnetic force. You also know the direction of the current and the magnetic field and can use the right-hand rule to find the direction of the force.</p>
-</li>
+<li>A 6.0 m section of wire carries a current of 4.0 A from north to south. It is in a uniform magnetic field of 0.30 T pointing upward. What is the magnitude and direction of the magnetic force on the wire?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let I = 4.0; // A
+<ul>
+<li>You know the current I, the length L of the section of wire, and the magnetic field B, which enables you to calculate the magnitude of the magnetic force. You also know the direction of the current and the magnetic field and can use the right-hand rule to find the direction of the force.</li>
+</ul>
+<pre class="highlight"><code class="language-js">let I = 4.0; // A
 let L = 6.0; // m
 let B = 0.30; // T
 FB = I * L * B; // N
 console.log('FB =', FB, 'N');
 // FB = 7.199999999999999 N
 console.log('FB =', FB.toPrecision(2), 'N');
-// FB = 7.2 N
-</code></pre>
-
+// FB = 7.2 N</code></pre>
 <ul>
 <li>Find the direction of the force. Picture your right hand's fingers pointing in the direction of the magnetic field B upward and your thumb toward the current I to the south. The palm of your hand would then point west, so the force is toward the west.</li>
 </ul>
@@ -262,14 +296,12 @@ console.log('FB =', FB.toPrecision(2), 'N');
 <p><img alt="image_30" src="9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_30.png" /></p>
 <hr />
 <ol>
-<li>
-<p>A circular loop of wire is cut at one point to connect it to the leads of a galvanometer. The loop has a radius of 1.2 cm. If a magnetic field perpendicular to the area of the coil changes from 0.50 T to 0.10 T in 0.10 s, what is the emf across the galvanometer during that time?</p>
-</li>
-<li>
-<p>You know the area of the loop perpendicular to the field, the initial and final magnetic field B, and the time of the change. Therefore you can find the change in flux divided by the time of the change.</p>
-</li>
+<li>A circular loop of wire is cut at one point to connect it to the leads of a galvanometer. The loop has a radius of 1.2 cm. If a magnetic field perpendicular to the area of the coil changes from 0.50 T to 0.10 T in 0.10 s, what is the emf across the galvanometer during that time?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let theta = 0; // radians
+<ul>
+<li>You know the area of the loop perpendicular to the field, the initial and final magnetic field B, and the time of the change. Therefore you can find the change in flux divided by the time of the change.</li>
+</ul>
+<pre class="highlight"><code class="language-js">let theta = 0; // radians
 let cosTheta = Math.cos(theta); // 1
 let r = 0.012; // m
 let A = Math.PI * Math.pow(r, 2); // m^2
@@ -286,21 +318,17 @@ let e = -DphiB / DT; // V
 console.log('e =', e.toExponential(), 'V');
 // e = -1.8095573684677208e-3 V
 console.log('e =', Number(e.toPrecision(2)).toExponential(), 'V');
-// e = -1.8e-3 V
-</code></pre>
-
+// e = -1.8e-3 V</code></pre>
 <ul>
 <li>The induced emf would have been much larger with more turns of wire.</li>
 </ul>
 <hr />
-<ol>
-<li>
-<p>A circular loop of wire is connected to the leads of a galvanometer. The loop has a radius of 1.2 cm. The uniform magnetic field is perpendicular to the area of the coil, and it changes from 0.50 T to 0.10 T in 0.10 s. The emf across the galvanometer during that time is ε = 1.8 × 10^-3 V. Find the direction of the induced emf, where the magnetic field B is downward and decreasing.</p>
-</li>
-<li>
-<p>The magnetic field points downward. The field is decreasing to produce a decreasing flux. According to Lenz's law, the current from the emf produced by this change must oppose the decrease in flux.</p>
-</li>
+<ol start="2">
+<li>A circular loop of wire is connected to the leads of a galvanometer. The loop has a radius of 1.2 cm. The uniform magnetic field is perpendicular to the area of the coil, and it changes from 0.50 T to 0.10 T in 0.10 s. The emf across the galvanometer during that time is ε = 1.8 × 10^-3 V. Find the direction of the induced emf, where the magnetic field B is downward and decreasing.</li>
 </ol>
+<ul>
+<li>The magnetic field points downward. The field is decreasing to produce a decreasing flux. According to Lenz's law, the current from the emf produced by this change must oppose the decrease in flux.</li>
+</ul>
 <p><img alt="image_16" src="9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_16.jpg" /></p>
 <ul>
 <li>To oppose the decrease in flux inducing the emf, the emf must be in a direction to produce an upward magnetic field. Apply the right-hand rule to find which current direction has this effect.</li>
@@ -310,7 +338,7 @@ console.log('e =', Number(e.toPrecision(2)).toExponential(), 'V');
 <li>The direction of the induced current and induced emf must be as shown.</li>
 </ul>
 <hr />
-<ol>
+<ol start="3">
 <li>A magnet is moved into a coil connected to a galvanometer as shown. Find the direction of the induced emf in the coil.</li>
 </ol>
 <p><img alt="image_18" src="9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_18.jpg" /></p>
@@ -326,7 +354,7 @@ console.log('e =', Number(e.toPrecision(2)).toExponential(), 'V');
 </li>
 </ul>
 <hr />
-<ol>
+<ol start="4">
 <li>A straight wire of length 1.2 m moves through a magnetic field at velocity v = 1.0 m/s, cutting directly across magnetic field lines. Find the emf that results.</li>
 </ol>
 <p><img alt="image_21" src="9%20-%20Magnetism/9-03%20-%20Electromagnetic%20Induction/image_21.jpg" /></p>
@@ -337,33 +365,27 @@ console.log('e =', Number(e.toPrecision(2)).toExponential(), 'V');
 <ul>
 <li>Calculate the emf.</li>
 </ul>
-<pre class="codehilite"><code class="language-js">let B = 0.10; // T
+<pre class="highlight"><code class="language-js">let B = 0.10; // T
 let L = 1.2; // m
 let v = 1.0; // m/s
 let e = B * L * v; // V
 console.log('e =', e, 'V');
-// e = 0.12 V
-</code></pre>
-
+// e = 0.12 V</code></pre>
 <hr />
-<ol>
-<li>
-<p>A transformer has 2,000 windings in its primary coil and uses 120 V AC input. How many windings should it have in its secondary coil to produce an output voltage of 1.5 V?</p>
-</li>
-<li>
-<p>The number of turns of wire in the primary coil and the input and output voltages are known. The ratio of the primary and secondary turns of wire is equal to the ratio of the primary and secondary voltages.</p>
-</li>
+<ol start="5">
+<li>A transformer has 2,000 windings in its primary coil and uses 120 V AC input. How many windings should it have in its secondary coil to produce an output voltage of 1.5 V?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let Vs = 1.5; // V
+<ul>
+<li>The number of turns of wire in the primary coil and the input and output voltages are known. The ratio of the primary and secondary turns of wire is equal to the ratio of the primary and secondary voltages.</li>
+</ul>
+<pre class="highlight"><code class="language-js">let Vs = 1.5; // V
 let Np = 2000; // windings
 let Vp = 110; // V
 let Ns = Vs * Np / Vp; // turns
 console.log('Ns =', Ns, 'turns');
 // Ns = 27.272727272727273 turns
 console.log('Ns =', Math.round(Ns), 'turns');
-// Ns = 27 turns
-</code></pre>
-
+// Ns = 27 turns</code></pre>
 <ul>
 <li>The number of secondary windings needed is much smaller than the number of primary windings, as expected.</li>
 </ul>
@@ -432,7 +454,7 @@ console.log('Ns =', Math.round(Ns), 'turns');
 <ol>
 <li>What is the energy of a photon of green light (λ=532 nm) in joules? Remember, Planck's constant h = 6.63 × 10^-34 J * s.</li>
 </ol>
-<pre class="codehilite"><code class="language-js">const h = 6.63 * Math.pow(10, -34); // J * s
+<pre class="highlight"><code class="language-js">const h = 6.63 * Math.pow(10, -34); // J * s
 const c = 3.00 * Math.pow(10, 8); // m/s
 let wavelength = 5.32 * Math.pow(10, -7); // m
 let f = c / wavelength; // Hz
@@ -444,9 +466,7 @@ let E = h * f; // J
 console.log('E =', E.toExponential(), 'J');
 // E = 3.738721804511277e-19 J
 console.log('E =', Number(E.toPrecision(3)).toExponential(), 'J');
-// E = 3.74e-19 J
-</code></pre>
-
+// E = 3.74e-19 J</code></pre>
 <hr />
 <h4 id="problem-set_4">Problem Set</h4>
 <ul>
@@ -549,7 +569,7 @@ console.log('E =', Number(E.toPrecision(3)).toExponential(), 'J');
 <ol>
 <li>Carbon-14 or C14 has a half life 5,730 years. If you start with 8.00 × 10^-6 g of C14, how much will you have after 17,190 years?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let iT = 5730; // years
+<pre class="highlight"><code class="language-js">let iT = 5730; // years
 let fT = 17190; // years
 let iM = 8.00 * Math.pow(10, -6); // g
 let number_of_halflives = fT / iT;
@@ -562,9 +582,7 @@ let fM = fraction_remaining * iM; // g
 console.log('fM =', fM.toExponential(), 'g');
 // fM = 1e-6 g
 console.log('fM =', fM.toExponential(2), 'g');
-// fM = 1.00e-6 g
-</code></pre>
-
+// fM = 1.00e-6 g</code></pre>
 <hr />
 <h4 id="problem-set_7">Problem Set</h4>
 <ul>

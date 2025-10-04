@@ -34,16 +34,48 @@
         }
         code {
             background-color: #f8f8f8;
-            padding: 2px 4px;
-            border-radius: 3px;
-            font-family: 'Courier New', monospace;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #c7254e;
+            border: 1px solid #e1e1e8;
         }
         pre {
             background-color: #f8f8f8;
-            padding: 15px;
-            border-radius: 5px;
+            padding: 20px;
+            border-radius: 8px;
             overflow-x: auto;
             border-left: 4px solid #3498db;
+            margin: 20px 0;
+            line-height: 1.4;
+        }
+        pre code {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            color: #333;
+            border: none;
+            font-size: 0.95em;
+            display: block;
+        }
+        .codehilite {
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        .codehilite pre {
+            margin: 0;
+            border-left: none;
+            background-color: transparent;
+        }
+        .highlight {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
         }
         blockquote {
             border-left: 4px solid #3498db;
@@ -85,6 +117,14 @@
             border-radius: 5px;
             margin: 20px 0;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
@@ -102,22 +142,22 @@
 <ul>
 <li><a href="Chapters_1_4.html">Chapters 1 - 4</a></li>
 </ul>
-<p><code>1: Momentum
-  2: Work
-  3: Energy
-  4: Thermal Energy</code></p>
+<pre class="highlight"><code>1: Momentum
+2: Work
+3: Energy
+4: Thermal Energy</code></pre>
 <ul>
 <li><a href="Chapters_5_8.html">Chapters 5 - 8</a></li>
 </ul>
-<p><code>5: Waves
-  6: Light
-  7: Electric Forces
-  8: Currents and Circuits</code></p>
+<pre class="highlight"><code>5: Waves
+6: Light
+7: Electric Forces
+8: Currents and Circuits</code></pre>
 <ul>
 <li><a href="Chapters_9_10.html">Chapters 9 - 10</a></li>
 </ul>
-<p><code>9: Magnetism
-  10: Modern Physics</code></p>
+<pre class="highlight"><code>9: Magnetism
+10: Modern Physics</code></pre>
     </div>
 </body>
 </html>

@@ -5,6 +5,7 @@ Convert all markdown files in the directory to HTML
 
 import os
 import markdown
+import re
 from pathlib import Path
 
 def convert_md_to_html(md_file_path):
@@ -15,12 +16,151 @@ def convert_md_to_html(md_file_path):
         md_content = f.read()
     
     # Fix links from .md to .html
-    import re
     md_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\.md\)', r'[\1](\2.html)', md_content)
     
-    # Convert markdown to HTML
-    md = markdown.Markdown(extensions=['extra', 'codehilite', 'toc'])
+    # Convert markdown to HTML with proper extensions
+    md = markdown.Markdown(extensions=[
+        'extra',           # Tables, footnotes, etc.
+        'codehilite',      # Syntax highlighting
+        'toc',             # Table of contents
+        'fenced_code',     # Fenced code blocks (```)
+        'pymdownx.superfences',  # Better fenced code blocks
+        'nl2br',           # Convert newlines to <br>
+        'sane_lists'       # Better list handling
+    ], extension_configs={
+        'codehilite': {
+            'css_class': 'highlight',
+            'use_pygments': False  # Use CSS classes instead of inline styles
+        },
+        'pymdownx.superfences': {
+            'custom_fences': []
+        }
+    })
     html_content = md.convert(md_content)
+    
+    # Create CSS styles
+    css_styles = """
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #2c3e50;
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+        h1 {
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 2px solid #95a5a6;
+            padding-bottom: 5px;
+        }
+        code {
+            background-color: #f8f8f8;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #c7254e;
+            border: 1px solid #e1e1e8;
+        }
+        pre {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+            line-height: 1.4;
+        }
+        pre code {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            color: #333;
+            border: none;
+            font-size: 0.95em;
+            display: block;
+        }
+        .codehilite {
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        .codehilite pre {
+            margin: 0;
+            border-left: none;
+            background-color: transparent;
+        }
+        .highlight {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        blockquote {
+            border-left: 4px solid #3498db;
+            padding-left: 20px;
+            margin-left: 0;
+            font-style: italic;
+            color: #555;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .toc {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    """
     
     # Create full HTML document
     html_doc = f"""<!DOCTYPE html>
@@ -29,88 +169,7 @@ def convert_md_to_html(md_file_path):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{Path(md_file_path).stem}</title>
-    <style>
-        body {{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f8f9fa;
-        }}
-        .container {{
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }}
-        h1, h2, h3, h4, h5, h6 {{
-            color: #2c3e50;
-            margin-top: 2em;
-            margin-bottom: 1em;
-        }}
-        h1 {{
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }}
-        h2 {{
-            border-bottom: 2px solid #95a5a6;
-            padding-bottom: 5px;
-        }}
-        code {{
-            background-color: #f8f8f8;
-            padding: 2px 4px;
-            border-radius: 3px;
-            font-family: 'Courier New', monospace;
-        }}
-        pre {{
-            background-color: #f8f8f8;
-            padding: 15px;
-            border-radius: 5px;
-            overflow-x: auto;
-            border-left: 4px solid #3498db;
-        }}
-        blockquote {{
-            border-left: 4px solid #3498db;
-            padding-left: 20px;
-            margin-left: 0;
-            font-style: italic;
-            color: #555;
-        }}
-        ul, ol {{
-            margin-left: 20px;
-        }}
-        li {{
-            margin-bottom: 5px;
-        }}
-        a {{
-            color: #3498db;
-            text-decoration: none;
-        }}
-        a:hover {{
-            text-decoration: underline;
-        }}
-        table {{
-            border-collapse: collapse;
-            width: 100%;
-            margin: 20px 0;
-        }}
-        th, td {{
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
-        }}
-        th {{
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }}
-        .toc {{
-            background-color: #f8f9fa;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 20px 0;
-        }}
-    </style>
+    <style>{css_styles}</style>
 </head>
 <body>
     <div class="container">

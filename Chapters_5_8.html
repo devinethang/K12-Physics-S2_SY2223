@@ -34,16 +34,48 @@
         }
         code {
             background-color: #f8f8f8;
-            padding: 2px 4px;
-            border-radius: 3px;
-            font-family: 'Courier New', monospace;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #c7254e;
+            border: 1px solid #e1e1e8;
         }
         pre {
             background-color: #f8f8f8;
-            padding: 15px;
-            border-radius: 5px;
+            padding: 20px;
+            border-radius: 8px;
             overflow-x: auto;
             border-left: 4px solid #3498db;
+            margin: 20px 0;
+            line-height: 1.4;
+        }
+        pre code {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            color: #333;
+            border: none;
+            font-size: 0.95em;
+            display: block;
+        }
+        .codehilite {
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        .codehilite pre {
+            margin: 0;
+            border-left: none;
+            background-color: transparent;
+        }
+        .highlight {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
         }
         blockquote {
             border-left: 4px solid #3498db;
@@ -85,6 +117,14 @@
             border-radius: 5px;
             margin: 20px 0;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
@@ -98,22 +138,22 @@
 <ul>
 <li>
 <p><a href="Chapters_1_4.html">Chapters 1 - 4</a></p>
-<p><code>1: Momentum
+<pre class="highlight"><code>1: Momentum
 2: Work
 3: Energy
-4: Thermal Energy</code></p>
+4: Thermal Energy</code></pre>
 </li>
 <li>
 <p><a href="Chapters_5_8.html">Chapters 5 - 8</a></p>
-<p><code>5: Waves
+<pre class="highlight"><code>5: Waves
 6: Light
 7: Electric Forces
-8: Currents and Circuits</code></p>
+8: Currents and Circuits</code></pre>
 </li>
 <li>
 <p><a href="Chapters_9_10.html">Chapters 9 - 10</a></p>
-<p><code>9: Magnetism
-10: Modern Physics</code></p>
+<pre class="highlight"><code>9: Magnetism
+10: Modern Physics</code></pre>
 </li>
 </ul>
 <hr />
@@ -173,38 +213,32 @@
 <ol>
 <li>A wave with a period of 0.5 s has a frequency of 2 Hz:</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let T = 0.5; // s
+<pre class="highlight"><code class="language-js">let T = 0.5; // s
 let f = 1 / T; // Hz
 console.log('f =', f, 'Hz');
-// f = 2 Hz
-</code></pre>
-
+// f = 2 Hz</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>What is the frequency of a wave with a period of 0.1 s?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let T = 0.1; // s
+<pre class="highlight"><code class="language-js">let T = 0.1; // s
 let f = 1 / T; // Hz
 console.log('f =', f, 'Hz');
-// f = 10 Hz
-</code></pre>
-
+// f = 10 Hz</code></pre>
 <hr />
-<ol>
+<ol start="3">
 <li>How fast does a wave with a λ = 3.0 m and a period of T = 0.3 s travel?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let wavelength = 3.0; // m
+<pre class="highlight"><code class="language-js">let wavelength = 3.0; // m
 let T = 0.3; // s
 let v = wavelength / T; // m/s
 console.log('v =', v, 'm/s');
-// v = 10 m/s
-</code></pre>
-
+// v = 10 m/s</code></pre>
 <hr />
-<ol>
+<ol start="4">
 <li>How fast does a wave with a λ = 3.0 m if the frequency is 3.33 Hz?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let wavelength = 3.0; // m
+<pre class="highlight"><code class="language-js">let wavelength = 3.0; // m
 let f = 3.3; // Hz
 let v = wavelength * f; // m/s
 console.log('v =', v, 'm/s');
@@ -212,14 +246,12 @@ console.log('v =', v, 'm/s');
 console.log('v =', v.toPrecision(2), 'm/s');
 // v = 9.9 m/s
 console.log('v =', Math.round(v), 'm/s');
-// v = 10 m/s
-</code></pre>
-
+// v = 10 m/s</code></pre>
 <hr />
-<ol>
+<ol start="5">
 <li>Five waves pass a dock in 10.0 s. If the waves are traveling at 10.0 m/s, then what is their wavelength?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let v = 10.0; // m/s
+<pre class="highlight"><code class="language-js">let v = 10.0; // m/s
 let number_of_waves = 5;
 let T = 10.0; // s
 let f =  number_of_waves / T; // Hz
@@ -227,20 +259,16 @@ console.log('f =', f, 'Hz');
 // f = 0.5 Hz
 let wavelength = v / f; // m
 console.log('wavelength =', wavelength, 'm');
-// wavelength = 20 m
-</code></pre>
-
+// wavelength = 20 m</code></pre>
 <hr />
-<ol>
+<ol start="6">
 <li>What is the wavelength of waves with a period of 0.5 s traveling at 20 m/s?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let T = 0.5; // s
+<pre class="highlight"><code class="language-js">let T = 0.5; // s
 let v = 20; // m/s
 let wavelength = v * T; // m
 console.log('wavelength =', wavelength, 'm');
-// wavelength = 10 m
-</code></pre>
-
+// wavelength = 10 m</code></pre>
 <hr />
 <h4 id="problem-set_1">Problem Set</h4>
 <ul>
@@ -273,18 +301,16 @@ console.log('wavelength =', wavelength, 'm');
 <ol>
 <li>How fast is the speed of sound waves in air at 15°C?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let medium_air_0C = 331; // m/s
+<pre class="highlight"><code class="language-js">let medium_air_0C = 331; // m/s
 let T = 15; // °C
 let v = (medium_air_0C + 0.60 * T); // m/s
 console.log('v =', v, 'm/s');
-// v = 340 m/s
-</code></pre>
-
+// v = 340 m/s</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>How far does a sound wave travel through air at 20°C in 5.00 s?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let medium_air_20C = 343; // m/s
+<pre class="highlight"><code class="language-js">let medium_air_20C = 343; // m/s
 let v = medium_air_20C; // m/s
 let t = 5.00; // s
 let d = v * t; // m
@@ -293,14 +319,12 @@ console.log('d =', d, 'm');
 console.log('d =', d / 1000, 'km');
 // d = 1.715 km
 console.log('d =', (d / 1000).toPrecision(3), 'km');
-// d = 1.72 km
-</code></pre>
-
+// d = 1.72 km</code></pre>
 <hr />
-<ol>
+<ol start="3">
 <li>You shout across a canyon through air at 20°C and hear an echo 5.00 s later. How wide is the canyon?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let t = 2.50; // s
+<pre class="highlight"><code class="language-js">let t = 2.50; // s
 let T = 20; // °C
 let medium_air_20C = 343; // m/s
 let v = medium_air_20C; // m/s
@@ -310,9 +334,7 @@ console.log('d =', d, 'm');
 console.log('d =', d / 1000, 'km');
 // d = 0.8575 km
 console.log('d =', (d / 1000).toPrecision(3), 'km');
-// d = 0.858 km
-</code></pre>
-
+// d = 0.858 km</code></pre>
 <hr />
 <h4 id="problem-set_2">Problem Set</h4>
 <ul>
@@ -354,7 +376,7 @@ console.log('d =', (d / 1000).toPrecision(3), 'km');
 <ol>
 <li>What is the dB loudness for a pressure of 2 × 10^-5 N/m^2?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">function calculateDb(pressure) {
+<pre class="highlight"><code class="language-js">function calculateDb(pressure) {
   // Reference pressure for dB calculation (20 micropascals)
   let referencePressure = 2 * Math.pow(10, -5); // dB
 
@@ -369,14 +391,12 @@ console.log('d =', (d / 1000).toPrecision(3), 'km');
 let pressure = 2 * Math.pow(10, -5); // N/m^2
 let loudness = calculateDb(pressure); // dB
 console.log('loudness =', loudness, 'dB');
-// loudness = 0 dB
-</code></pre>
-
+// loudness = 0 dB</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>What is the dB loudness for a pressure of 2 × 10^-4 N/m^2?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">function calculateDb(pressure) {
+<pre class="highlight"><code class="language-js">function calculateDb(pressure) {
   // Reference pressure for dB calculation (20 micropascals)
   let referencePressure = 2 * Math.pow(10, -5); // dB
 
@@ -391,14 +411,12 @@ console.log('loudness =', loudness, 'dB');
 let pressure = 2 * Math.pow(10, -4); // N/m^2
 let loudness = calculateDb(pressure); // dB
 console.log('loudness =', loudness, 'dB');
-// loudness = 20 dB
-</code></pre>
-
+// loudness = 20 dB</code></pre>
 <hr />
-<ol>
+<ol start="3">
 <li>What is the dB loudness for a pressure of 2 × 10^-3 N/m^2?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">function calculateDb(pressure) {
+<pre class="highlight"><code class="language-js">function calculateDb(pressure) {
   // Reference pressure for dB calculation (20 micropascals)
   let referencePressure = 2 * Math.pow(10, -5); // dB
 
@@ -413,14 +431,12 @@ console.log('loudness =', loudness, 'dB');
 let pressure = 2 * Math.pow(10, -3); // N/m^2
 let loudness = calculateDb(pressure); // dB
 console.log('loudness =', loudness, 'dB');
-// loudness = 40 dB
-</code></pre>
-
+// loudness = 40 dB</code></pre>
 <hr />
-<ol>
+<ol start="4">
 <li>What is the pressure (N/m^2) for a loudness of 120 dB loudness?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">function calculatePressure(loudness) {
+<pre class="highlight"><code class="language-js">function calculatePressure(loudness) {
   // Reference pressure for dB calculation (20 micropascals)
   let referencePressure = 2 * Math.pow(10, -5);
 
@@ -436,61 +452,51 @@ console.log('loudness =', loudness, 'dB');
 let loudness = 120; // dB
 let pressure = calculatePressure(loudness);
 console.log('pressure =', pressure, 'N/m^2');
-// pressure = 20 N/m^2
-</code></pre>
-
+// pressure = 20 N/m^2</code></pre>
 <hr />
-<ol>
+<ol start="5">
 <li>What is the intensity of the sound at 1.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let P = 2.0 * Math.pow(10, -5); // W
+<pre class="highlight"><code class="language-js">let P = 2.0 * Math.pow(10, -5); // W
 let r = 1.0; // m
 let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
 console.log('I =', I.toExponential(), 'W / m^2');
 // I = 1.5915494309189533e-6 W / m^2
 console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
-// I = 1.6e-6 W / m^2
-</code></pre>
-
+// I = 1.6e-6 W / m^2</code></pre>
 <hr />
-<ol>
+<ol start="6">
 <li>What is the intensity of the sound at 2.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let P = 2.0 * Math.pow(10, -5); // W
+<pre class="highlight"><code class="language-js">let P = 2.0 * Math.pow(10, -5); // W
 let r = 2.0; // m
 let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
 console.log('I =', I.toExponential(), 'W / m^2');
 // I = 3.9788735772973833e-7 W / m^2
 console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
-// I = 4e-7 W / m^2
-</code></pre>
-
+// I = 4e-7 W / m^2</code></pre>
 <hr />
-<ol>
+<ol start="7">
 <li>What is the intensity of the sound at 3.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let P = 2.0 * Math.pow(10, -5); // W
+<pre class="highlight"><code class="language-js">let P = 2.0 * Math.pow(10, -5); // W
 let r = 3.0; // m
 let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
 console.log('I =', I.toExponential(), 'W / m^2');
 // I = 1.768388256576615e-7 W / m^2
 console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
-// I = 1.8e-7 W / m^2
-</code></pre>
-
+// I = 1.8e-7 W / m^2</code></pre>
 <hr />
-<ol>
+<ol start="8">
 <li>What is the intensity of the sound at 4.0 m away, if a siren has a power of 2.0 × 10^–5 W at the source?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let P = 2.0 * Math.pow(10, -5); // W
+<pre class="highlight"><code class="language-js">let P = 2.0 * Math.pow(10, -5); // W
 let r = 4.0; // m
 let I = P / 4 / Math.PI / Math.pow(r, 2); // W / m^2
 console.log('I =', I.toExponential(), 'W / m^2');
 // I = 9.947183943243458e-8 W / m^2
 console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
-// I = 9.9e-8 W / m^2
-</code></pre>
-
+// I = 9.9e-8 W / m^2</code></pre>
 <hr />
 <h4 id="problem-set_3">Problem Set</h4>
 <ul>
@@ -524,43 +530,37 @@ console.log('I =', Number(I.toPrecision(2)).toExponential(), 'W / m^2');
 <p><img alt="image_21" src="6%20-%20Light/6-01%20-%20The%20Electromagnetic%20Spectrum/image_21.png" /></p>
 <hr />
 <ol>
-<li>Light from a particular source has a wavelength of 480 nm.
+<li>Light from a particular source has a wavelength of 480 nm.<br />
 Find the frequency f of the light.</li>
 </ol>
-<pre class="codehilite"><code class="language-js">const c = 3.0 * Math.pow(10, 8); // m/s
+<pre class="highlight"><code class="language-js">const c = 3.0 * Math.pow(10, 8); // m/s
 let wavelength = 480 * Math.pow(10, -9); // m
 let f = c / wavelength; // Hz
 console.log('f =', f.toExponential(), 'Hz');
 // f = 6.249999999999999e+14 Hz
 console.log('f =', Number(f.toPrecision(2)).toExponential(), 'Hz');
-// f = 6.2e+14 Hz
-</code></pre>
-
+// f = 6.2e+14 Hz</code></pre>
 <hr />
-<ol>
-<li>Light from a particular source has a wavelength of 500 nm.
+<ol start="2">
+<li>Light from a particular source has a wavelength of 500 nm.<br />
 Find the frequency f of the light.</li>
 </ol>
-<pre class="codehilite"><code class="language-js">const c = 3.0 * Math.pow(10, 8); // m/s
+<pre class="highlight"><code class="language-js">const c = 3.0 * Math.pow(10, 8); // m/s
 let wavelength = 500 * Math.pow(10, -9); // m
 let f = c / wavelength; // Hz
 console.log('f =', f.toExponential(), 'Hz');
 // f = 5.999999999999999e+14 Hz
 console.log('f =', Number(f.toPrecision(2)).toExponential(), 'Hz');
-// f = 6e+14 Hz
-</code></pre>
-
+// f = 6e+14 Hz</code></pre>
 <hr />
-<ol>
+<ol start="3">
 <li>Light from a particular source has a frequency of 6.0 x 10^14 Hz. Find the wavelength of the light.</li>
 </ol>
-<pre class="codehilite"><code class="language-js">const c = 3.0 * Math.pow(10, 8); // m/s
+<pre class="highlight"><code class="language-js">const c = 3.0 * Math.pow(10, 8); // m/s
 let f = 6.0 * Math.pow(10, 14); // Hz
 let wavelength = c / f; // m
 console.log('wavelength =', wavelength.toExponential(), 'm');
-// wavelength = 5e-7 m
-</code></pre>
-
+// wavelength = 5e-7 m</code></pre>
 <hr />
 <h4 id="problem-set_4">Problem Set</h4>
 <ul>
@@ -626,7 +626,7 @@ console.log('wavelength =', wavelength.toExponential(), 'm');
 <ol>
 <li>Flint glass has an index of refraction n = 1.66. What is the critical angle for light in the glass?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">const refraction_air = 1;
+<pre class="highlight"><code class="language-js">const refraction_air = 1;
 const refraction_glass = 1.66;
 // sin(theta) = 1/1.66
 let ratio = refraction_air / refraction_glass;
@@ -638,14 +638,12 @@ let angle = Math.asin(ratio) * 180 / Math.PI; // degrees
 console.log('angle =', angle, 'degrees');
 // angle = 37.08506032429864 degrees
 console.log('angle =', Math.round(angle), 'degrees');
-// angle = 37 degrees
-</code></pre>
-
+// angle = 37 degrees</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>What is the index of refraction when the critical angle for light is 37 degrees?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">const refraction_air = 1;
+<pre class="highlight"><code class="language-js">const refraction_air = 1;
 const angle = 37; // degrees
 let ratio = Math.sin(angle / 180 * Math.PI); // refraction index
 console.log('ratio =', ratio);
@@ -653,9 +651,7 @@ let index = refraction_air / ratio;
 console.log('index =', index, 'refraction index');
 // index = 1.6616401411224833 refraction index
 console.log('index =', index.toPrecision(3), 'refraction index');
-// index = 1.66 refraction index
-</code></pre>
-
+// index = 1.66 refraction index</code></pre>
 <hr />
 <h4 id="problem-set_6">Problem Set</h4>
 <ul>
@@ -686,20 +682,18 @@ console.log('index =', index.toPrecision(3), 'refraction index');
 <ol>
 <li>Light with a wavelength of 580 nm enters water, which has an index of refraction of 1.33. Find the wavelength of the light in water.</li>
 </ol>
-<pre class="codehilite"><code class="language-js">const wavelengthAir = 580 * Math.pow(10, -9); // m
+<pre class="highlight"><code class="language-js">const wavelengthAir = 580 * Math.pow(10, -9); // m
 const indexWater = 1.33;
 let wavelengthWater = wavelengthAir / indexWater; // m
 console.log('wavelengthWater =', wavelengthWater.toExponential(), 'm');
 // wavelengthWater = 4.360902255639098e-7 m
 console.log('wavelengthWater =', Number(wavelengthWater.toPrecision(3)).toExponential(), 'm');
-// wavelengthWater = 4.36e-7 m
-</code></pre>
-
+// wavelengthWater = 4.36e-7 m</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>Show that it follows from Snell’s law that light bends toward the normal when it enters a medium with a higher refractive index and away from the normal when it enters a medium with a lower refractive index.</li>
 </ol>
-<pre class="codehilite"><code class="language-js">// Light bends toward the normal surface when it enters a medium with a higher refractive index.
+<pre class="highlight"><code class="language-js">// Light bends toward the normal surface when it enters a medium with a higher refractive index.
 // Light bends away from the normal when it enters a medium with a lower refractive index.
 //
 // n1 * sin(A) = n2 * sin(B)
@@ -741,14 +735,12 @@ calculateCriticalAngle(index_acrylic_glass, index_air);
 calculateCriticalAngle(index_flint_glass, index_air);
 // n1= 1.62 n2= 1.003 ratio = 1.62 angle= -38
 calculateCriticalAngle(index_flint_glass, index_acrylic_glass);
-// n1= 1.62 n2= 1.5 ratio = 1.08 angle= -68
-</code></pre>
-
+// n1= 1.62 n2= 1.5 ratio = 1.08 angle= -68</code></pre>
 <hr />
-<ol>
+<ol start="3">
 <li>Suppose a beam of light enters a plate of crown glass at an angle of incidence of 30°. Find its angle of refraction.</li>
 </ol>
-<pre class="codehilite"><code class="language-js">// n1 * sin(A) = n2 * sin(B)
+<pre class="highlight"><code class="language-js">// n1 * sin(A) = n2 * sin(B)
 function calculateRefractionAngle(n1, n2, deg1) {
   const min = Math.min(n1, n2);
   const max = Math.max(n1, n2);
@@ -769,14 +761,12 @@ const angle = 30; // degrees
 calculateRefractionAngle(index_air, index_crown_glass, angle);
 // n1= 1.003 n2= 1.52 ratio = 0.330 deg1= 30 deg2= 19.3
 
-// The angle of refraction, as expected, is smaller than the incident angle of 30°, and the light bends toward the normal in entering the denser (higher n) medium.
-</code></pre>
-
+// The angle of refraction, as expected, is smaller than the incident angle of 30°, and the light bends toward the normal in entering the denser (higher n) medium.</code></pre>
 <hr />
-<ol>
+<ol start="4">
 <li>A flat transparent piece of acrylic is at the bottom of a beaker of water, A beam of light passes through the water to strike the acrylic at an angle of incidence of 35°. What angle does the beam make with the normal to the acrylic surface as it travels inside the acrylic?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">// n1 * sin(A) = n2 * sin(B)
+<pre class="highlight"><code class="language-js">// n1 * sin(A) = n2 * sin(B)
 function calculateRefractionAngle(n1, n2, deg1) {
   const min = Math.min(n1, n2);
   const max = Math.max(n1, n2);
@@ -797,9 +787,7 @@ const angle = 35; // degrees
 calculateRefractionAngle(index_water, index_acrylic_glass, angle);
 // n1= 1.33 n2= 1.5 ratio = 0.509 deg1= 35 deg2= 30.6
 
-// The beam of light is bent closer to the normal because it goes from a region of lower index of refraction to a region with a higher index of refraction.
-</code></pre>
-
+// The beam of light is bent closer to the normal because it goes from a region of lower index of refraction to a region with a higher index of refraction.</code></pre>
 <hr />
 <h4 id="problem-set_7">Problem Set</h4>
 <ul>
@@ -846,12 +834,10 @@ calculateRefractionAngle(index_water, index_acrylic_glass, angle);
 <ol>
 <li>What is the radius given the focal length of 25 mm?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let focalLength = 0.025; // m
+<pre class="highlight"><code class="language-js">let focalLength = 0.025; // m
 let radius = 2 * focalLength; // m
 console.log('radius', radius, 'm');
-// radius 0.05 m
-</code></pre>
-
+// radius 0.05 m</code></pre>
 <hr />
 <h4 id="problem-set_8">Problem Set</h4>
 <ul>
@@ -978,16 +964,14 @@ console.log('radius', radius, 'm');
 <p><img alt="image_17" src="7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_17.png" /></p>
 <p><img alt="image_18" src="7%20-%20Electric%20Forces/7-02%20-%20Electric%20Force/image_18.png" /></p>
 <hr />
-<pre class="codehilite"><code class="language-js">// Coulomb's constant
+<pre class="highlight"><code class="language-js">// Coulomb's constant
 const k = 9.0 * Math.pow(10, 9); // N * m^2 / C^2
 
 //  Coulomb's law
 F = k * q1 * q2 / Math.pow(r, 2);
 
 // Newton’s Law of Universal Gravitation
-F = G * m1 * m2 / Math.pow(r, 2);
-</code></pre>
-
+F = G * m1 * m2 / Math.pow(r, 2);</code></pre>
 <ul>
 <li>
 <p>A charge of −1C negative 1 C is the equivalent of the electric force exerted by 6.24 x 10^18 electrons.</p>
@@ -1010,10 +994,10 @@ F = G * m1 * m2 / Math.pow(r, 2);
 </ul>
 <hr />
 <ol>
-<li>A negative charge of −2.0 x 10^−4 C
+<li>A negative charge of −2.0 x 10^−4 C<br />
 and a positive charge of +4.0 × 10^−4 C are separated by 0.20 m. What is the magnitude and direction of the force between them?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let q1 = -2.0 * Math.pow(10, -4); // C
+<pre class="highlight"><code class="language-js">let q1 = -2.0 * Math.pow(10, -4); // C
 let q2 = 4.0 * Math.pow(10, -4); // C
 let r = 0.2; // m
 
@@ -1025,17 +1009,15 @@ let F = k * q1 * q2 / Math.pow(r, 2);
 console.log('F =', F, 'N');
 // F = -17999.999999999993 N
 console.log('F =', F.toPrecision(2), 'N');
-// F = -1.8e+4 N
-</code></pre>
-
+// F = -1.8e+4 N</code></pre>
 <ul>
 <li>This is an attractive force as indicated by the fact that the value is negative.</li>
 </ul>
 <hr />
-<ol>
+<ol start="2">
 <li>What would happen if the distance was doubled?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let q1 = -2.0 * Math.pow(10, -4); // C
+<pre class="highlight"><code class="language-js">let q1 = -2.0 * Math.pow(10, -4); // C
 let q2 = 4.0 * Math.pow(10, -4); // C
 let r = 0.4; // m
 
@@ -1047,17 +1029,15 @@ let F = k * q1 * q2 / Math.pow(r, 2);
 console.log('F =', F, 'N');
 // F = -4499.999999999998 N
 console.log('F =', F.toPrecision(2), 'N');
-// F = -4.5e+3 N
-</code></pre>
-
+// F = -4.5e+3 N</code></pre>
 <ul>
 <li>This is an attractive force as indicated by the fact that the value is negative.</li>
 </ul>
 <hr />
-<ol>
+<ol start="3">
 <li>A charge of –2.0 × 10^–4 C and a charge of +4.0 × 10^–4 C are separated by 0.40 m. What is the magnitude and direction of the force between them?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let q1 = -2.0 * Math.pow(10, -4); // C
+<pre class="highlight"><code class="language-js">let q1 = -2.0 * Math.pow(10, -4); // C
 let q2 = 4.0 * Math.pow(10, -4); // C
 let r = 0.4; // m
 
@@ -1069,17 +1049,15 @@ let F = k * q1 * q2 / Math.pow(r, 2);
 console.log('F =', F, 'N');
 // F = -4499.999999999998 N
 console.log('F =', F.toPrecision(2), 'N');
-// F = -4.5e+3 N
-</code></pre>
-
+// F = -4.5e+3 N</code></pre>
 <ul>
 <li>Because the force is negative, the direction of the force is toward the other charge. You can confirm this by looking at the signs of the original charges. Because the two charges have opposite signs, they will attract each other.</li>
 </ul>
 <hr />
-<ol>
+<ol start="4">
 <li>Object A has a charge of +6.0 x 10^-6 C, while Object B has a charge of +3.0 x 10^-6 C. If the force between them is 1.8 x 10^2 N, then how far apart are they?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let q1 = 6.0 * Math.pow(10, -6); // C
+<pre class="highlight"><code class="language-js">let q1 = 6.0 * Math.pow(10, -6); // C
 let q2 = 3.0 * Math.pow(10, -6); // C
 let F = 1.8 * Math.pow(10, 2); // N
 
@@ -1092,9 +1070,7 @@ console.log('r =', r, 'm');
 console.log('r =', r.toPrecision(2), 'm');
 // r = 0.03 m
 console.log('r =', r.toExponential(), 'm');
-// r = 3e-2 m
-</code></pre>
-
+// r = 3e-2 m</code></pre>
 <hr />
 <h4 id="problem-set_11">Problem Set</h4>
 <ul>
@@ -1119,21 +1095,19 @@ console.log('r =', r.toExponential(), 'm');
 <p><img alt="image_14" src="7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_14.png" /></p>
 <p><img alt="image_15" src="7%20-%20Electric%20Forces/7-03%20-%20Electric%20Fields/image_15.png" /></p>
 <hr />
-<pre class="codehilite"><code class="language-js">// For a test charge q_prime
+<pre class="highlight"><code class="language-js">// For a test charge q_prime
 F = K * q_prime * Q / Math.pow(r, 2); // N
 
 // strength of the field
 E = F / q_prime; // N/C
 
 // substition
-E = K * Q / Math.pow(r, 2);
-</code></pre>
-
+E = K * Q / Math.pow(r, 2);</code></pre>
 <hr />
 <ol>
 <li>A positive test charge of 4.0 x 10^–6 C experiences a force of –0.060 N at an angle of 20° from a source charge. What is the strength and direction of the electric field?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let q_prime = 4.0 * Math.pow(10, -6); // C
+<pre class="highlight"><code class="language-js">let q_prime = 4.0 * Math.pow(10, -6); // C
 let F = -0.060; // N
 let E = F / q_prime; // N/C
 console.log('E =', E, 'N/C');
@@ -1146,26 +1120,22 @@ let maxAngle = (180 + originalAngle) % 360; // degrees
 console.log('minAngle =', minAngle, 'degrees');
 // minAngle = 180 degrees
 console.log('maxAngle =', maxAngle, 'degrees');
-// maxAngle = 200 degrees
-</code></pre>
-
+// maxAngle = 200 degrees</code></pre>
 <ul>
 <li>When the force is negative, E is negative, which indicates that the direction of the field is inward and that the source charge is negative. The angle of the force would be 180° from the original angle, or 200°.</li>
 </ul>
 <hr />
-<ol>
+<ol start="2">
 <li>The strength of an electric field at 1.00 m from a source charge is –1.00 × 10^4 N/C. What is the magnitude of the source charge?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let E = -1.00 * Math.pow(10, 4); // N/C
+<pre class="highlight"><code class="language-js">let E = -1.00 * Math.pow(10, 4); // N/C
 let r = 1.00; // m
 let k = 9.00 * Math.pow(10, 9); // N*m^2/C^2
 let Q = E * Math.pow(r, 2) / k; // C
 console.log('Q =', Q.toExponential(), 'C');
 // Q = -1.111111111111111e-6
 console.log('Q =', Number(Q.toPrecision(3)).toExponential(), 'C');
-// Q = -1.11e-6 C
-</code></pre>
-
+// Q = -1.11e-6 C</code></pre>
 <hr />
 <h4 id="problem-set_12">Problem Set</h4>
 <ul>
@@ -1194,44 +1164,36 @@ console.log('Q =', Number(Q.toPrecision(3)).toExponential(), 'C');
 <ol>
 <li>If an electric potential difference of 200.0 V occurs when a point charge of 1.0 μC is moved within an electric field, then what is the change in potential energy?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DV = 200.0; // V
+<pre class="highlight"><code class="language-js">let DV = 200.0; // V
 let q = 1.0 * Math.pow(10, -6); // C
 let DUe = q * DV; // J
 console.log('DUe =', DUe.toExponential(), 'J');
 // DUe = 1.9999999999999998e-4 J
 console.log('DUe =', Number(DUe.toPrecision(2)).toExponential(), 'J');
-// DUe = 2e-4 J
-</code></pre>
-
+// DUe = 2e-4 J</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>If 200.0 J of work is done to a point charge of 1.0 μC that is moved within an electric field, then what is the change in electric potential difference?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let W = 200.0; // J
+<pre class="highlight"><code class="language-js">let W = 200.0; // J
 let q = 1.0 * Math.pow(10, -6); // C
 let DV = W / q; // V
 console.log('DV =', DV.toPrecision(2), 'V');
-// DV = 2.0e+8 V
-</code></pre>
-
+// DV = 2.0e+8 V</code></pre>
 <hr />
-<ol>
+<ol start="3">
 <li>Two large parallel plates are 10.0 cm apart. The strength of the electric field between them is 500.0 N/C. What is the electric potential difference (ΔV) between them? How does this compare with the electric potential difference when the plates were 5.0 cm apart?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let d = 0.10; // m
+<pre class="highlight"><code class="language-js">let d = 0.10; // m
 let E = 500.0; // N/C
 let DV = E * d; // V
 console.log('DV =', DV.toPrecision(2), 'V');
-// DV = 50 V
-</code></pre>
-
-<pre class="codehilite"><code class="language-js">let d = 0.05; // m
+// DV = 50 V</code></pre>
+<pre class="highlight"><code class="language-js">let d = 0.05; // m
 let E = 500.0; // N/C
 let DV = E * d; // V
 console.log('DV =', DV.toPrecision(2), 'V');
-// DV = 25 V
-</code></pre>
-
+// DV = 25 V</code></pre>
 <ul>
 <li>ΔV doubled compared to when the plates were 5.0 cm apart.</li>
 </ul>
@@ -1278,39 +1240,33 @@ console.log('DV =', DV.toPrecision(2), 'V');
 <ol>
 <li>If 20 C of charge passes a point in 5 s, what is the magnitude of the electric current?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let q = 20; // C
+<pre class="highlight"><code class="language-js">let q = 20; // C
 let t = 5; // s
 let I = q / t; // A
 console.log('I =', I, 'A');
-// I = 4 A
-</code></pre>
-
+// I = 4 A</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>A light bulb in a lamp uses 0.55 A of current when a voltage of 110 V is applied to it. How much power does the electric light bulb use?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let I = 0.55; // A
+<pre class="highlight"><code class="language-js">let I = 0.55; // A
 let DV = 110; // V
 let P = I * DV; // W
 console.log('P =', P, 'W');
 // P = 60.50000000000001 W
 console.log('P =', Number(P.toPrecision(1)), 'W');
-// P = 60 W
-</code></pre>
-
+// P = 60 W</code></pre>
 <hr />
-<ol>
+<ol start="3">
 <li>An electric oven has a power supply of 220 V and a power rating of 7.3 kW. How much electric current does it draw?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DV = 220; // V
+<pre class="highlight"><code class="language-js">let DV = 220; // V
 let P = 7300; // W
 let I = P / DV; // A
 console.log('I =', I, 'A');
 // I = 33.18181818181818 A
 console.log('I =', I.toPrecision(2), 'A');
-// I = 33 A
-</code></pre>
-
+// I = 33 A</code></pre>
 <hr />
 <h4 id="problem-set_14">Problem Set</h4>
 <ul>
@@ -1352,26 +1308,22 @@ console.log('I =', I.toPrecision(2), 'A');
 <ol>
 <li>A 30.0 V battery maintains a current of 3.0 A through a resistor. What is value of the electric resistance?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DV = 30.0; // V
+<pre class="highlight"><code class="language-js">let DV = 30.0; // V
 let I = 3.0; // A
 let R = DV / I; // ohmms
 console.log('R =', R, 'ohm');
 // R = 10 ohm
 console.log('R =', R.toFixed(1), 'ohm');
-// R = 10.0 ohm
-</code></pre>
-
+// R = 10.0 ohm</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>If a heater has a resistance of 5.0 Ω and draws 12.0 A, then what power does it consume?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let I = 12.0; // A
+<pre class="highlight"><code class="language-js">let I = 12.0; // A
 let R = 5.0; // ohm
 let P = Math.pow(I, 2) * R; // W
 console.log('P =', P, 'W');
-// P = 720 W
-</code></pre>
-
+// P = 720 W</code></pre>
 <hr />
 <h4 id="problem-set_15">Problem Set</h4>
 <ul>
@@ -1398,7 +1350,7 @@ console.log('P =', P, 'W');
 <ol>
 <li>A 12.0 volt battery maintains a current through a light bulb that has a resistance of 2.0 Ω. What is the current and power in the circuit?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DV = 12.0; // V
+<pre class="highlight"><code class="language-js">let DV = 12.0; // V
 let R = 2.0; // ohm
 let I = DV / R; // A
 console.log('I =', I, 'A');
@@ -1407,14 +1359,12 @@ console.log('I =', I.toFixed(1), 'A');
 // I = 6.0 A
 let P = I * DV; // W
 console.log('P =', P, 'W');
-// P = 72 W
-</code></pre>
-
+// P = 72 W</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>A 12.0 volt battery maintains a current through two light bulbs, each of which has a resistance of 2.0 Ω. What is the current and power in the circuit?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DV = 12.0; // V
+<pre class="highlight"><code class="language-js">let DV = 12.0; // V
 let R1 = 2.0; // ohm
 let R2 = 2.0; // ohm
 let Req = R1 + R2; // ohm
@@ -1427,14 +1377,12 @@ console.log('I =', I.toFixed(1), 'A');
 // I = 3.0 A
 let P = I * DV; // W
 console.log('P =', P, 'W');
-// P = 36 W
-</code></pre>
-
+// P = 36 W</code></pre>
 <hr />
-<ol>
+<ol start="3">
 <li>A 12.0 volt battery maintains a current through three light bulbs, each of which has a resistance of 2.0 Ω. What is the current and power in the circuit?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DV = 12.0; // V
+<pre class="highlight"><code class="language-js">let DV = 12.0; // V
 let R1 = 2.0; // ohm
 let R2 = 2.0; // ohm
 let R3 = 2.0; // ohm
@@ -1448,14 +1396,12 @@ console.log('I =', I.toFixed(1), 'A');
 // I = 2.0 A
 let P = I * DV; // W
 console.log('P =', P, 'W');
-// P = 24 W
-</code></pre>
-
+// P = 24 W</code></pre>
 <hr />
-<ol>
+<ol start="4">
 <li>A 12.0 V battery is hooked up to three resistors in series. The first resistor is 2.0 Ω, the second is 3.0 Ω, and the third is 5.0 Ω. What is the current in the circuit? What is the total power? How much voltage drops across each resistor?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DVtotal = 12.0; // V
+<pre class="highlight"><code class="language-js">let DVtotal = 12.0; // V
 let R1 = 2.0; // ohm
 let R2 = 3.0; // ohm
 let R3 = 5.0; // ohm
@@ -1487,9 +1433,7 @@ console.log('DV3 =', DV3.toFixed(1), 'V');
 // DV3 = 6.0 V
 DVtotal123 = DV1 + DV2 + DV3;
 console.log('DVtotal123 =', DVtotal123, 'V');
-// DVtotal123 = 12 V
-</code></pre>
-
+// DVtotal123 = 12 V</code></pre>
 <hr />
 <h4 id="problem-set_16">Problem Set</h4>
 <ul>
@@ -1516,7 +1460,7 @@ console.log('DVtotal123 =', DVtotal123, 'V');
 <ol>
 <li>A 12.0 volt battery maintains a current through a light bulb that has a resistance of 2.0 Ω. What is the current and power in the circuit?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DV = 12.0; // V
+<pre class="highlight"><code class="language-js">let DV = 12.0; // V
 let R = 2.0; // ohm
 let I = DV / R; // A
 console.log('I =', I, 'A');
@@ -1525,14 +1469,12 @@ console.log('I =', I.toFixed(1), 'A');
 // I = 6.0 A
 let P = I * DV; // W
 console.log('P =', P, 'W');
-// P = 72 W
-</code></pre>
-
+// P = 72 W</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>A 12.0 volt battery maintains a current through two light bulbs arranged in parallel, each of which has a resistance of 2.0 Ω. What is the current and power in the circuit?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DV = 12.0; // V
+<pre class="highlight"><code class="language-js">let DV = 12.0; // V
 let R = 2.0; // ohm
 let Req = 1 / (1 / R + 1 / R); // ohm
 console.log('Req =', Req, 'ohm');
@@ -1543,14 +1485,12 @@ console.log('I =', I.toFixed(1), 'A');
 // I = 12.0 A
 let P = I * DV; // W
 console.log('P =', P, 'W');
-// P = 144 W
-</code></pre>
-
+// P = 144 W</code></pre>
 <hr />
-<ol>
+<ol start="3">
 <li>A 12.0 volt battery maintains a current through three light bulbs arranged in parallel, each of which has a resistance of 2.0 Ω. What is the current and power in the circuit?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DV = 12.0; // V
+<pre class="highlight"><code class="language-js">let DV = 12.0; // V
 let R = 2.0; // ohm
 let Req = 1 / (1 / R + 1 / R + 1 / R); // ohm
 console.log('Req =', Req, 'ohm');
@@ -1564,14 +1504,12 @@ console.log('I =', I.toFixed(1), 'A');
 // I = 18.0 A
 let P = I * DV; // W
 console.log('P =', P, 'W');
-// P = 216 W
-</code></pre>
-
+// P = 216 W</code></pre>
 <hr />
-<ol>
+<ol start="4">
 <li>A 12.0 V battery is hooked up to three resistors in parallel. The first resistor is 2.0 Ω, the second is 3.0 Ω, and the third is 5.0 Ω. What is the current in the circuit? What is the total power? How much current goes through each resistor?</li>
 </ol>
-<pre class="codehilite"><code class="language-js">let DVtotal = 12.0; // V
+<pre class="highlight"><code class="language-js">let DVtotal = 12.0; // V
 let R1 = 2.0; // ohm
 let R2 = 3.0; // ohm
 let R3 = 5.0; // ohm
@@ -1606,9 +1544,7 @@ let ltotal = l1 + l2 + l3; // A
 console.log('ltotal =', ltotal, 'A');
 // ltotal = 12.4 A
 console.log('ltotal =', Number(ltotal.toPrecision(2)), 'A');
-// ltotal = 12 A
-</code></pre>
-
+// ltotal = 12 A</code></pre>
 <hr />
 <h4 id="problem-set_17">Problem Set</h4>
 <ul>
@@ -1630,7 +1566,7 @@ console.log('ltotal =', Number(ltotal.toPrecision(2)), 'A');
 <li>What is the equivalent resistance of a combined circuit with the arrangement of resistors shown? Calculate the total current moving through the circuit.</li>
 </ol>
 <p><img alt="image_4" src="8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_4.png" /></p>
-<pre class="codehilite"><code class="language-js">let R1 = 10.0; // ohm
+<pre class="highlight"><code class="language-js">let R1 = 10.0; // ohm
 let R2 = 13.0; // ohm
 let R3 = 15.0; // ohm
 let R4 = 35.0; // ohm
@@ -1649,15 +1585,13 @@ let ltotal = DVtotal / Req; // A
 console.log('ltotal =', ltotal, 'A')
 // ltotal = 1.1546391752577319 A
 console.log('ltotal =', ltotal.toFixed(2), 'A');
-// ltotal = 1.15 A
-</code></pre>
-
+// ltotal = 1.15 A</code></pre>
 <hr />
-<ol>
+<ol start="2">
 <li>What is the equivalent resistance of a combined circuit with the arrangement of resistors shown? Calculate the total current moving through the circuit.</li>
 </ol>
 <p><img alt="image_5" src="8%20-%20Currents%20and%20Circuits/8-05%20-%20Combined%20Circuits/image_5.png" /></p>
-<pre class="codehilite"><code class="language-js">let R1 = 10.0; // ohm
+<pre class="highlight"><code class="language-js">let R1 = 10.0; // ohm
 let R_2_3 = 7.0; // ohm
 let R4 = 35.0; // ohm
 let ltotal = 1.15; // A
@@ -1680,9 +1614,7 @@ DVtotal = DV1 + DV_2_3 + DV4; // V
 console.log('DVtotal =', DVtotal, 'V');
 // DVtotal = 59.8 V
 console.log('DVtotal =', DVtotal.toPrecision(2), 'V');
-// DVtotal = 60 V
-</code></pre>
-
+// DVtotal = 60 V</code></pre>
 <hr />
 <h4 id="problem-set_18">Problem Set</h4>
 <ul>
