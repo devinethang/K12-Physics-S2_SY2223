@@ -446,58 +446,58 @@ console.log('Ns =', Math.round(Ns), 'turns');
 
 ---
 
-![image_1](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_1.png)
+![image_1](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_1.png)
 
 
-![image_2](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_2.png)
+![image_2](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_2.png)
 
 
-![image_3](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_3.png)
+![image_3](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_3.png)
 
 
-![image_4](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_4.png)
+![image_4](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_4.png)
 
 
-![image_5](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_5.png)
+![image_5](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_5.png)
 
 
-![image_6](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_6.png)
+![image_6](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_6.png)
 
 
-![image_7](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_7.png)
+![image_7](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_7.png)
 
 
-![image_8](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_8.png)
+![image_8](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_8.png)
 
 
-![image_9](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_9.png)
+![image_9](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_9.png)
 
 
-![image_10](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_10.png)
+![image_10](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_10.png)
 
 
-![image_11](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_11.png)
+![image_11](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_11.png)
 
 
-![image_12](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_12.png)
+![image_12](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_12.png)
 
 
-![image_13](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_13.png)
+![image_13](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_13.png)
 
 
-![image_14](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_14.png)
+![image_14](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_14.png)
 
 
-![image_15](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_15.png)
+![image_15](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_15.png)
 
 
-![image_16](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_16.png)
+![image_16](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_16.png)
 
 
-![image_17](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_17.png)
+![image_17](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_17.png)
 
 
-![image_18](/10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_18.png)
+![image_18](10%20-%20Modern%20Physics/10-02%20-%20The%20Nature%20of%20Light%20and%20the%20Photoelectric%20Effect/image_18.png)
 
 ---
 
